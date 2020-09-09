@@ -1,0 +1,61 @@
+DATASET_COLORSTRIP
+SEPARATOR SPACE
+DATASET_LABEL Isolation_Source
+COLOR #ff0000
+LEGEND_TITLE Isolation_Source
+LEGEND_SHAPES 1 1 1 1 1 1 1 1
+LEGEND_COLORS #FF0000 #FFBF00 #80FF00 #00FF40 #00FFFF #0040FF #8000FF #FF00BF
+LEGEND_LABELS mammal plant terrestrial reptile fish marine bird food
+DATA
+Acinetobacter_baumanni #FF0000 mammal
+Acinetobacter_boissieri #FFBF00 plant
+Acinetobacter_calcoaceticus #80FF00 terrestrial
+Acinetobacter_celticus #80FF00 terrestrial
+Acinetobacter_colistiniresistens #FF0000 mammal
+Acinetobacter_courvalinii #00FF40 reptile
+Acinetobacter_dispersus #FF0000 mammal
+Acinetobacter_equi #FF0000 mammal
+Acinetobacter_gandensis #FF0000 mammal
+Acinetobacter_gyllenbergii #FF0000 mammal
+Acinetobacter_indicus #80FF00 terrestrial
+Acinetobacter_kookii #80FF00 terrestrial
+Acinetobacter_piscicola #00FFFF fish
+Acinetobacter_proteolyticus #FF0000 mammal
+Acinetobacter_puyangensis #FFBF00 plant
+Acinetobacter_radioresistens #80FF00 terrestrial
+Acinetobacter_schindleri #80FF00 terrestrial
+Acinetobacter_venetianus #0040FF marine
+Moraxella_atlantae #FF0000 mammal
+Moraxella_boevrei #FF0000 mammal
+Moraxella_bovis #FF0000 mammal
+Moraxella_bovoculi #FF0000 mammal
+Moraxella_canis #FF0000 mammal
+Moraxella_caprae #FF0000 mammal
+Moraxella_catarrhalis #FF0000 mammal
+Moraxella_caviae #FF0000 mammal
+Moraxella_cuniculi #FF0000 mammal
+Moraxella_equi #FF0000 mammal
+Moraxella_lacunata #FF0000 mammal
+Moraxella_lincolnii #FF0000 mammal
+Moraxella_nonliquefaciens #FF0000 mammal
+Moraxella_oblonga #FF0000 mammal
+Moraxella_osloensis #FF0000 mammal
+Moraxella_ovis #FF0000 mammal
+Moraxella_pluranimalium #FF0000 mammal
+Moraxella_porci #FF0000 mammal
+Psychrobacter_aestuarii #0040FF marine
+Psychrobacter_celer #0040FF marine
+Psychrobacter_ciconiae #8000FF bird
+Psychrobacter_faecalis #FF0000 mammal
+Psychrobacter_frigidicola #80FF00 terrestrial
+Psychrobacter_glacincola #0040FF marine
+Psychrobacter_immobilis #FF00BF food
+Psychrobacter_lutiphocae #FF0000 mammal
+Psychrobacter_maritimus #0040FF marine
+Psychrobacter_namhaensis #0040FF marine
+Psychrobacter_okhotskensis #0040FF marine
+Psychrobacter_pacificensis #0040FF marine
+Psychrobacter_piscatorii #FF00BF food
+Psychrobacter_sanguinis #FF0000 mammal
+Psychrobacter_urativorans #FF00BF food
+Pseudomonas_aeruginosa #80FF00 terrestrial
