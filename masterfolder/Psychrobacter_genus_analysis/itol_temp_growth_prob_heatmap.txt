@@ -1,0 +1,97 @@
+DATASET_HEATMAP
+SEPARATOR SPACE
+DATASET_LABEL temperature
+COLOR #ff0000
+FIELD_LABELS 4 25 37
+COLOR_NAN #eae8e8
+USE_MID_COLOR 1
+COLOR_MIN #ffffff
+COLOR_MAX #6E2020
+COLOR_MID #B87676
+FIELD_TREE (37:0.4,(4:0.06068204614,25:0.06068204614):0.3393179539);
+DATA
+P_adeliensis_SJ14 0.9 0.9 0
+P_aestuarii_SC35 1 1 0.9
+P_alimentarius_JG100 0.9 1 0
+P_alimentarius_JG102 0.9 1 0
+P_aquaticus_CMS56 0.8 0.8 0
+P_aquimaris_SW-210 0.9 0.9 0
+P_arcticus_273-4 0.4 0.4 0
+P_arenosus_R7 0.6 0.8 0.2
+P_celer_SW-238 0.5 0.6 0.4
+P_cibarius_JG-219 0.8 0.6 0
+P_cibarius_JG-220 0.6 0.9 0
+P_ciconiae_176-10 0.4 0.6 0.5
+P_cryohalolentis_K5 0.6 0.5 0
+P_faecalis_Iso-46 0.8 0.8 0.2
+P_faecalis_PBFP-1 0.9 0.9 0.2
+P_fjordensis_BSw21516B 1 0.6 0
+P_fozii_NF23 0.9 0.6 0.1
+P_frigidicola_ACAM304 0.5 0 0
+P_frigidicola_ACAM309 0.4 0.1 0
+P_fulvigenes_KC-40 0.4 0.6 0.2
+P_glaciei_Blc20019 0.8 0.6 0
+P_glacincola_1447 0.6 0.8 0
+P_glacincola_ACAM483 0.6 0.3 0
+P_immobilis_1159 0.4 0.5 0
+P_immobilis_1184 0.5 0.2 0
+P_immobilis_1347 0.4 0.2 0
+P_immobilis_1555 0.5 0.8 0
+P_immobilis_1617 0.5 0.6 0
+P_immobilis_1745 0.5 0.6 0
+P_immobilis_252 0.6 0.6 0
+P_immobilis_A-11 0.6 0.6 0
+P_immobilis_A-19 0.8 0.8 0
+P_immobilis_A1007 0.5 0.6 0
+P_immobilis_A1014 0.5 0.5 0
+P_immobilis_A351 0.8 0.8 0
+P_immobilis_A352 0.9 0.6 0
+P_immobilis_Liston1000 0.5 0.2 0
+P_immobilis_NC10 0.8 0.8 0
+P_immobilis_NCIMB357 0.6 0.6 0
+P_immobilis_NCIMB361 0.6 0.6 0
+P_immobilis_NCIMB362 0.5 0.5 0.1
+P_immobilis_S3 0.5 0.5 0
+P_jeotgali_YKJ-103 0.8 0.5 0.1
+P_luti_NF11 0.4 0.6 0
+P_lutiphocae_IMMIBL-1110 0.1 0.6 0.6
+P_marincola_KMM227 0.8 0.8 0
+P_maritimus_Pi2-20 0.8 0.8 0.1
+P_maritimus_Pi2-25 0.9 0.8 0.2
+P_namhaensis_SW-242 0.4 0.4 0
+P_nivimaris_88-2-7 0.5 0.5 0
+P_oceani_4k5 0.5 0.4 0.2
+P_okhotskensis_A1004 0.5 0.4 0
+P_okhotskensis_MD17 0.4 0.6 0
+P_pacificensis_NIBH-P2K6 0.4 0.4 0.1
+P_phenylpyruvicus_ACAM535 0.1 0.5 0.6
+P_piscatorii_T-3-2 0.8 0.6 0
+P_priscuii_LFX-15B1 0.8 0.8 0.1
+P_proteolyticus_116 0.8 1 0
+P_pulmonis_ES2-W5a2 0.8 0.8 0.4
+P_pulmonis_S-606 0.8 0.8 0.2
+P_salsus_DD48 0.2 0.4 0
+P_sanguinis_10070 0.2 0.5 0.6
+P_sanguinis_13983 0.2 0.5 0.6
+P_sanguinis_1501 0.2 0.4 0.4
+P_sanguinis_92 0.2 0.5 0.5
+P_sp_1044 0.8 0.6 0
+P_sp_2pS 0.9 1 0
+P_sp_72-O-c 0.2 0 0
+P_sp_CMS30 0.9 0.8 0.1
+P_sp_DD43 0.4 0.5 0
+P_sp_H7-1 0.5 0.4 0.4
+P_sp_H8-1 0.4 0.5 0
+P_sp_HII-4 0.6 0.5 0.2
+P_sp_IAM12030-72-O-c 0.5 0 0
+P_sp_JCM18900 0.9 1 0
+P_sp_JCM18902 0.5 0.6 0
+P_sp_JCM18903 0.4 0.8 0
+P_sp_NC44 0.8 0.6 0
+P_sp_Pi2-1 0.4 0.5 0
+P_sp_Pi2-51 1 0.8 0
+P_sp_Pi2-52 0.5 0.6 0
+P_submarinus_KMM225 0 0.1 0
+P_urativorans_ACAM311 0.2 0 0
+P_urativorans_ACAM534 0.3 0.3 0
+P_vallis_CMS39 0.8 0.8 0

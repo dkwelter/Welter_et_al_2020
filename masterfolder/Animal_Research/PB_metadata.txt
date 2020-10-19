@@ -1,0 +1,87 @@
+SampleID	Type	Collaborator	Collector	PBF.Year	diet_family	diet_class	Location	rough_latitude	rough_longitude	CaptivevWild
+NA.f	NA	Peter	Markus		phocidae	mammalia	Cochrane	49.065	-81.0299	Captive
+NA.B	NA	Peter	Markus		salmonidae	actinoterygii	Cochrane	49.065	-81.0299	Captive
+NA.i	NA	Peter	Markus		phocidae	mammalia	Cochrane	49.065	-81.0299	Captive
+NA.j	NA	Peter	Markus		phocidae	mammalia	Cochrane	49.065	-81.0299	Captive
+NA.2a	NA	Peter	Markus		mixed	mixed	Cochrane	49.065	-81.0299	Captive
+N.2010.4	zoo	Peter	MTZ	2010	mixed	mixed	Toronto	43.6532	-79.3832	Captive
+N.2010.2a	zoo	Peter	MTZ	2010	mixed	mixed	Toronto	43.6532	-79.3832	Captive
+I.2010.2	zoo	Peter	MTZ	2010	mixed	mixed	Toronto	43.6532	-79.3832	Captive
+I.2010.4	zoo	Peter	MTZ	2010	mixed	mixed	Toronto	43.6532	-79.3832	Captive
+PB.17474	PB	Peter	MDES		NA	NA	Churchill	58.7684	-94.165	Wild
+17C	Numbered	Linda	Linda		mixed	mixed	Churchill	58.7684	-94.165	Wild
+66C	Numbered	Linda	Linda		mixed	mixed	Churchill	58.7684	-94.165	Wild
+76C	Numbered	Linda	Linda		anatidae	aves	Churchill	58.7684	-94.165	Wild
+84Ca	Numbered	Linda	Linda		NA	NA	Churchill	58.7684	-94.165	Wild
+92C	Numbered	Linda	Linda		anatidae	aves	Churchill	58.7684	-94.165	Wild
+97Ca	Numbered	Linda	Linda		mixed	mixed	Churchill	58.7684	-94.165	Wild
+102	Numbered	Linda	Linda		anatidae	aves	Churchill	58.7684	-94.165	Wild
+158C	Numbered	Linda	Linda		anatidae	aves	Churchill	58.7684	-94.165	Wild
+182C	Numbered	Linda	Linda		NA	NA	Churchill	58.7684	-94.165	Wild
+196Ca	Numbered	Linda	Linda		anatidae	aves	Churchill	58.7684	-94.165	Wild
+257C	Numbered	Linda	Linda		anatidae	aves	Churchill	58.7684	-94.165	Wild
+296C	Numbered	Linda	Linda		mixed	mixed	Churchill	58.7684	-94.165	Wild
+297C	Numbered	Linda	Linda		scolopacidae	aves	Churchill	58.7684	-94.165	Wild
+337Ca	Numbered	Linda	Linda		NA	NA	Churchill	58.7684	-94.165	Wild
+339C	Numbered	Linda	Linda		laridae	aves	Churchill	58.7684	-94.165	Wild
+340C	Numbered	Linda	Linda		anatidae	aves	Churchill	58.7684	-94.165	Wild
+341C	Numbered	Linda	Linda		anatidae	aves	Churchill	58.7684	-94.165	Wild
+342C	Numbered	Linda	Linda		anatidae	aves	Churchill	58.7684	-94.165	Wild
+344C	Numbered	Linda	Linda		anatidae	aves	Churchill	58.7684	-94.165	Wild
+345C	Numbered	Linda	Linda		anatidae	aves	Churchill	58.7684	-94.165	Wild
+347C	Numbered	Linda	Linda		mixed	mixed	Churchill	58.7684	-94.165	Wild
+350C	Numbered	Linda	Linda		cervidae	mammalia	Churchill	58.7684	-94.165	Wild
+351C	Numbered	Linda	Linda		NA	NA	Churchill	58.7684	-94.165	Wild
+364C	Numbered	Linda	Linda		NA	NA	Churchill	58.7684	-94.165	Wild
+366	Numbered	Linda	Linda		anatidae	aves	Churchill	58.7684	-94.165	Wild
+391C	Numbered	Linda	Linda		cervidae	mammalia	Churchill	58.7684	-94.165	Wild
+396C	Numbered	Linda	Linda		cricetidae	mammalia	Churchill	58.7684	-94.165	Wild
+423C	Numbered	Linda	Linda		NA	NA	Churchill	58.7684	-94.165	Wild
+462	Numbered	Linda	Linda		anatidae	aves	Churchill	58.7684	-94.165	Wild
+467C	Numbered	Linda	Linda		NA	NA	Churchill	58.7684	-94.165	Wild
+479C	Numbered	Linda	Linda		NA	NA	Churchill	58.7684	-94.165	Wild
+492Ca	Numbered	Linda	Linda		anatidae	aves	Churchill	58.7684	-94.165	Wild
+507Ca	Numbered	Linda	Linda		mixed	mixed	Churchill	58.7684	-94.165	Wild
+525C	Numbered	Linda	Linda		mixed	mixed	Churchill	58.7684	-94.165	Wild
+552C	Numbered	Linda	Linda		anatidae	aves	Churchill	58.7684	-94.165	Wild
+570C	Numbered	Linda	Linda		mixed	mixed	Churchill	58.7684	-94.165	Wild
+578C	Numbered	Linda	Linda		NA	NA	Churchill	58.7684	-94.165	Wild
+580Ca	Numbered	Linda	Linda		mixed	mixed	Churchill	58.7684	-94.165	Wild
+605C	Numbered	Linda	Linda		NA	NA	Churchill	58.7684	-94.165	Wild
+615C	Numbered	Linda	Linda		cervidae	mammalia	Churchill	58.7684	-94.165	Wild
+625C	Numbered	Linda	Linda		mixed	mixed	Churchill	58.7684	-94.165	Wild
+634C	Numbered	Linda	Linda		cricetidae	mammalia	Churchill	58.7684	-94.165	Wild
+638Ca	Numbered	Linda	Linda		mixed	mixed	Churchill	58.7684	-94.165	Wild
+HS12.1	HS	Peter	Sam	2012	laridae	aves	Hudson Straight	45.458546	-74.140663	Wild
+HS12.7	HS	Peter	Sam	2012	laridae	aves	Hudson Straight	45.458546	-74.140663	Wild
+HS12.10a	HS	Peter	Sam	2012	NA	NA	Hudson Straight	45.458546	-74.140663	Wild
+HS12.12a	HS	Peter	Sam	2012	laridae	aves	Hudson Straight	45.458546	-74.140663	Wild
+HS12.16	HS	Peter	Sam	2012	laridae	aves	Hudson Straight	45.458546	-74.140663	Wild
+HS12.17	HS	Peter	Sam	2012	laridae	aves	Hudson Straight	45.458546	-74.140663	Wild
+HS12.18	HS	Peter	Sam	2012	phocidae	mammalia	Hudson Straight	45.458546	-74.140663	Wild
+HS12.19	HS	Peter	Sam	2012	laridae	aves	Hudson Straight	45.458546	-74.140663	Wild
+HS12.20	HS	Peter	Sam	2012	laridae	aves	Hudson Straight	45.458546	-74.140663	Wild
+PBF07.2a	PBF	Peter	Peter	2007	phocidae	mammalia	M'Clintock Channel	73.0053	-105.0038	Wild
+PBF08.8	PBF	Peter	Peter	2008	phocidae	mammalia	M'Clintock Channel	73.0053	-105.0038	Wild
+PBF08.9	PBF	Peter	Peter	2008	phocidae	mammalia	M'Clintock Channel	73.0053	-105.0038	Wild
+PBF08.10	PBF	Peter	Peter	2008	NA	NA	M'Clintock Channel	73.0053	-105.0038	Wild
+PBF09.2	PBF	Peter	Peter	2009	phocidae	mammalia	M'Clintock Channel	73.0053	-105.0038	Wild
+PBF09.5	PBF	Peter	Peter	2009	phocidae	mammalia	M'Clintock Channel	73.0053	-105.0038	Wild
+PBF09.8a	PBF	Peter	Peter	2009	phocidae	mammalia	M'Clintock Channel	73.0053	-105.0038	Wild
+PBF09.9a	PBF	Peter	Peter	2009	phocidae	mammalia	M'Clintock Channel	73.0053	-105.0038	Wild
+PBF10.5	PBF	Peter	Peter	2010	phocidae	mammalia	M'Clintock Channel	73.0053	-105.0038	Wild
+PBF10.18	PBF	Peter	Peter	2010	phocidae	mammalia	M'Clintock Channel	73.0053	-105.0038	Wild
+PBF10.20	PBF	Peter	Peter	2010	canidae	mammalia	M'Clintock Channel	73.0053	-105.0038	Wild
+PBF10.21	PBF	Peter	Peter	2010	phocidae	mammalia	M'Clintock Channel	73.0053	-105.0038	Wild
+PBF10.22	PBF	Peter	Peter	2010	phocidae	mammalia	M'Clintock Channel	73.0053	-105.0038	Wild
+PBF10.23	PBF	Peter	Peter	2010	phocidae	mammalia	M'Clintock Channel	73.0053	-105.0038	Wild
+PBF10.24	PBF	Peter	Peter	2010	phocidae	mammalia	M'Clintock Channel	73.0053	-105.0038	Wild
+PBF10.25	PBF	Peter	Peter	2010	phocidae	mammalia	M'Clintock Channel	73.0053	-105.0038	Wild
+PBF11.3a	PBF	Peter	Peter	2011	phocidae	mammalia	M'Clintock Channel	73.0053	-105.0038	Wild
+PBF11.4a	PBF	Peter	Peter	2011	phocidae	mammalia	M'Clintock Channel	73.0053	-105.0038	Wild
+PBF11.5a	PBF	Peter	Peter	2011	phocidae	mammalia	M'Clintock Channel	73.0053	-105.0038	Wild
+PBF11.9a	PBF	Peter	Peter	2011	phocidae	mammalia	M'Clintock Channel	73.0053	-105.0038	Wild
+PBF11.11a	PBF	Peter	Peter	2011	phocidae	mammalia	M'Clintock Channel	73.0053	-105.0038	Wild
+PBF11.12	PBF	Peter	Peter	2011	phocidae	mammalia	M'Clintock Channel	73.0053	-105.0038	Wild
+PBF11.15	PBF	Peter	Peter	2011	phocidae	mammalia	M'Clintock Channel	73.0053	-105.0038	Wild
+PBF11.17	PBF	Peter	Peter	2011	phocidae	mammalia	M'Clintock Channel	73.0053	-105.0038	Wild

@@ -1,0 +1,191 @@
+Compound	Type
+sec-butylamine	alkylamine
+2-aminoethanol	amine alcohol
+D-alanine	amino acid
+D-aspartic Acid	amino acid
+D-serine	amino acid
+D-threonine	amino acid
+glycine	amino acid
+hydroxy-L-proline	amino acid
+L-alaninamide	amino acid
+L-alanine	amino acid
+L-arginine	amino acid
+L-asparagine	amino acid
+L-aspartic acid	amino acid
+L-glutamic acid	amino acid
+L-glutamine	amino acid
+L-histidine	amino acid
+L-homoserine	amino acid
+L-isoleucine	amino acid
+L-leucine	amino acid
+L-lysine	amino acid
+L-methionine	amino acid
+L-ornithine	amino acid
+L-phenylalanine	amino acid
+L-proline	amino acid
+L-pyroglutamic acid	amino acid
+L-serine	amino acid
+L-threonine	amino acid
+L-valine	amino acid
+N-acetyl-L-glutamic acid	amino acid
+putrescine	amino acid
+tyramine	amino acid
+D-glucosamine	amino sugar
+N-acetyl-D-galactosamine	amino sugar
+2-hydroxy benzoic acid	aromatic compound
+4-hydroxy benzoic acid	aromatic compound
+"D,L-octopamine"	aromatic compound
+m-hydroxy phenyl acetic acid	aromatic compound
+p-hydroxy phenyl acetic acid	aromatic compound
+phenylethylamine	aromatic compound
+2-deoxy-D-ribose	carbohydrate
+3-0-b-D-galcatopyranosyl-D-arabinose	carbohydrate
+3-methyl glucose	carbohydrate
+a-cyclodextrin	carbohydrate
+a-D-glucose	carbohydrate
+a-D-lactose	carbohydrate
+a-methyl-D-glucoside	carbohydrate
+a-methyl-D-mannoside	carbohydrate
+b-cyclodextrin	carbohydrate
+b-D-allose	carbohydrate
+D-arabinose	carbohydrate
+D-cellobiose	carbohydrate
+D-fructose	carbohydrate
+D-fructose-6-phosphate	carbohydrate
+D-fucose	carbohydrate
+D-galactose	carbohydrate
+D-gluconic acid	carbohydrate
+D-glucose-1-phosphate	carbohydrate
+D-glucose-6-phosphate	carbohydrate
+D-mannose	carbohydrate
+D-melezitose	carbohydrate
+D-melibiose	carbohydrate
+D-psicose	carbohydrate
+D-raffinose	carbohydrate
+D-ribose	carbohydrate
+D-saccharic acid	carbohydrate
+D-tagatose	carbohydrate
+D-trehalose	carbohydrate
+D-xylose	carbohydrate
+dextrin	carbohydrate
+dihydroxy acetone	carbohydrate
+gentiobiose	carbohydrate
+glucuronamide	carbohydrate
+glycogen	carbohydrate
+L-arabinose	carbohydrate
+L-fucose	carbohydrate
+L-glucose	carbohydrate
+L-lyxose	carbohydrate
+L-rhamnose	carbohydrate
+L-sorbose	carbohydrate
+lactulose	carbohydrate
+laminarin	carbohydrate
+m-inositol	carbohydrate
+maltose	carbohydrate
+maltotriose	carbohydrate
+mannan	carbohydrate
+n-acetyl-b-D-mannosamine	carbohydrate
+palatinose	carbohydrate
+pectin	carbohydrate
+sedoheptulosan	carbohydrate
+stachyose	carbohydrate
+sucrose	carbohydrate
+turanose	carbohydrate
+y-cyclodextrin	carbohydrate
+"D-ribono-1,4-lactone"	carbohydrate
+bromo succinic acid	dicarboxylic acid
+citramalic acid	dicarboxylic acid
+D-malic acid	dicarboxylic acid
+D-tartaric acid	dicarboxylic acid
+"D,L-malic acid"	dicarboxylic acid
+fumaric acid	dicarboxylic acid
+itaconic acid	dicarboxylic acid
+L-malic acid	dicarboxylic acid
+L-tartaric acid	dicarboxylic acid
+malonic acid	dicarboxylic acid
+mono methyl succinate	dicarboxylic acid
+oxalic acid	dicarboxylic acid
+sebacic acid	dicarboxylic acid
+succinamic acid	dicarboxylic acid
+succinic acid	dicarboxylic acid
+a-hydroxy butyric acid	fatty acid
+a-keto valeric acid	fatty acid
+a-keto-butyric acid	fatty acid
+b-hydroxy butyric acid	fatty acid
+butyric acid	fatty acid
+capric acid	fatty acid
+d-amino valeric acid	fatty acid
+propionic acid	fatty acid
+y-amino butyric acid	fatty acid
+y-hydroxy butyric acid	fatty acid
+inulin	fiber
+chondroitin sulfate C	glycosaminoglycan
+a-methyl-D-galactoside	glycoside
+amygdalin	glycoside
+arbutin	glycoside
+b-methyl-D-galactoside	glycoside
+b-methyl-D-glucoside	glycoside
+b-methyl-D-xyloside	glycoside
+salicin	glycoside
+glycolic acid	hydroxy acid
+L-galactonic acid y lactone	hydroxy acid
+a-hydroxy-glutaric acid y lactone	keto acid
+a-keto-glutaric acid	keto acid
+acetoacetic acid	keto acid
+pyruvic acid	keto acid
+"2,3-butanedione"	ketone
+3-hydroxy 2-butanone	ketone
+tween 20	nonionic surfactant
+tween 40	nonionic surfactant
+tween 80	nonionic surfactant
+2-deoxy adenosine	nucleoside
+adenosine	nucleotide
+inosine	nucleotide
+thymidine	nucleotide
+uridine	nucleotide
+5-keto-D-gluconic acid	organic acid
+acetamide	organic acid
+acetic acid	organic acid
+caproic acid	organic acid
+citraconic acid	organic acid
+citric acid	organic acid
+D-glucosaminic acid	organic acid
+D-lactic acid methyl ester	organic acid
+formic acid	organic acid
+glyoxylic acid	organic acid
+L-lactic acid	organic acid
+m-tartaric Acid	organic acid
+sorbic acid	organic acid
+glycyl-L-aspartic acid	peptide
+glycyl-l-glutamic acid	peptide
+glycyl-l-proline	peptide
+L-alanyl-glycine	peptide
+gelatin	peptide
+"1,2-propanediol"	polyol
+"2,3-butanediol"	polyol
+"D,L-a-glycerol-phosphate"	polyol
+Glycerol	polyol
+quinic acid	polyol
+methyl pyruvate	pyruvic ester
+"D,L-carnitine"	quaternary ammonium compound
+N-acetyl-neuraminic acid	sialic acid
+b-methyl-D-glucuronic acid	sugar acid
+D-galactonic acid-y-lactone	sugar acid
+D-galacturonic acid	sugar acid
+D-glucouronic acid	sugar acid
+melibionic acid	sugar acid
+mucic acid	sugar acid
+adonitol	sugar alcohol
+D-arabitol	sugar alcohol
+D-mannitol	sugar alcohol
+D-sorbitol	sugar alcohol
+dulcitol	sugar alcohol
+i-erythritol	sugar alcohol
+L-arabitol	sugar alcohol
+lactitol	sugar alcohol
+maltitol	sugar alcohol
+N-acetyl-D-glucosaminitol	sugar alcohol
+xylitol	sugar alcohol
+N-acetyl-d-glucosamine	sugar amide
+oxalomalic acid	tricarboxylic acid
+tricarballylic acid	tricarboxylic acid

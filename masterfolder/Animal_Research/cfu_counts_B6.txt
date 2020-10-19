@@ -1,0 +1,71 @@
+Experiment	cage	mouse	duplicate	sample.weight	dilution	colonies	CFUs.g	strain	propername	ecotype	isolation
+Taconic	1	1	1	0.0713	1000	16	336600	pacificensis_032	P_pacificensis_NIBH-P2K6	FE	NHD
+Taconic	1	1	2	0.0582	1000	47	1211000	pacificensis_032	P_pacificensis_NIBH-P2K6	FE	NHD
+Taconic	1	2	1	0.036	1000	35	1458000	pacificensis_032	P_pacificensis_NIBH-P2K6	FE	NHD
+Taconic	1	2	2	0.0599	1000	24	601000	pacificensis_032	P_pacificensis_NIBH-P2K6	FE	NHD
+Taconic	1	3	1	0.0458	1000	80	2620000	pacificensis_032	P_pacificensis_NIBH-P2K6	FE	NHD
+Taconic	1	3	2	0.0577	1000	64	1664000	pacificensis_032	P_pacificensis_NIBH-P2K6	FE	NHD
+Taconic	1	4	1	0.0446	1000	70	2354000	pacificensis_032	P_pacificensis_NIBH-P2K6	FE	NHD
+Taconic	1	4	2	0.0519	1000	54	1561000	pacificensis_032	P_pacificensis_NIBH-P2K6	FE	NHD
+Taconic	3	9	1	0.0435	10000	114	39310000	ciconiae_008	P_ciconiae_176-10	FE	HD
+Taconic	3	9	2	0.0543	10000	159	43920000	ciconiae_008	P_ciconiae_176-10	FE	HD
+Taconic	3	10	1	0.0485	1000	390	12060000	ciconiae_008	P_ciconiae_176-10	FE	HD
+Taconic	3	10	2	0.0616	1000	459	11180000	ciconiae_008	P_ciconiae_176-10	FE	HD
+Taconic	3	11	1	0.0452	10000	146	48450000	ciconiae_008	P_ciconiae_176-10	FE	HD
+Taconic	3	11	2	0.0545	10000	89	24500000	ciconiae_008	P_ciconiae_176-10	FE	HD
+Taconic	3	12	1	0.0556	1000	360	9712000	ciconiae_008	P_ciconiae_176-10	FE	HD
+Taconic	3	12	2	0.053	10000	68	19250000	ciconiae_008	P_ciconiae_176-10	FE	HD
+Taconic	4	13	1	0.0465	10000	39	12580000	lutiphocae_013	P_lutiphocae_IMMIBL-1110	FE	HD
+Taconic	4	13	2	0.0608	10000	117	28870000	lutiphocae_013	P_lutiphocae_IMMIBL-1110	FE	HD
+Taconic	4	14	1	0.0439	10000	110	37590000	lutiphocae_013	P_lutiphocae_IMMIBL-1110	FE	HD
+Taconic	4	14	2	0.0594	10000	142	35860000	lutiphocae_013	P_lutiphocae_IMMIBL-1110	FE	HD
+Taconic	4	15	1	0.0469	10000	182	58210000	lutiphocae_013	P_lutiphocae_IMMIBL-1110	FE	HD
+Taconic	4	15	2	0.0601	10000	69	17220000	lutiphocae_013	P_lutiphocae_IMMIBL-1110	FE	HD
+Taconic	4	16	1	0.0505	1.00E+05	58	172300000	lutiphocae_013	P_lutiphocae_IMMIBL-1110	FE	HD
+Taconic	4	16	2	0.0623	10000	53	12760000	lutiphocae_013	P_lutiphocae_IMMIBL-1110	FE	HD
+Taconic	2	5	1				0	namhaensis_029	P_namhaensis_SW-242	RE	NHD
+Taconic	2	5	2				0	namhaensis_029	P_namhaensis_SW-242	RE	NHD
+Taconic	2	6	1				0	namhaensis_029	P_namhaensis_SW-242	RE	NHD
+Taconic	2	6	2				0	namhaensis_029	P_namhaensis_SW-242	RE	NHD
+Taconic	2	7	1				0	namhaensis_029	P_namhaensis_SW-242	RE	NHD
+Taconic	2	7	2				0	namhaensis_029	P_namhaensis_SW-242	RE	NHD
+Taconic	2	8	1				0	namhaensis_029	P_namhaensis_SW-242	RE	NHD
+Taconic	2	8	2				0	namhaensis_029	P_namhaensis_SW-242	RE	NHD
+Taconic	5	17	1				0	faecalis_023	P_faecalis_PBFP-1	FE	HD
+Taconic	5	17	2				0	faecalis_023	P_faecalis_PBFP-1	FE	HD
+Taconic	5	18	1				0	faecalis_023	P_faecalis_PBFP-1	FE	HD
+Taconic	5	18	2				0	faecalis_023	P_faecalis_PBFP-1	FE	HD
+Taconic	5	19	1				0	faecalis_023	P_faecalis_PBFP-1	FE	HD
+Taconic	5	19	2				0	faecalis_023	P_faecalis_PBFP-1	FE	HD
+Taconic	5	20	1				0	faecalis_023	P_faecalis_PBFP-1	FE	HD
+Taconic	5	20	2				0	faecalis_023	P_faecalis_PBFP-1	FE	HD
+MPI	1	2.1.1	1	0.0339	1000	23	1017699.115	lutiphocae_013	P_lutiphocae_IMMIBL-1110	FE	HD
+MPI	2	2.1.1	2	0.0497	1000	8	241448.6922	lutiphocae_013	P_lutiphocae_IMMIBL-1110	FE	HD
+MPI	3	2.1.2	1	0.0582	1000	1169	30128865.98	lutiphocae_013	P_lutiphocae_IMMIBL-1110	FE	HD
+MPI	4	2.1.2	2	0.057	1000	568	14947368.42	lutiphocae_013	P_lutiphocae_IMMIBL-1110	FE	HD
+MPI	5	2.1.3	1	0.1041	10000	47	6772334.294	lutiphocae_013	P_lutiphocae_IMMIBL-1110	FE	HD
+MPI	6	2.1.3	2	0.0526	10000	72	20532319.39	lutiphocae_013	P_lutiphocae_IMMIBL-1110	FE	HD
+MPI	7	2.1.4	1	0.0668	1000	548	12305389.22	lutiphocae_013	P_lutiphocae_IMMIBL-1110	FE	HD
+MPI	8	2.1.4	2	0.0438	1000	549	18801369.86	lutiphocae_013	P_lutiphocae_IMMIBL-1110	FE	HD
+MPI	9	2.2.1	1				0	cibarius_026	P_cibarius_JG-220	RE	FD
+MPI	10	2.2.1	2				0	cibarius_026	P_cibarius_JG-220	RE	FD
+MPI	11	2.2.2	1				0	cibarius_026	P_cibarius_JG-220	RE	FD
+MPI	12	2.2.2	2				0	cibarius_026	P_cibarius_JG-220	RE	FD
+MPI	13	2.2.3	1				0	cibarius_026	P_cibarius_JG-220	RE	FD
+MPI	14	2.2.3	2				0	cibarius_026	P_cibarius_JG-220	RE	FD
+MPI	15	2.3.1	1				0	okhotskensis_031	P_okhotskensis_MD17	RE	NHD
+MPI	16	2.3.1	2				0	okhotskensis_031	P_okhotskensis_MD17	RE	NHD
+MPI	17	2.3.2	1				0	okhotskensis_031	P_okhotskensis_MD17	RE	NHD
+MPI	18	2.3.2	2				0	okhotskensis_031	P_okhotskensis_MD17	RE	NHD
+MPI	19	2.3.3	1				0	okhotskensis_031	P_okhotskensis_MD17	RE	NHD
+MPI	20	2.3.3	2				0	okhotskensis_031	P_okhotskensis_MD17	RE	NHD
+MPI	21	2.3.4	1				0	okhotskensis_031	P_okhotskensis_MD17	RE	NHD
+MPI	22	2.3.4	2				0	okhotskensis_031	P_okhotskensis_MD17	RE	NHD
+MPI	23	2.4.1	1				0	immobilis_075	P_immobilis_S3	RE	HD
+MPI	24	2.4.1	2				0	immobilis_075	P_immobilis_S3	RE	HD
+MPI	25	2.4.2	1				0	immobilis_075	P_immobilis_S3	RE	HD
+MPI	26	2.4.2	2				0	immobilis_075	P_immobilis_S3	RE	HD
+MPI	27	2.4.3	1				0	immobilis_075	P_immobilis_S3	RE	HD
+MPI	28	2.4.3	2				0	immobilis_075	P_immobilis_S3	RE	HD
+MPI	29	2.4.4	1				0	immobilis_075	P_immobilis_S3	RE	HD
+MPI	30	2.4.4	2				0	immobilis_075	P_immobilis_S3	RE	HD

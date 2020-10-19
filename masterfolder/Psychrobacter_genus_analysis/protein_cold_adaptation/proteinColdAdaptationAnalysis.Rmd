@@ -1,0 +1,189 @@
+---
+title: "Welter et al. 2020 - potential cold adaptation analysis - R notebook"
+output: html_notebook
+---
+
+```{r setup}
+#setwd("path/to/masterfolder/Psychrobacter_genus_analysis/protein_cold_adaptation/")
+
+```
+
+The following piece of code takes the output from DIAMOND and produces a multi-fasta file. First I filter out all sequences that belong to the family Moraxellaceae, to avoid bias due to self-comparison. 
+```{r}
+#the "Psychrobacter_vs_uniref_CUSTOMBLASToutput.txt" file is too large to put on github, even when zipped. It can be found instead at ftp://ftp.tue.mpg.de/pub/ebio/dwelter/Psychrobacter_comparative_genomics/
+
+psych_uniref_out <- read.delim("Psychrobacter_vs_uniref_CUSTOMBLASToutput.txt", header = TRUE)
+uniref_closerel <- psych_uniref_out %>%
+  filter(str_detect(All_Titles, "Moraxella|Psychrobacter|Acinetobacter|Alkanindiges|Cavicella|Faucicola|Fluviicoccus|Paraperlucidibaca|Perlucidibaca|Moraxellaceae"))
+psych_uniref_distantrel = anti_join(psych_uniref_out, uniref_closerel)
+
+uniref_distantrel_fasta_seq = as.list(psych_uniref_distantrel$full_subject_sequence)
+
+uniref_distantrel_fasta_head <- list()
+for(i in 1:nrow(psych_uniref_distantrel)) {
+  rw = psych_uniref_distantrel[i,]
+  unirefID = rw$Subject_ID
+  geneclust = rw$geneCluster
+  alltitles = as.character(rw$All_Titles)
+  tax = str_match(alltitles, "Tax=(.*?) TaxID")
+  taxalone = tax[,2]
+  fullhead = str_c(unirefID, geneclust, taxalone, sep = "___", collapse = "")
+  print(fullhead)
+  uniref_distantrel_fasta_head = c(uniref_distantrel_fasta_head, fullhead)
+}
+
+write.fasta(sequences = uniref_distantrel_fasta_seq, names = uniref_distantrel_fasta_head, file.out = "unirefhits_vPsychrobacter___NOTmoraxellaceae_addedID.fasta")
+
+```
+
+Here is the code to calculate PCAT traits (as defined by Bakermans, 2018; https://doi.org/10.1093/femsec/fiy102) from sequence from a multi-fasta file.
+```{python}
+'''
+python calculate_PCAT_uniref_v3.py <input folder name: directory containing zipped fasta seq of unirefhits> <output folder name>
+'''
+
+from sys import argv
+from pathlib import Path
+from Bio.SeqUtils.ProtParam import ProteinAnalysis
+from Bio import SeqIO
+import gzip
+
+# Argument parsing
+input_folder = Path(argv[1])
+output_name = argv[2] # all output written to one file
+
+def upper_only(seq):
+	upper_list = []
+	for letter in seq:
+		if letter.isupper():
+			upper_list.append(letter)
+	return ''.join(upper_list)
+
+# Prep
+input_file_path_list = [str(input_file) for input_file in input_folder.iterdir() if str(input_file).endswith('fna.gz')]
+aa_list = ['A', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'V', 'W', 'Y', 'X', 'B', 'Z', 'J']
+
+out = open(output_name, 'w')
+out_header = ['unirefID','geneCluster', 'isolate', 'RA_A', 'RA_C', 'RA_D', 'RA_E', 'RA_F', 'RA_G', 'RA_H', 'RA_I', 'RA_K', 'RA_L',
+			  'RA_M', 'RA_N', 'RA_P', 'RA_Q', 'RA_R', 'RA_S', 'RA_T', 'RA_V', 'RA_W', 'RA_Y', 'RA_X', 'RA_B', 'RA_Z', 'RA_J', 'argenine_lysine_ratio',
+			  'acidity', 'aliphacity', 'KVYWREP', 'GRAVY', 'isoelectric_point', 'molecular_weight']
+out.write('\t'.join(out_header) + '\n')
+
+for gbk_file in input_file_path_list:
+	# Grab name of file (geneCluster)
+	geneCluster = gbk_file.split('/')[-1]
+	geneCluster = geneCluster.split('.')[0]
+
+	# Declare before loop
+	locus_tag = ''
+	isolate = ''
+	product = ''
+	current_seq = ''
+	
+	with gzip.open(gbk_file, "rt") as handle:
+		for seq_record in SeqIO.parse(handle,'fasta'):
+			header = seq_record.id
+			print(header)
+			unirefID = header.split('___')[0]
+			isolate = header.split('___')[2]
+			geneCluster = header.split('___')[1]
+			current_seq = str(seq_record.seq)
+			current_seq = current_seq.replace('-', '')
+			CDS_length = len(seq_record)
+			# Calculate frequency of each AA
+			aa_counts = {'A': 0, 'C': 0, 'D': 0, 'E': 0, 'F': 0, 'G': 0, 'H': 0, 'I': 0, 'K': 0, 'L': 0, 'M': 0,
+			'N': 0, 'P': 0, 'Q': 0, 'R': 0,'S': 0, 'T': 0, 'V': 0, 'W': 0, 'Y': 0, 'X':0, 'B':0, 'Z':0, 'J':0}
+			RA_list = [] # Could have just looped through dict keys...
+			for aa in aa_list:
+				aa_counts[aa] = current_seq.count(aa)
+				RA_list.append(str(aa_counts[aa] / float(CDS_length)))
+			RA_string = '\t'.join(RA_list)
+			# Calculate arg - lys ratio
+			try:
+				arginine_lysine_ratio = aa_counts['R'] / (float(aa_counts['R'] + aa_counts['K']))
+			except ZeroDivisionError:
+				arginine_lysine_ratio = '0'
+			# Calculate acidity
+			try:
+				acidity = (aa_counts['N'] + aa_counts['Q']) / (float(aa_counts['N'] + aa_counts['Q'] + aa_counts['D'] + aa_counts['E']))
+			except ZeroDivisionError:
+				acidity = '0'
+			# Calculate aliphacity
+			aliphacity = (aa_counts['A'] + (2.9 * aa_counts['V']) + (3.9 * (aa_counts['I'] + aa_counts['L']))) / float(CDS_length)
+			# Calculate KVYWREP
+			KVYWREP = (aa_counts['K'] + aa_counts['V'] + aa_counts['Y'] + aa_counts['W'] + aa_counts['R']
+			+ aa_counts['E'] + aa_counts['P']) / float(CDS_length)
+			# Calculate GRAVY (yum)
+			GRAVY = (1.8*aa_counts['A'] + 2.5*aa_counts['C'] -3.5*aa_counts['D'] - 3.5*aa_counts['E'] + 2.8*aa_counts['F']
+			- 0.4*aa_counts['G'] - 3.2*aa_counts['H'] + 4.5*aa_counts['I'] - 3.9*aa_counts['K'] + 3.8*aa_counts['L']
+			+ 1.9*aa_counts['M'] - 3.5*aa_counts['N'] - 1.6*aa_counts['P'] - 3.5*aa_counts['Q'] - 4.5*aa_counts['R']
+			- 0.8*aa_counts['S'] - 0.7*aa_counts['T'] + 4.2*aa_counts['V'] - 0.9*aa_counts['W'] - 1.3*aa_counts['Y']) / float(CDS_length)
+			# Do this prot param thing
+			new_seq = current_seq.replace("X", "")
+			new_seq = new_seq.replace("B", "")
+			new_seq = new_seq.replace("J", "")
+			new_seq = new_seq.replace("Z", "")
+			prot_param_seq = ProteinAnalysis(new_seq)
+			# Grab pI and molecular weight from prot param obj
+			isoelectric_point = prot_param_seq.isoelectric_point()
+			mol_weight = prot_param_seq.molecular_weight()
+			# Write it all out
+			out_list = [unirefID, geneCluster, isolate, RA_string, str(arginine_lysine_ratio), str(acidity), str(aliphacity),
+			str(KVYWREP), str(GRAVY), str(isoelectric_point), str(mol_weight)]
+			out.write('\t'.join(out_list) + '\n')
+```
+
+I used similar code to calculate the Psychrobacter protein PCAT values... The main difference being I was using the output from the PanX pipeline, specifically the directory PathTo/pan-genome-analysis/PathToData/visualization/geneCluster/ as the input for that script. That folder contains nucleotide and amino acid alignments of every protein in the Psychrobacter pan-genome, with homologs grouped and aligned into "geneClusters". 
+
+The following code is to remove any Psychrobacter proteins that don't have Uniref homologs. If they don't have Uniref homologs, we can't say whether or not Psychrobacter proteins are any different from the "average" protein sequence present in Uniref.
+```{r}
+#use code/scripts/PCAT_v4_uniref to calculate the PCAT values
+
+psych_PCAT = read.delim("Psychrobacter_final_PCAT.txt", stringsAsFactors = F)
+uniref_vPsychrobacter_PCAT <- read.delim("uniref_vPsychrobacter_PCAT_final.txt", header = T, stringsAsFactors = F)
+
+unirefhits = unique(uniref_vPsychrobacter_PCAT$geneCluster)
+psych_PCAT_wmatchesonly = psych_PCAT %>%
+  filter(geneCluster %in% unirefhits)
+```
+
+The loop to end all loops... This is pretty intensive, and will take a few hours if you run it on your local computer.
+For every Psychrobacter protein sequence, it compares that protein's PCAT values to either the bottom quartile or top quartile of the Uniref PCATs, depending on whether low or high values mean that the protein is more cold-adaptive. If the protein is in the highest quartile for cold-adaptive traits compared to the Uniref hits in half of the traits examined, it is defined as "high PCAT". 
+
+(I've put the output of the following loop in the directory /masterfolder/Psychrobacter_genus_analysis/protein_cold_adaptation/analyzed_low&highPCAT/)
+
+```{r}
+psych_highPCAT <- data.frame()
+psych_low_medPCAT <- data.frame()
+for (i in 1:nrow(psych_PCAT_wmatchesonly)) {
+  dummy1 = psych_PCAT_wmatchesonly[i,]
+  dummy1_geneCluster = as.character(dummy1$geneCluster)
+  dummy2 = filter(uniref_vPsychrobacter_PCAT, as.character(geneCluster) == dummy1_geneCluster)
+  RAG3 = quantile(dummy2$RA_G, 0.75)
+  checklist = c(dummy1$RA_G > RAG3)
+  RAP1 = quantile(dummy2$RA_P, 0.25)
+  checklist = c(checklist, dummy1$RA_P < RAP1)
+  RAR1 = quantile(dummy2$RA_R, 0.25)
+  checklist = c(checklist, dummy1$RA_R < RAR1)
+  acid3 = quantile(dummy2$acidity, 0.75)
+  checklist = c(checklist, dummy1$acidity > acid3)
+  arglys1 = quantile(dummy2$argenine_lysine_ratio, 0.25)
+  checklist = c(checklist, dummy1$argenine_lysine_ratio < arglys1)
+  aliph3 = quantile(dummy2$aliphacity, 0.75)
+  checklist = c(checklist, dummy1$aliphacity > aliph3)
+  grav3 = quantile(dummy2$GRAVY, 0.75)
+  checklist = c(checklist, dummy1$GRAVY > grav3)
+  kvy1 = quantile(dummy2$KVYWREP, 0.25)
+  checklist = c(checklist, dummy1$KVYWREP < kvy1)
+  iso1 = quantile(dummy2$isoelectric_point, 0.25)
+  checklist = c(checklist, dummy1$isoelectric_point < iso1)
+  tru_sum = sum(checklist == TRUE)
+  if(tru_sum >= 5) { psych_highPCAT = rbind(psych_highPCAT, dummy1)
+  } else {psych_low_medPCAT = rbind(psych_low_medPCAT, dummy1)
+  }
+  checklist = c()
+}
+saveRDS(psych_highPCAT, file = "Psychrobacter_highPCAT_geneproducts.RDS")
+saveRDS(psych_low_medPCAT, file = "Psychrobacter_nothighPCAT_geneproducts.RDS")
+```
+

@@ -1,0 +1,94 @@
+DATASET_COLORSTRIP
+SEPARATOR SPACE
+DATASET_LABEL Isolation_Source
+COLOR #ff0000
+LEGEND_TITLE Isolation_Source
+LEGEND_SHAPES 1 1 1 1 1 1 1 1 1 1
+LEGEND_COLORS #590957 #823581 #D58ED5 #FFBBFF #FCDFBE #C49653 #6E5FC9 #483A99 #39AA7F #2F7604
+LEGEND_LABELS mammal bird fish invertebrate food built sea_water marine_soil terrestrial_water soil
+DATA
+P_adeliensis_SJ14 #6E5FC9 sea_water
+P_aestuarii_SC35 #483A99 marine_soil
+P_alimentarius_JG100 #FCDFBE food
+P_alimentarius_JG102 #FCDFBE food
+P_aquaticus_CMS56 #39AA7F terrestrial_water
+P_aquimaris_SW-210 #6E5FC9 sea_water
+P_arcticus_273-4 #2F7604 soil
+P_arenosus_R7 #483A99 marine_soil
+P_celer_SW-238 #6E5FC9 sea_water
+P_cibarius_JG-219 #FCDFBE food
+P_cibarius_JG-220 #FCDFBE food
+P_ciconiae_176-10 #823581 bird
+P_cryohalolentis_K5 #39AA7F terrestrial_water
+P_faecalis_PBFP-1 #590957 mammal
+P_faecalis_Iso-46 #823581 bird
+P_fjordensis_BSw21516B #6E5FC9 sea_water
+P_fozii_NF23 #2F7604 soil
+P_frigidicola_ACAM304 #2F7604 soil
+P_frigidicola_ACAM309 #823581 bird
+P_fulvigenes_KC-40 #FFBBFF invertebrate
+P_glaciei_Blc20019 #39AA7F terrestrial_water
+P_glacincola_ACAM483 #39AA7F terrestrial_water
+P_glacincola_1447 #D58ED5 fish
+P_immobilis_A351 #FCDFBE food
+P_immobilis_A1007 #D58ED5 fish
+P_immobilis_1555 #D58ED5 fish
+P_immobilis_Liston1000 #D58ED5 fish
+P_immobilis_1617 #D58ED5 fish
+P_immobilis_1745 #D58ED5 fish
+P_immobilis_NC10 #D58ED5 fish
+P_immobilis_252 #D58ED5 fish
+P_immobilis_1159 #D58ED5 fish
+P_immobilis_1184 #D58ED5 fish
+P_immobilis_1347 #D58ED5 fish
+P_immobilis_A1014 #D58ED5 fish
+P_immobilis_NCIMB357 #D58ED5 fish
+P_immobilis_NCIMB361 #D58ED5 fish
+P_immobilis_NCIMB362 #D58ED5 fish
+P_immobilis_A-11 #6E5FC9 sea_water
+P_immobilis_A-19 #6E5FC9 sea_water
+P_immobilis_A352 #FCDFBE food
+P_immobilis_S3 #D58ED5 fish
+P_sp_72-O-c #2F7604 soil
+P_jeotgali_YKJ-103 #FCDFBE food
+P_luti_NF11 #2F7604 soil
+P_lutiphocae_IMMIBL-1110 #590957 mammal
+P_marincola_KMM227 #FFBBFF invertebrate
+P_maritimus_Pi2-25 #6E5FC9 sea_water
+P_maritimus_Pi2-20 #6E5FC9 sea_water
+P_namhaensis_SW-242 #6E5FC9 sea_water
+P_nivimaris_88-2-7 #6E5FC9 sea_water
+P_oceani_4k5 #483A99 marine_soil
+P_okhotskensis_MD17 #6E5FC9 sea_water
+P_okhotskensis_A1004 #D58ED5 fish
+P_pacificensis_NIBH-P2K6 #6E5FC9 sea_water
+P_phenylpyruvicus_ACAM535 #590957 mammal
+P_piscatorii_T-3-2 #FCDFBE food
+P_priscuii_LFX-15B1 #39AA7F terrestrial_water
+P_proteolyticus_116 #FFBBFF invertebrate
+P_pulmonis_S-606 #590957 mammal
+P_pulmonis_ES2-W5a2 #C49653 built
+P_salsus_DD48 #6E5FC9 sea_water
+P_sanguinis_1501 #590957 mammal
+P_sanguinis_13983 #590957 mammal
+P_sanguinis_92 #590957 mammal
+P_sanguinis_10070 #590957 mammal
+P_sp_1044 #D58ED5 fish
+P_sp_2pS #39AA7F terrestrial_water
+P_sp_CMS30 #39AA7F terrestrial_water
+P_sp_DD43 #6E5FC9 sea_water
+P_sp_H7-1 #D58ED5 fish
+P_sp_H8-1 #FCDFBE food
+P_sp_HII-4 #FCDFBE food
+P_sp_IAM12030-72-O-c #2F7604 soil
+P_sp_JCM18900 #590957 mammal
+P_sp_JCM18902 #590957 mammal
+P_sp_JCM18903 #590957 mammal
+P_sp_NC44 #D58ED5 fish
+P_sp_Pi2-1 #6E5FC9 sea_water
+P_sp_Pi2-51 #6E5FC9 sea_water
+P_sp_Pi2-52 #6E5FC9 sea_water
+P_submarinus_KMM225 #6E5FC9 sea_water
+P_urativorans_ACAM534 #FCDFBE food
+P_urativorans_ACAM311 #2F7604 soil
+P_vallis_CMS39 #39AA7F terrestrial_water

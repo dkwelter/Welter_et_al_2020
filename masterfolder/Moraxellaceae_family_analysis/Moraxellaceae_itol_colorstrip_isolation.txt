@@ -1,0 +1,61 @@
+DATASET_COLORSTRIP
+SEPARATOR SPACE
+DATASET_LABEL Isolation_Source
+COLOR #ff0000
+LEGEND_TITLE Isolation_Source
+LEGEND_SHAPES 1 1 1 1 1 1 1 1
+LEGEND_COLORS #590957 #ADE292 #2F7604 #AC61AB #D58ED5 #553BC4 #823581 #FCDFBE
+LEGEND_LABELS mammal plant terrestrial reptile fish marine bird food
+DATA
+Acinetobacter_baumanni #590957 mammal
+Acinetobacter_boissieri #ADE292 plant
+Acinetobacter_calcoaceticus #2F7604 terrestrial
+Acinetobacter_celticus #2F7604 terrestrial
+Acinetobacter_colistiniresistens #590957 mammal
+Acinetobacter_courvalinii #AC61AB reptile
+Acinetobacter_dispersus #590957 mammal
+Acinetobacter_equi #590957 mammal
+Acinetobacter_gandensis #590957 mammal
+Acinetobacter_gyllenbergii #590957 mammal
+Acinetobacter_indicus #2F7604 terrestrial
+Acinetobacter_kookii #2F7604 terrestrial
+Acinetobacter_piscicola #D58ED5 fish
+Acinetobacter_proteolyticus #590957 mammal
+Acinetobacter_puyangensis #ADE292 plant
+Acinetobacter_radioresistens #590957 mammal
+Acinetobacter_schindleri #2F7604 terrestrial
+Acinetobacter_venetianus #553BC4 marine
+Moraxella_atlantae #590957 mammal
+Moraxella_boevrei #590957 mammal
+Moraxella_bovis #590957 mammal
+Moraxella_bovoculi #590957 mammal
+Moraxella_canis #590957 mammal
+Moraxella_caprae #590957 mammal
+Moraxella_catarrhalis #590957 mammal
+Moraxella_caviae #590957 mammal
+Moraxella_cuniculi #590957 mammal
+Moraxella_equi #590957 mammal
+Moraxella_lacunata #590957 mammal
+Moraxella_lincolnii #590957 mammal
+Moraxella_nonliquefaciens #590957 mammal
+Moraxella_oblonga #590957 mammal
+Moraxella_osloensis #590957 mammal
+Moraxella_ovis #590957 mammal
+Moraxella_pluranimalium #590957 mammal
+Moraxella_porci #590957 mammal
+Psychrobacter_aestuarii #553BC4 marine
+Psychrobacter_celer #553BC4 marine
+Psychrobacter_ciconiae #823581 bird
+Psychrobacter_faecalis #590957 mammal
+Psychrobacter_frigidicola #823581 terrestrial
+Psychrobacter_glacincola #553BC4 marine
+Psychrobacter_immobilis #FCDFBE food
+Psychrobacter_lutiphocae #590957 mammal
+Psychrobacter_maritimus #553BC4 marine
+Psychrobacter_namhaensis #553BC4 marine
+Psychrobacter_okhotskensis #553BC4 marine
+Psychrobacter_pacificensis #553BC4 marine
+Psychrobacter_piscatorii #FCDFBE food
+Psychrobacter_sanguinis #590957 mammal
+Psychrobacter_urativorans #FCDFBE food
+Pseudomonas_aeruginosa #2F7604 terrestrial
