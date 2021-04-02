@@ -1,0 +1,1121 @@
+---
+title: "Welter et al. 2021 R notebook"
+output:
+  html_document: default
+  html_notebook: default
+---
+
+##Moraxellaceae family analysis
+The following was used to generate Figures 1 - 3.
+
+```{r setup, include = FALSE}
+library(tidyr)
+library(dplyr)
+library(stringr)
+
+library(phytools)
+library(ape)
+library(vegan)
+
+library(ggplot2)
+library(ggpubr)
+library(viridis)
+
+#setwd("/path/to/Welter_et_al_2021/data/") #modify appropriately
+
+```
+
+```{r}
+setwd("masterfolder/Moraxellaceae_family_analysis/")
+
+#Import files
+Moraxellaceae_tree = read.tree("Moraxellaceae_tree_ladderized.nwk")
+Moraxellaceae_genome_summary = read.delim("Moraxellaceae_genome_characteristics.txt", stringsAsFactors = FALSE)
+Moraxellaceae_isolation_info = read.delim("Moraxellaceae_isolation_information.txt", stringsAsFactors = F)
+Moraxellaceae_genematrix = read.delim("Moraxellaceae_gene_presence_absence_binary_matrix.txt", stringsAsFactors = F, row.names = 1)
+Moraxellaceae_genecluster_cogcats = read.delim("Moraxellaceae_geneclusters_COG_annotations.txt", stringsAsFactors = F)
+
+```
+
+#Figure 1 phylogeny
+Gene presence/absence information obtained by PanX and PanX post-processing. The following code produces a gene presence-absence PCoA, which is used in Figures 1 and 2. 
+```{r}
+Morax_isolation = as.data.frame(Moraxellaceae_isolation_info[,4])
+rownames(Morax_isolation) = Moraxellaceae_isolation_info$strain
+  
+Morax_jacc_sim_gpa = vegan::vegdist(Moraxellaceae_genematrix, method = 'jaccard')
+Morax_PCOA_cmdscale = cmdscale(Morax_jacc_sim_gpa, k = 3)
+Morax_PCOA_points = as.data.frame(Morax_PCOA_cmdscale)
+Morax_PCOA_points$strainID = rownames(Morax_PCOA_points)
+
+#stats on genomic characteristics
+kruskal.test(Genome.Length ~ genus, data = Moraxellaceae_genome_summary)
+pairwise.wilcox.test(Moraxellaceae_genome_summary$Genome.Length, Moraxellaceae_genome_summary$genus, 
+                     p.adjust.method = "BH")
+
+kruskal.test(Coding.density ~ genus, data = Moraxellaceae_genome_summary)
+pairwise.wilcox.test(Moraxellaceae_genome_summary$Coding.density, Moraxellaceae_genome_summary$genus, 
+                     p.adjust.method = "BH")
+
+
+Moraxellaceae_matrixforheatmap = left_join(Moraxellaceae_genome_summary[,c(1:2,4)], Morax_PCOA_points[,c(1,4)])
+colnames(Moraxellaceae_matrixforheatmap)[4] = "PCoA_Dim1"
+rownames(Moraxellaceae_matrixforheatmap) = Moraxellaceae_matrixforheatmap$strainID
+
+Moraxellaceae_matrixforheatmap = Moraxellaceae_matrixforheatmap %>%
+  select(Genome.Length, PCoA_Dim1, Coding.density)
+
+Moraxellaceae_scaled_matrixforheatmap = apply(Moraxellaceae_matrixforheatmap, 2, FUN = function(X) (X - min(X))/diff(range(X)))
+```
+Now to export the data into an iTOL annotation file... The following functions do so.
+```{r, include = FALSE}
+#' create itol heatmap file
+#'
+#' https://itol.embl.de/help.cgi#heatmap
+#'
+#' @param df Dataframe, in which the rownames should correspond with the tree labels; all columns should be numeric values for the heatmap
+#' @param dataset_label What to label the itol dataset
+#' @param out_file Name of the output file
+#' @param out_dir Where to write the output
+#' @param tree Tree object used for ordering the heatmap columns; if NULL, the dist_method will be used to create the tree
+#' @param dist_method vegan::vegdist method for creating the correlation dendrogram
+#' @param color_scheme Heatmap color scheme. color = blue-orange-yellow; bw=white-grey-black
+#' @return NULL
+itol_heatmap = function(df, dataset_label, out_file, out_dir=NULL, tree=NULL,
+                        dist_method='bray', color_scheme=c('color', 'bw')){
+  if(! is.null(out_dir)){
+    out_file = file.path(out_dir, out_file)
+  }
+
+  # Main params
+  cat('DATASET_HEATMAP\n', file=out_file)
+  cat('SEPARATOR SPACE\n', file=out_file, append=TRUE)
+  cat(sprintf('DATASET_LABEL %s\n', dataset_label), file=out_file, append=TRUE)
+  cat('COLOR #ff0000\n', file=out_file, append=TRUE)
+
+  # Field labels
+  labs = gsub(' ', '_', colnames(df))
+  labs = sprintf('FIELD_LABELS %s\n', paste(labs, collapse=' '))
+  cat(labs, file=out_file, append=TRUE)
+
+  ## colors
+  cat('COLOR_NAN #eae8e8\n', file=out_file, append=TRUE)
+  cat('USE_MID_COLOR 1\n', file=out_file, append=TRUE)
+  if(color_scheme[1] == 'color'){
+    cat('COLOR_MIN #0000ff\n', file=out_file, append=TRUE)
+    cat('COLOR_MAX #ffff00\n', file=out_file, append=TRUE)
+    cat('COLOR_MID #ff8000\n', file=out_file, append=TRUE)
+  } else
+    if(color_scheme[1] == 'bw'){
+      cat('COLOR_MIN #ffffff\n', file=out_file, append=TRUE)
+      cat('COLOR_MAX #cccccc\n', file=out_file, append=TRUE)
+      cat('COLOR_MID #000000\n', file=out_file, append=TRUE)
+    } else {
+      stop('color_scheme not recoginized')
+    }
+
+  # creating correlation tree
+  if(is.null(tree) & !is.null(dist_method)){
+    tree = df %>% t %>% vegan::vegdist(method=dist_method) %>% hclust %>% ape::as.phylo()
+  }
+  if(!is.null(tree)){
+    cat('FIELD_TREE ', file=out_file, append=TRUE)
+    ape::write.tree(tree, file=out_file, append=TRUE)
+  }
+
+  # data
+  cat('DATA\n', file=out_file, append=TRUE)
+  write.table(df, file=out_file, append=TRUE, sep=' ',
+              quote=FALSE, col.names=FALSE)
+  cat('File written:', out_file, '\n')
+}
+
+#' create itol colorstrip file
+#'
+#' https://itol.embl.de/help.cgi#strip
+#'
+#' Custom Legend: requires a data.frame with the number of rows equaling the number of unique
+#' values in the legend.
+#' \itemize{
+#'   \item "shapes" => numeric (see \href{https://itol.embl.de/help.cgi#dsLeg}{the itol docs})
+#'   \item "colors" => hexidecimal (see \href{https://www.color-hex.com/}{this website for examples})
+#'   \item "labels" => legend labels
+#' }
+#'
+#' @param df Dataframe, in which the rownames should correspond with the tree labels; the plotting parameter should be column 1
+#' @param dataset_label What to label the itol dataset
+#' @param out_file Name of the output file
+#' @param out_dir Where to write the output
+#' @param legend Custom legend (see the function description)
+#' @return NULL
+#'
+#' @examples
+#' # creating a custom legend
+#' legend = data.frame(unique(iris$Species),
+#' colors = c('#00FF00', '#FFCC33', '#FF0000'),
+#' shapes = rep(1, length(unique(iris$Species))))
+#' legend
+itol_colorstrip = function(df, dataset_label, out_file, out_dir=NULL, legend=NULL){
+  df = data.frame(tip = rownames(df),
+                  feature = as.character(df[,1]))
+  if(! is.null(out_dir)){
+    out_file = file.path(out_dir, out_file)
+  }
+  # main options
+  cat('DATASET_COLORSTRIP\n', file=out_file)
+  cat('SEPARATOR SPACE\n', file=out_file, append=TRUE)
+  cat(sprintf('DATASET_LABEL %s\n', dataset_label), file=out_file, append=TRUE)
+  cat('COLOR #ff0000\n', file=out_file, append=TRUE)
+
+  # legend
+  cat(sprintf('LEGEND_TITLE %s\n', dataset_label), file=out_file, append=TRUE)
+  if(is.null(legend)){
+    shapes = rep(1, df[,2] %>% unique %>% length)
+    cols = gsub('FF$', '', rainbow(length(shapes)))
+    labs = paste(gsub(' ', '_', df[,2] %>% unique), collapse=' ')
+  } else {
+    stopifnot(all(colnames(legend) %in% c('shapes', 'colors', 'labels')))
+    shapes = legend$shapes %>% as.character
+    cols = legend$colors %>% as.character
+    labs = legend$labels %>% as.character
+  }
+  cat(sprintf('LEGEND_SHAPES %s\n', paste(shapes, collapse=' ')),
+      file=out_file, append=TRUE)
+  cat(sprintf('LEGEND_COLORS %s\n', paste(cols, collapse=' ')),
+      file=out_file, append=TRUE)
+  cat(sprintf('LEGEND_LABELS %s\n', paste(labs, collapse=' ')), file=out_file, append=TRUE)
+
+  # data
+  ## adding colors
+  if(is.null(legend)){
+    cols = data.frame(feature = df[,2] %>% unique,
+                      color = cols)
+  } else {
+    cols = legend[,c('labels', 'colors')]
+    colnames(cols) = c('feature', 'color')
+  }
+  df = df %>%
+    inner_join(cols, c('feature')) %>%
+    dplyr::select(tip, color, feature) %>%
+    as.data.frame
+  ## writing
+  cat('DATA\n', file=out_file, append=TRUE)
+  write.table(df, file=out_file, append=TRUE, sep=' ',
+              quote=FALSE, col.names=FALSE, row.names=FALSE)
+  cat('File written:', out_file, '\n')
+}
+
+```
+
+```{r}
+itol_colorstrip(df = Morax_isolation, dataset_label = "Isolation_Source",
+                out_file = "Moraxellaceae_itol_colorstrip_isolation.txt")
+
+itol_heatmap(df = Moraxellaceae_scaled_matrixforheatmap, dataset_label = "Genome_Characteristics", 
+             color_scheme = "bw", out_file = "Moraxellaceae_itol_heatmap_genome_characteristics.txt")
+```
+The default values for the colorstrip file are rainbow. I manually changed them to values from the "viridis" color scheme, such that isolation source colors would match across all figures.
+
+The default "BW" color scheme assigns white as the color for the lowest value, black as a mid value, and gray as the highest value. I changed the text file manually so that black was the highest value. 
+
+
+#Figure 1 B/C (gene presence/absence PCoA)
+
+```{r}
+#cumulative variance easier to look at with output of pcoa rather than cmdscale
+Morax_PCOA_pcoa = pcoa(Morax_jacc_sim_gpa)
+Morax_PCOA_pcoa_eig = as.data.frame(Morax_PCOA_pcoa$values$Relative_eig)
+colnames(Morax_PCOA_pcoa_eig) = "variance"
+Morax_PCOA_pcoa_eig$axes = rownames(Morax_PCOA_pcoa_eig)
+Morax_PCOA_pcoa_eig$axes = as.numeric(Morax_PCOA_pcoa_eig$axes)
+
+ggplot(data = Morax_PCOA_pcoa_eig[1:10,], aes(x = axes, y = variance)) + geom_bar(stat = 'identity') +
+  theme_classic() + xlab("Top 10 Axes") + ylab("Variance Explained")
+
+
+#but envfit works more easily with cmdscale
+#envfit contribution of individual genes
+Morax_PCOA_points = left_join(Morax_PCOA_points, Moraxellaceae_genome_summary[,c(1,14)])
+
+#Morax_PCOA_genefit = envfit(ord = Morax_PCOA_cmdscale, Moraxellaceae_genematrix, perm = 1000) #not recommended to run on personal computer!
+#saveRDS(Morax_PCOA_genefit, file = "Moraxellaceae_genepresenceabsence_envfit.RDS")
+
+#envfit contribution of genes collapsed by COG categories
+cogcat = as.data.frame(table(Moraxellaceae_genecluster_cogcats$strain, Moraxellaceae_genecluster_cogcats$COG_cat))
+colnames(cogcat) = c("strain", "COG_cat", "frequency")
+cogcatspread = cogcat %>% spread(COG_cat, frequency)
+
+Morax_PCOA_COGfit = envfit(ord = Morax_PCOA_cmdscale, cogcatspread, perm = 1000)
+Morax_COGfit_coord_cont = as.data.frame(scores(Morax_PCOA_COGfit, "vectors")) * ordiArrowMul(Morax_PCOA_COGfit) * 0.5
+#otherwise, the arrows will be too long to fit inside the subsequent plot...
+
+Morax_COG_datascores = as.data.frame(scores(Morax_PCOA_cmdscale))
+Morax_COG_datascores$strain = rownames(Moraxellaceae_genematrix)
+Morax_COG_datascores = left_join(Morax_COG_datascores, Moraxellaceae_isolation_info[,c(1,8)])
+
+#Table S5 r^2 values and p-values, in case you are interested...
+table_S2_m = cbind(Morax_PCOA_COGfit$vectors$r, Morax_PCOA_COGfit$vectors$pvals)
+table_S2_m = as.data.frame(table_S2_m)
+colnames(table_S2_m) = c("moraxellaceae_r^2", "moraxellaceae_p-value")
+table_S2_m$p.adjust = p.adjust(table_S2_m$`moraxellaceae_p-value`, method = "BH")
+tables5 = round(table_S2_m, digits = 3)
+
+write.table(table_S2_m, "table_S2_m.txt", sep = '\t') #needs to be in Excel table for inclusion as supplementary table in journal
+
+biplot_A12 = ggplot(data = Morax_COG_datascores, aes(x = Dim1, y = Dim2)) + 
+  geom_point(data = Morax_COG_datascores, aes(colour = Genus), size = 3) +
+  scale_color_manual(values = c("#2d7a99", "#ccc248", "#992f44")) +
+  theme_classic() + xlab("Axis 1: 32% of variation") + ylab("Axis 2: 14% of variation") +
+  theme_classic() + theme(legend.position = "none")
+biplot_A12
+
+biplot_A23 = ggplot(data = Morax_PCOA_points, aes(x = V2, y = V3, size = 5, color = genus)) + geom_point() +
+  theme_classic() + xlab("Axis 2: 14% of variation") + ylab("Axis 3: 5% of variation") +
+  scale_color_manual(values = c("#2d7a99", "#ccc248", "#992f44")) +
+  theme(legend.position = "none")
+biplot_A23
+
+ggarrange(biplot_A12, biplot_A23, ncol = 1, labels = c("B", "C"), align = 'hv')
+
+```
+I changed the colors of the vectors in Fig2A to reflect the p and r^2 values manually in Illustrator. 
+
+#Figure 2
+
+```{r}
+kruskal.test(sp_nov_min ~ Genus, data = Moraxellaceae_isolation_info)
+pairwise.wilcox.test(Moraxellaceae_isolation_info$sp_nov_min, Moraxellaceae_isolation_info$Genus, p.adjust.method = "BH")
+
+
+rownames(Moraxellaceae_isolation_info) = Moraxellaceae_isolation_info$strain
+min_temp <- setNames(Moraxellaceae_isolation_info$sp_nov_min, rownames(Moraxellaceae_isolation_info))
+mintemp.map <- contMap(Moraxellaceae_tree, min_temp, plot = F)
+
+## change to blue -> red
+#library(scales)
+#library(unikn)
+#blues = colorRampPalette(c("#FFCE00", "#381FC6"), bias = 1, space = "Lab")
+#show_col(blues(22))
+#seecol(blues(22))
+
+n <-length(mintemp.map$cols)
+mintemp.map$cols[1:n]<-colorRampPalette(c("#381FC5", "#E7AB50"), space="Lab")(n)
+mintemp.p = plot(mintemp.map)
+mintemp.p
+
+max_temp <- setNames(Moraxellaceae_isolation_info$sp_nov_max, rownames(Moraxellaceae_isolation_info))
+maxtemp.map <- contMap(Moraxellaceae_tree, max_temp, plot = F)
+maxtemp.map$cols[1:n]<-colorRampPalette(c("#8946A8", "#FFCD00"), space="Lab")(n)
+#plot(maxtemp.map)
+maxtemp.p = plot(maxtemp.map, lwd = 5, direction = "leftwards")
+maxtemp.p
+```
+
+It's rather difficult to manipulate these plots directly in R, so I did post-processing directly in Illustrator. 
+
+#Psychrobacter analysis
+The following was used to generate Figures 4 - 6. 
+```{r}
+setwd("masterfolder/Psychrobacter_genus_analysis")
+
+library(ggmap)
+library(maptools)
+library(maps)
+library(viridis)
+library(treeWAS)
+
+#Import files
+psych_strain_collection = read.delim("Psychrobacter_straininfo_mastertable.txt", stringsAsFactors = F)
+psychrobacter_phenotype_growthbin = read.delim("psychrobacter_growthbin.txt", stringsAsFactors = F)
+psychrobacter_PCAT = read.delim("Psych_20201016_PCAT.txt", stringsAsFactors = F)
+psychrobacter_pangenome_annotated = read.delim("Psych_20201016_eggnog_clusters_annotations.txt", stringsAsFactors = F)
+multicog_geneclusters = read.delim("multiCOG_genes_unseparated.txt", stringsAsFactors = F)
+#essentially took psychrobacter_pangenome_annotated, and split $COG_cat by commas to separate out the genes that have multiple cog categories
+psychrobacter_pangenome_presenceabsence = read.delim("psych_20201016_nodash_gpa.txt", stringsAsFactors = F)
+genematrix = read.delim("genematrix_for_treewas_fixeddashes.txt")
+psychrobacter_pseudogene_predictions = read.delim("pseudogene_predictions_from_DFAST.txt", stringsAsFactors = F)
+psychrobacter_genome_summaries = read.delim("psychrobacter_genome_summary_statistics.txt", stringsAsFactors = F)
+
+bile = read.delim("bileres.txt", stringsAsFactors = F)
+
+P.tree = read.tree("Psychfinal_outgroupMoraxlincolnii.nwk")
+P.tree = root(P.tree, outgroup = 'Moraxella_lincolnii', resolve.root = TRUE)
+P.tree.noout = drop.tip(P.tree, "Moraxella_lincolnii")
+```
+#Figure 3
+```{r}
+#iTOL color strip for isolation source
+psych_isolation_source = as.data.frame(psych_strain_collection$source)
+rownames(psych_isolation_source) = psych_strain_collection$propername
+itol_colorstrip(df = psych_isolation_source, dataset_label = "Isolation_Source",
+                out_file = "itol_isolation_colorstrip.txt")
+
+#calculating growth probabilities for every individual condition
+growth_prob_agg = aggregate(psychrobacter_phenotype_growthbin$GrowthBin, by = list(psychrobacter_phenotype_growthbin$propername, psychrobacter_phenotype_growthbin$medium, psychrobacter_phenotype_growthbin$salt, psychrobacter_phenotype_growthbin$temperature), FUN = median)
+growth_prob_agg = growth_prob_agg %>% select(Group.1, Group.2, Group.3, Group.4, x)
+colnames(growth_prob_agg) = c("strainID", "medium", "salt", "temperature", "growthbin")
+
+#calculating growth probabilities aggregated by medium
+growth_prob_medium = aggregate(growth_prob_agg$growthbin, by = list(growth_prob_agg$strainID, growth_prob_agg$medium), FUN = mean)
+growth_prob_medium = growth_prob_medium %>% select(Group.1, Group.2, x)
+colnames(growth_prob_medium) = c("strainID", "medium", "growthbin")
+growth_prob_medium = growth_prob_medium %>%
+  spread(medium, growthbin)
+colnames(growth_prob_medium) = c("strainID", "LB", "MM")
+rownames(growth_prob_medium) = growth_prob_medium$strainID
+growth_prob_medium_round = growth_prob_medium
+growth_prob_medium_round$strainID = NULL
+growth_prob_medium_round = round(growth_prob_medium_round, digits = 1) #makes the heatmap cleaner
+
+
+itol_heatmap(df = growth_prob_medium_round, dataset_label = "medium", 
+             color_scheme = "bw", out_file = "itol_medium_growth_prob_heatmap.txt")
+#manually changed mid color to #ECD797 and max color to #D0A215
+
+#calculating growth probabilities aggregated by salt
+growth_prob_salt = aggregate(growth_prob_agg$growthbin, by = list(growth_prob_agg$strainID, growth_prob_agg$salt), FUN = mean)
+growth_prob_salt = growth_prob_salt %>% select(Group.1, Group.2, x)
+colnames(growth_prob_salt) = c("strainID", "salt", "growthbin")
+growth_prob_salt = growth_prob_salt %>%
+  spread(salt, growthbin)
+colnames(growth_prob_salt) = c("strainID", "0_perc", "2.5_perc", "5_perc", "10_perc")
+rownames(growth_prob_salt) = growth_prob_salt$strainID
+growth_prob_salt_round = growth_prob_salt
+growth_prob_salt_round$strainID = NULL
+growth_prob_salt_round = round(growth_prob_salt_round, digits = 1) #makes the heatmap cleaner
+
+
+itol_heatmap(df = growth_prob_salt_round, dataset_label = "salt", 
+             color_scheme = "bw", out_file = "itol_salt_growth_prob_heatmap.txt")
+#manually changed mid color to #9BD3E3 and max color to #2E9CBD
+
+#calculating growth probabilities aggregated by temperature 
+growth_prob_temp = aggregate(growth_prob_agg$growthbin, by = list(growth_prob_agg$strainID, growth_prob_agg$temperature), FUN = mean)
+growth_prob_temp = growth_prob_temp %>% select(Group.1, Group.2, x)
+colnames(growth_prob_temp) = c("strainID", "temperature", "growthbin")
+growth_prob_temp = growth_prob_temp %>%
+  spread(temperature, growthbin)
+rownames(growth_prob_temp) = growth_prob_temp$strainID
+colnames(growth_prob_temp) = c("strainID", "4C", "25C", "37C")
+growth_prob_temp_round = growth_prob_temp
+growth_prob_temp_round$strainID = NULL
+growth_prob_temp_round = round(growth_prob_temp_round, digits = 1) #makes the heatmap cleaner
+
+itol_heatmap(df = growth_prob_temp_round, dataset_label = "temperature", 
+             color_scheme = "bw", out_file = "itol_temp_growth_prob_heatmap.txt")
+#manually changed mid color to #B87676 and max color to #6E2020
+
+
+bile = left_join(bile, psych_strain_collection[,c(3:4)])
+bile_filt = bile %>% filter(is.na(propername) == F)
+rownames(bile_filt) = bile_filt$propername
+bile_filt = bile_filt %>% select(BSA)
+bile_filt$BSA[bile_filt$BSA == 1] <- "resistant"
+bile_filt$BSA[bile_filt$BSA == 0] <- "sensitive"
+itol_colorstrip(df = bile_filt, dataset_label = "Bile Resistance",
+                out_file = "itol_bile_colorstrip.txt")
+#manually change resistant color to #03222E and sensitive color to #A3C7B3
+
+```
+
+Then I defined ecotypes for the strains... FE or "flexible ecotype" for those with a non-zero growth probability at 37C, and RE or "restricted ecotype" for those with a zero growth probability at 37C. 
+
+```{r}
+FEstrains = growth_prob_temp %>%
+  filter(`37C` > 0) %>% rownames()
+REstrains = psychrobacter_phenotype_growthbin %>% 
+  filter(!propername %in% FEstrains) %>% select(propername) %>%
+  unlist() %>% unname() %>% unique()
+
+ecotype = c(rep("FE", 26), rep("RE", 59))
+ecotype = as.data.frame(ecotype)
+strains = c(FEstrains, REstrains)
+rownames(ecotype) = strains
+ecotype$strainID = rownames(ecotype)
+
+itol_colorstrip(df = ecotype, dataset_label = "Ecotype",
+                out_file = "itol_ecotype_colorstrip.txt")
+#manually change colors: FE -> #FFCA45, RE -> #1F4589
+```
+```{r}
+#ecotypes by isolation source
+df = left_join(ecotype, growth_prob_medium)
+df = left_join(df, growth_prob_salt)
+df = left_join(df, growth_prob_temp)
+
+colnames(df)[2] = "propername"
+df = left_join(df, psych_strain_collection[,c(3,18)])
+colnames(df)[2] = "strainID"
+tmp <- df
+tmp$source_simple = as.character(tmp$source_simple)
+
+table(tmp$ecotype, tmp$source_simple)
+
+library(caret)
+chires <- list()
+pval <- c()
+for (i in 1:100){
+    set.seed(i)
+    t1 <- downSample(tmp, as.factor(tmp$source_simple))
+    suppressWarnings(chires[[i]] <- chisq.test(x = t1$source_simple, y = t1$ecotype))
+    pval <- c(pval, chires[[i]]$p.value)
+}
+
+padj <- p.adjust(pval, method = 'BH')
+
+options(repr.plot.height=4, repr.plot.width=4)
+padj %>% sort %>% plot
+
+#growth probability differences between the ecotypes
+
+plist = c()
+for (i in 3:11) {
+  dummy = df[,c(i, 1)]
+  dummytest = wilcox.test(dummy[,1] ~ dummy$ecotype)
+  plist = c(plist, dummytest$p.value)
+}
+plist_adj = p.adjust(plist, method = "BH")
+names(plist_adj) = c("LB", "MM", "0%", "2.5%", "5%", "10%", "4C", "25C", "37C")
+plist_adj
+
+
+df$delta_medium = df$LB - df$MM
+wilcox.test(df$delta_medium ~ df$ecotype)
+
+#testing some of these differences by phylogeny
+set.seed(1)
+LB = df$LB
+eco = df$ecotype
+names(LB) = names(eco) = df$strainID
+P.tree.noout = drop.tip(P.tree, "Moraxella_lincolnii")
+P.tree.branches = compute.brlen(P.tree.noout)
+
+library(geiger)
+aov.phylo(formula = LB~eco, phy = multi2di(P.tree.branches))
+
+zero = df$`0_perc`
+names(zero) = df$strainID
+aov.phylo(formula = zero~eco, phy = multi2di(P.tree.branches))
+
+twofive = df$`2.5_perc`
+names(twofive) = df$strainID
+aov.phylo(formula = twofive~eco, phy = multi2di(P.tree.branches))
+
+five = df$`5_perc`
+names(five) = df$strainID
+aov.phylo(formula = five~eco, phy = multi2di(P.tree.branches))
+
+pval <- c()
+lamb <- c()
+for (i in 3:11){
+    trait <- unlist(df[,i]) #trait = growth proba in a condition (eg growth proba in LB)
+    names(trait) <- df$strainID
+    tmp <- phylosig(tree = P.tree, x = trait, method="lambda", test= TRUE)
+    pval <- c(pval, tmp$P)
+    lamb <- c(lamb, tmp$lambda)
+}
+names(pval) <- colnames(df)[3:11]
+names(lamb) <- colnames(df)[3:11]
+padj <- p.adjust(pval, method = 'BH')
+
+tmp
+
+tmp <- which(padj > 0.05)
+if (length(tmp) == 0){cat('All significant!')}
+
+max(padj)
+
+round(lamb, digits = 4) %>% sort
+
+options(repr.plot.height=4, repr.plot.width=4)
+round(lamb, digits = 2) %>% sort %>% plot
+
+trait <- df %>% subset(ecotype == 'FE', select = '37C') %>% unlist
+names(trait) <- df %>% subset(ecotype == 'FE', select = 'strainID') %>% unlist
+
+phylosig(tree = P.tree, x = trait, method="lambda", test= TRUE)
+
+```
+#Pan-genome wide association study
+```{r}
+#The following code used to produce the genematrix used for treewas
+genematrix = psychrobacter_pangenome_presenceabsence[,10:ncol(psychrobacter_pangenome_presenceabsence)] #or whichever column your isolate data starts at
+rownames(genematrix) = psychrobacter_pangenome_presenceabsence$geneCluster
+genematrix = apply(genematrix,  2,  function(x) gsub("^$|^ $",  NA,  x)) #replace empty cells with NA
+
+transform_func = function(x) { if (is.na(x) > 0) { r = 0 } else { r = 1 } } #creates a function to recognize when a cell has information in it (in this case,  when an isolate HAS a gene) and replace that cell's contents with "1". otherwise,  replace that cell's contents with "0"
+genematrix_binary <- apply(genematrix, 2, function(x){sapply(x,  transform_func)}) #loop the function created in the step above through our transposed gene matrix
+
+genematrix_binary_t = t(genematrix_binary) #transpose the matrix; need strains to be on the rows and genes to be on the columns
+
+rownames(genematrix_binary_t) = str_replace_all(rownames(genematrix_binary_t), "[[.]]", "-")
+
+#genematrix_binary_t = as.data.frame(genematrix_binary_t)
+#genematrix_binary_t = genematrix_binary_t %>%
+#  mutate_if(is.factor, as.numeric) #t() will transform your data into the "matrix" format, and treewas wants it in a dataframe format, so this transforms it back
+#rownames(genematrix_binary_t) = colnames(genematrix_binary)
+#write.table(genematrix_binary_t, "genematrix_for_treewas_fixeddashes.txt", sep = '\t') #then have to edit the sp names, because R replaces "-" with "."
+#genematrix_treewas = read.delim("genematrix_for_treewas_fixeddashes.txt", stringsAsFactors = F, row.names = 1)
+
+library(treeWAS)
+
+eco = as.character(ecotype$ecotype)
+names(eco) = ecotype$strainID
+eco_tree = eco
+eco_tree[eco_tree == "FE"] <- 1
+eco_tree[eco_tree == "RE"] <- 0
+
+
+all(names(eco_tree) %in% rownames(genematrix_binary_t))
+all(rownames(genematrix_binary_t) %in% names(eco_tree))
+ecotype_treewas <- treeWAS(snps = genematrix_binary_t, phen = eco_tree, tree = P.tree.noout, seed = 1)
+print(ecotype_treewas)
+
+#this cutoff chosen by looking at the Manhattan plot for simultaneous - there are some genes that are clearly equal to the significance cutoff
+ecotype_hits <- names(ecotype_treewas$simultaneous$corr.dat[abs(ecotype_treewas$simultaneous$corr.dat) > 3.9])
+ecotype_hits
+
+```
+
+
+
+#Figure 4A
+
+As with the Moraxellaceae gene presence-absence matrix, the Psychrobacter gene presence-absence matrix was generated by processing data from PanX. 
+
+```{r}
+#visualize gene presence/absence with PCoA
+psych_jacc_sim_PBPD_gpa = vegan::vegdist(genematrix_binary_t, method = 'jaccard')
+
+#this takes FOREVER to run for some reason
+#get relative contributions of axes via pcoa function 
+psych_PCOA_pcoa = pcoa(psych_jacc_sim_PBPD_gpa)
+barplot(psych_PCOA_pcoa$values$Relative_eig[1:10]) #variance of first 10 axes
+psych_PCOA_pcoa$values$Relative_eig[1:10]
+
+#do envfit analysis with cmdscale
+PBvPD_PCOA_cmdscale = cmdscale(psych_jacc_sim_PBPD_gpa)
+
+psych_gpa_pcoa = as.data.frame(vegan::scores(PBvPD_PCOA_cmdscale))
+psych_gpa_pcoa$strainID = rownames(psych_gpa_pcoa)
+psych_gpa_pcoa = left_join(psych_gpa_pcoa, ecotype)
+
+(gpa_pcoa_envfit = ggplot(data = psych_gpa_pcoa, aes(x = Dim1, y = Dim2)) + 
+  geom_point(data = psych_gpa_pcoa, aes(colour = ecotype), size = 3) + 
+  scale_color_manual(values = c("#FFCA45", "#1F4589"))  + 
+  xlab("PC1: 16% of variation") + ylab("PC2: 8% of variation") +
+  theme_classic() + theme(legend.position = "none"))
+```
+By plotting with individual labels, you see that the strains off to the right and up by themselves are the PB-clade strains. 
+
+#Figure 4B
+Genome architecture information
+
+```{r}
+#need to define genes as being either 'core', 'shell', or 'cloud'...
+#so, need to get the number of isolates each gene appears in
+core_info = as.data.frame(rowSums(genematrix_binary))
+colnames(core_info)[1] = "num_isolates"
+core_info$geneCluster = rownames(core_info)
+
+core_info$pancat = NA
+core_info$pancat[core_info$num_isolates >= 77] <- "core"
+core_info$pancat[core_info$num_isolates <= 76 & core_info$num_isolates >= 2] <- "shell"
+core_info$pancat[core_info$num_isolates == 1] <- "cloud"
+
+#now, assigning "pangenome-categories" to every gene sequence in every isolate, so that we can see how many of each type of gene each strain carries
+core_info_per_genome = left_join(psychrobacter_PCAT[,2:3], core_info[,2:3])
+core_info_per_genome_summary = as.data.frame(table(core_info_per_genome$strainID, core_info_per_genome$pancat))
+colnames(core_info_per_genome_summary) = c("strainID", "pancat", "frequency")
+aggregate(core_info_per_genome_summary$frequency, by = list(core_info_per_genome_summary$pancat), FUN = mean)
+
+core_info_per_genome_summary$pancat = factor(core_info_per_genome_summary$pancat, levels = c("core", "shell", "cloud"))
+core_info_per_genome_summary = left_join(core_info_per_genome_summary, ecotype)
+
+core_info_per_genome_summary$ecotype[core_info_per_genome_summary$strainID == "P_sp_IAM12030_72-O-c"] <- "RE"
+
+numberofgenes = as.data.frame(table(psychrobacter_PCAT$strainID))
+colnames(numberofgenes) = c("strainID", "GeneNumber")
+
+#some stats on the pangenome structure
+#difference in number of core genes per genome
+stats_core = core_info_per_genome_summary %>% filter(pancat == "core")
+wilcox.test(frequency ~ ecotype, data = stats_core)
+aggregate(stats_core$frequency, by = list(stats_core$ecotype), FUN = mean)
+
+#difference in number of shell genes per genome
+stats_shell = core_info_per_genome_summary %>% filter(pancat == "shell")
+wilcox.test(frequency ~ ecotype, data = stats_shell)
+aggregate(stats_shell$frequency, by = list(stats_shell$ecotype), FUN = mean)
+
+eco = factor(eco, levels = c("FE", "RE"))
+
+shellg = stats_shell$frequency
+names(shellg) = stats_shell$strainID
+set.seed(1)
+aov.phylo(formula = shellg~eco, phy = multi2di(P.tree.noout))
+
+#difference in number of cloud genes per genome
+stats_cloud = core_info_per_genome_summary %>% filter(pancat == "cloud")
+wilcox.test(frequency ~ ecotype, data = stats_cloud)
+aggregate(stats_cloud$frequency, by = list(stats_cloud$ecotype), FUN = mean)
+
+cloudg = stats_cloud$frequency
+names(cloudg) = stats_cloud$strainID
+set.seed(1)
+aov.phylo(formula = cloudg~eco, phy = multi2di(P.tree.noout))
+
+#difference in total number of genes
+totg = numberofgenes$GeneNumber
+names(totg) = numberofgenes$strainID
+set.seed(1)
+aov.phylo(formula = totg~eco, phy = multi2di(P.tree.noout))
+
+
+(panstr = ggplot(data = core_info_per_genome_summary, aes(x = pancat, y = frequency)) + 
+  geom_point(aes(color = ecotype), position = position_jitterdodge(dodge.width = 0.7, jitter.width = 0.25)) +
+  scale_color_manual(values = c("#FFCA45", "#1F4589")) +
+  geom_boxplot(aes(color = ecotype), outlier.shape = NA, alpha = 0) +
+  geom_signif(y_position = c(1800, 1400, 800), xmin = c(0.8, 1.8, 2.8), xmax = c(1.2, 2.2, 3.2), annotation = c("*", "**", "*"), tip_length = 0) +
+  theme_classic() +
+  xlab("pan-genome category") + ylab("number of genes per genome"))
+
+```
+
+
+#Figure 4C COG category comparisons
+
+```{r}
+#examination of COG categories between FE and RE strains
+####COG by ecotypes####
+psych_PCAT_annotated = left_join(psychrobacter_PCAT, ecotype)
+COGS = psychrobacter_pangenome_annotated %>%
+  select(geneCluster, COG.cat)
+COGS$COG.cat[COGS$COG.cat == ''] <- 'X'
+psych_PCAT_annotated = left_join(psych_PCAT_annotated, COGS)
+psych_PCAT_annotated$COG.cat[psych_PCAT_annotated$COG.cat == ''] <- 'X'
+psych_PCAT_annotated$COG.cat[is.na(psych_PCAT_annotated$COG.cat)] <- 'X'
+
+#COGs_by_genome = as.data.frame(table(psych_PCAT_annotated$strainID, psych_PCAT_annotated$COG.cat))
+#colnames(COGs_by_genome) = c("strainID", "COG_category", "frequency")
+#write.table(COGs_by_genome, "COG_category_summary_by_genome.txt", row.names = F, sep = '\t')
+
+#have to account for proteins that have multiple COG categories...
+#separate the categories using excel's text to columns, then bring back to R...
+#COGs_by_genome = read.delim("COG_category_summary_by_genome.txt", stringsAsFactors = F)
+
+multiCOG_genes = psych_PCAT_annotated %>% select(geneCluster, strainID, COG.cat)
+#write.table(multiCOG_genes, "multiCOG_genes_unseparated.txt", row.names = F, sep = '\t')
+
+COG_single_cats = multicog_geneclusters %>%
+  filter(COG_2 == "") #%>% select(strainID, COG_1, frequency)
+
+COG_multi_cats = anti_join(multicog_geneclusters, COG_single_cats)
+COG_multi_cats = COG_multi_cats
+#just realized that this does not have every COG cat for every strain, for example there is no COG CAT "B" for frigidicola_056...
+#will have to make a new data frame to populate from scratch
+COG_multi_cats_separated = data.frame()
+for(i in 1:nrow(COG_multi_cats)) {
+  genec = COG_multi_cats[i,1]
+  strain = COG_multi_cats[i,2]
+  COG1 = COG_multi_cats[i,3]
+  dummy1 = c(genec, strain, COG1)
+  COG_multi_cats_separated = rbind.data.frame(COG_multi_cats_separated, as.character(dummy1), stringsAsFactors = F)
+  COG2 = COG_multi_cats[i,4]
+  dummy2 = c(genec,strain, COG2)
+  COG_multi_cats_separated = rbind.data.frame(COG_multi_cats_separated, as.character(dummy2), stringsAsFactors = F)
+  COG3 = COG_multi_cats[i,5]
+  if (COG3 != ""){
+    dummy3 = c(genec,strain, COG3)
+    COG_multi_cats_separated = rbind.data.frame(COG_multi_cats_separated, as.character(dummy3), stringsAsFactors = F)
+  }
+  COG4 = COG_multi_cats[i,6]
+  if (COG4 != ""){
+    dummy4 = c(genec, strain, COG1)
+    COG_multi_cats_separated = rbind.data.frame(COG_multi_cats_separated, as.character(dummy4), stringsAsFactors = F)
+  }
+}
+colnames(COG_multi_cats_separated) = c("geneCluster", "strainID", "COG_category")
+
+COG_single_cats = COG_single_cats %>%
+  select(geneCluster, strainID, COG_1)
+colnames(COG_single_cats)[3] = "COG_category"
+
+final_corrected_COGS = rbind(COG_single_cats, COG_multi_cats_separated)
+
+final_corrected_COGS_freq = as.data.frame(table(final_corrected_COGS$strainID, final_corrected_COGS$COG_category))
+colnames(final_corrected_COGS_freq) = c("strainID", "COG_category", "frequency")
+
+final_corrected_COGS_freq = left_join(final_corrected_COGS_freq, ecotype)
+
+final_corrected_COGS_freq = left_join(final_corrected_COGS_freq, numberofgenes)
+
+final_corrected_COGS_freq$finalCOGproportion = final_corrected_COGS_freq$frequency/final_corrected_COGS_freq$GeneNumber
+write.table(final_corrected_COGS, "final_COGs_per_strain_corrected_for_multiCOG_genes.txt", sep = '\t', row.names = F)
+
+av_ecotype_cogs = aggregate(final_corrected_COGS_freq$finalCOGproportion, by = 
+                              list(ecotype = final_corrected_COGS_freq$ecotype, COG_category=final_corrected_COGS_freq$COG_category),
+                            FUN = mean)
+colnames(av_ecotype_cogs)[3] = 'COG_prop'
+av_ecotype_cogs$COG_category = factor(av_ecotype_cogs$COG_category, levels = c("D", "M", "N", "O", "T", "U", "V", "W", "Z",
+                                                                               "A", "B","J", "K", "L",
+                                                                               "C", "E", "F", "G", "H", "I", "P", "Q",
+                                                                               "S", "X"))
+cols = c("#72300C", "#93074D", "#D60D69", "#ED5FA6", "#CE1B13", "#A50505",
+         "#E5530A", "#E2770C", "#F9A138", "#F7F072", "#F7D239", "#CCF43B",
+         "#5BB73D", "#057F28", "#05541A", "#20998B", "#60B1F4", "#1458F2",
+         "#5141AF", "#1F048E", "#310872", "#520775", "#9F9FA0", "#39383A")
+COGSbyecotype.p = ggplot(data = av_ecotype_cogs, aes(y = ecotype, x = COG_prop, fill = COG_category)) + 
+  geom_bar(stat = 'identity', position = "stack", width = 0.25) + scale_fill_manual(values = cols) +
+  theme_classic() +
+  xlab("Ecotype") + xlab("Average Proportion of the Genome")
+COGSbyecotype.p
+#bars are higher than 1 because of genes with multiple COG categories...
+
+
+```
+examining COG contributions to separation on gene presence/absence PCOA... used only in supplemental file
+```{r}
+#this part was removed from the mSystems manuscript
+psych_cogcats = as.data.frame(table(final_corrected_COGS_freq$strainID, final_corrected_COGS_freq$COG_category))
+colnames(psych_cogcats) = c("strainID", "COG_cat", "frequency")
+psych_cogcatspread = psych_cogcats %>% spread(COG_cat, frequency)
+
+psych_PBvPD_COG_fit = envfit(ord = PBvPD_PCOA_cmdscale, psych_cogcatspread, perm = 1000)
+psych_coord_cont = as.data.frame(scores(psych_PBvPD_COG_fit, "vectors")) * ordiArrowMul(psych_PBvPD_COG_fit)
+#for some reason, running this code inside this R notebook makes the arrow size goofy... the r^2 and p-values are still the same, but the arrows in the ggplot look strange. play around with it to make the plot look nice... 
+
+
+psych_cog_envfit_scores = as.data.frame(scores(PBvPD_PCOA_cmdscale))
+psych_cog_envfit_scores$strainID = rownames(genematrix_binary_t)
+psych_cog_envfit_scores = left_join(psych_cog_envfit_scores, psych_strain_collection[,c(5,3)])
+psych_cog_envfit_scores$strainID = NULL
+colnames(psych_cog_envfit_scores)[3] = 'strainID'
+psych_cog_envfit_scores = left_join(psych_cog_envfit_scores, ecotype)
+
+table_S2_p = cbind(psych_PBvPD_COG_fit$vectors$r, psych_PBvPD_COG_fit$vectors$pvals)
+table_S2_p = as.data.frame(table_S2_p)
+colnames(table_S2_p) = c("psych_r^2", "psych_p-value")
+table_S2_p$p.adjust = p.adjust(table_S2_p$`psych_p-value`, method = "BH")
+table_S2_p = round(table_S2_p, digits = 3)
+
+write.table(table_S2_p, "table_S2_p.txt", sep = '\t')
+
+```
+
+
+
+```{r}
+#Figure 4D
+#looking at transposons in particular
+#make list of transposases from annotations
+transposase_list = psychrobacter_pangenome_annotated %>%
+  filter(str_detect(eggNOG.annot, "transposase")) %>%
+  select(geneCluster) %>% unlist() %>% unname()
+
+#calculate the copy numbers for each of the transposases in the list
+gpa = psychrobacter_pangenome_presenceabsence[,c(1,10:ncol(psychrobacter_pangenome_presenceabsence))]
+rownames(gpa) = gpa$geneCluster
+gpa = gpa %>% filter(geneCluster %in% transposase_list)
+gpa_nareplace = apply(gpa,  2,  function(x) gsub("^$|^ $",  NA,  x)) #replace empty cells with NA
+gpa_nareplace = as.data.frame(gpa_nareplace)
+gpa_nareplace = gpa_nareplace %>%
+  mutate_if(is.factor, as.character)
+rownames(gpa_nareplace) = rownames(gpa)
+
+gpa_numsequences = gpa_nareplace
+for(i in 1:nrow(gpa_nareplace)) {
+  for (j in 2:ncol(gpa_nareplace)) {
+    cell = gpa_nareplace[i,j]
+    num = str_count(cell, ",") + 1
+    if (is.na(cell) == TRUE) {num = 0}
+    gpa_numsequences[i,j] = num
+  }
+}
+gpa_numsequences_t = t(gpa_numsequences[,2:ncol(gpa_numsequences)])
+colnames(gpa_numsequences_t) = gpa_numsequences$geneCluster
+gpa_numsequences_t = as.data.frame(gpa_numsequences_t)
+
+gpa_numsequences_t[] <- lapply(gpa_numsequences_t, function(x) {
+    if(is.factor(x)) as.numeric(as.character(x)) else x
+})
+
+cn_per_genome = rowSums(gpa_numsequences_t)
+names(cn_per_genome) = rownames(gpa_numsequences_t)
+cnpg = as.data.frame(cn_per_genome)
+cnpg$strainID = rownames(cnpg)
+cnpg$strainID = str_replace_all(cnpg$strainID, "[[.]]", "-")
+colnames(cnpg)[1] = "transposase_copies"
+cnpg = left_join(cnpg, numberofgenes)
+cnpg$transposase_prop = cnpg$transposase_copies/cnpg$GeneNumber
+cnpg = left_join(cnpg, ecotype)
+
+transposases = ggplot(data = cnpg, aes(x = ecotype, y = transposase_prop, color = ecotype)) +
+  geom_point(position = 'jitter', size = 3) + 
+  geom_boxplot(alpha = 0, outlier.shape = NA) +
+  scale_color_manual(values = c("#FFCA45", "#1F4589")) +
+  scale_fill_manual(values = c("#FFCA45", "#1F4589")) + theme_classic() +
+  xlab("gene cluster") + ylab("% transposases per genome") +
+  theme(legend.position = "none") +
+  stat_compare_means()
+transposases
+
+wilcox.test(cnpg$transposase_prop ~ cnpg$ecotype)
+tnum = as.vector(cnpg$transposase_prop)
+names(tnum) = cnpg$strainID
+aov.phylo(formula = tnum~eco, phy = multi2di(P.tree.noout))
+
+```
+
+```{r}
+#Figure 4E
+#increased transposon activity could theoretically increase pseudogene count 
+psychrobacter_pseudogene_predictions = unique(psychrobacter_pseudogene_predictions)
+
+pseudo_summary_by_genome = as.data.frame(table(psychrobacter_pseudogene_predictions$strainID))
+colnames(pseudo_summary_by_genome) = c("strainID", "num_pseudo_candidates")
+pseudo_summary_by_genome = left_join(pseudo_summary_by_genome, psych_strain_collection[,c(3,5)])
+pseudo_summary_by_genome = left_join(pseudo_summary_by_genome, psychrobacter_genome_summaries[,c(1,6,13)])
+pseudo_summary_by_genome$strainID = NULL
+colnames(pseudo_summary_by_genome)[2] = "strainID"
+pseudo_summary_by_genome = left_join(pseudo_summary_by_genome, ecotype)
+
+pseudo_summary_by_genome$pseudo_proportion = pseudo_summary_by_genome$num_pseudo_candidates/pseudo_summary_by_genome$CDS.Number
+
+dfast_pseudogenes = ggplot(data = pseudo_summary_by_genome, aes(x = ecotype, y = pseudo_proportion, color = ecotype)) + 
+  geom_point(position = 'jitter', size = 3) + 
+  geom_boxplot(alpha = 0, outlier.shape = NA) +
+  scale_color_manual(values = c("#FFCA45", "#1F4589")) +
+  theme_classic() +
+  theme(legend.position = "none") +
+  xlab("Ecotype") + ylab("Proportion of Pseudogenes in Genome") +
+  stat_compare_means()
+dfast_pseudogenes
+
+wilcox.test(pseudo_summary_by_genome$pseudo_proportion ~ pseudo_summary_by_genome$ecotype)
+pseudo = as.vector(pseudo_summary_by_genome$pseudo_proportion)
+names(pseudo) = pseudo_summary_by_genome$strainID
+aov.phylo(formula = pseudo~eco, phy = multi2di(P.tree.noout))
+
+```
+There is some concern about whether the predicted pseudogene number is related to genome assembly quality... it SHOULDN'T be, as DFAST removes sequences that do not end before the scaffold ends.
+```{r}
+pseudoscaffoldmodel = lm(X..scaffolds ~ pseudo_proportion, data = pseudo_summary_by_genome)
+summary(pseudoscaffoldmodel)
+ggplot(data = pseudo_summary_by_genome, aes(x = X..scaffolds, y = pseudo_proportion)) + 
+  geom_point() + geom_smooth()
+```
+Indeed, there is a significant correlation between scaffold number and pseudogenes... (although the R^2 is very low...) Genomes with more scaffolds have FEWER pseudogenes... DFAST's scaffold correction is working. 
+
+```{r}
+#Figure 4F
+#pseudogenes are expected to be quickly degraded, so you might expect genomes with more pseudogenes to be smaller.
+
+colnames(psychrobacter_genome_summaries) = c("strainID", "Completeness", "Contamination", "Heterogeneity", 
+                          "GenomeLength", "Scaffolds", "N50Scaffolds", "MeanScaffoldLength",
+                          "LongestScaffoldLength", "GC", "GCstdScaffolds", "CodingDensity",
+                          "CDSNumber", "GeneNumber", "rRNANumber", "tRNANumber", "tmRNANumber",
+                          "NumberofRepeatRegions", "ecotype_rev", "basal_derived", "source",
+                          "source_type", "Location", "min_temp", "max_temp")
+rownames(psychrobacter_genome_summaries) = psychrobacter_genome_summaries$strainID
+psychrobacter_genome_summaries = left_join(psychrobacter_genome_summaries, psych_strain_collection[,c(3,5)])
+psychrobacter_genome_summaries$strainID = NULL
+colnames(psychrobacter_genome_summaries)[25] = 'strainID'
+psychrobacter_genome_summaries = left_join(psychrobacter_genome_summaries, ecotype)
+
+(genomesize = ggplot(data = psychrobacter_genome_summaries, aes(x = ecotype, y = GenomeLength, color = ecotype)) + 
+  geom_point(position = 'jitter', size = 3) +  
+  geom_boxplot(alpha = 0, outlier.shape = NA) +
+  scale_color_manual(values = c("#FFCA45", "#1F4589")) +
+  theme_classic() +
+  theme(legend.position = "none") +
+  xlab("Ecotype") + ylab("Genome Size (Mb)") +
+  stat_compare_means())
+
+#check to make sure genome size isn't dependent on assembly quality
+genomescaffoldmodel = lm(Scaffolds ~ GenomeLength, data = psychrobacter_genome_summaries)
+summary(genomescaffoldmodel)
+
+
+wilcox.test(psychrobacter_genome_summaries$GenomeLength ~ psychrobacter_genome_summaries$ecotype)
+size = as.vector(psychrobacter_genome_summaries$GenomeLength)
+names(size) = psychrobacter_genome_summaries$strainID
+aov.phylo(formula = size~eco, phy = multi2di(P.tree.noout))
+
+#wilcox.test(psychrobacter_genome_summaries$CodingDensity ~ psychrobacter_genome_summaries$ecotype)
+#dens = as.vector(psychrobacter_genome_summaries$CodingDensity)
+#names(dens) = psychrobacter_genome_summaries$propername
+#aov.phylo(formula = dens~eco, phy = multi2di(P.tree.branches))
+
+```
+#Figure 4
+```{r}
+ggarrange(ggarrange(gpa_pcoa_envfit, panstr, ncol = 2, labels = c("A", "B")),
+          COGSbyecotype.p,
+ggarrange(transposases,dfast_pseudogenes,genomesize, ncol = 3, labels = c("D", "E", "F")), 
+nrow = 3, labels = c("A", "C"))
+
+```
+
+
+#Animal Analysis
+```{r}
+setwd("~/ownCloud/Psychrobacter/Data_Analysis/PANX/masterfolder/Animal_Research/")
+polarbear_meta = read.delim("PB_metadata.txt", stringsAsFactors = F)
+polarbear_otu_lvl7 = read.csv("PB_OTU_rarefied_level_7.csv", stringsAsFactors = F)
+polarbear_otu_lvl6 = read.csv("PB_OTU_rarefied_level_6.csv", stringsAsFactors = F)
+
+data = read.delim("biolog_totalchange.txt", header = TRUE, row.names = 1)
+carbontypes = read.delim("carbonsourcetypes.txt", stringsAsFactors = F)
+
+mouseboxplot = read.delim("cfu_counts_B6.txt")
+
+```
+
+The analysis involved in and generation of Figure 7A was done with Qiime 2 and Qiime View. Statistical testing was done in R. 
+
+```{r}
+#Figure 7A
+#analysis of Psychrobacter within the Qiime 2 OTU table
+#check Psychrobacter (genus level) in captive v wild
+polarbear_otu_lvl6$totalseqs = rowSums(polarbear_otu_lvl6[,2:849])
+polarbear_otu_lvl6$Rel_Psych = polarbear_otu_lvl6$Psychrobacter/polarbear_otu_lvl6$totalseqs
+lvl6 = polarbear_otu_lvl6 %>% select(SampleID, Rel_Psych)
+lvl6 = left_join(lvl6, polarbear_meta)
+lvl6 = unique(lvl6)
+lvl6 = na.omit(lvl6)
+wilcox.test(lvl6$Rel_Psych ~ lvl6$CaptivevWild, alternative = "two.sided") #ALMOST significant, but not with the sig figs that I am reporting
+kruskal.test(Rel_Psych ~ diet_class, data = lvl6) #not significant at genus level
+kruskal.test(Rel_Psych ~ Location, data = lvl6) #sig at genus level
+kruskal.test(Rel_Psych ~ PBF.Year, data = lvl6) #sig at genus level
+
+
+(total_psych = ggplot(data = lvl6, aes(x = Rel_Psych)) + geom_histogram(bins = 20) + 
+    theme_classic() + xlab("Psychrobacter relative abundance") + ylab("number of samples"))
+
+#now looking at the species level
+polarbear_otu_lvl7$totalseqs = rowSums(polarbear_otu_lvl7[,2:1585])
+polarbear_otu_lvl7$Rel_unclassifiedPsych = polarbear_otu_lvl7$unclassified_Psychrobacter/polarbear_otu_lvl7$totalseqs
+polarbear_otu_lvl7$Rel_pulmonis = polarbear_otu_lvl7$Psychrobacter_pulmonis/polarbear_otu_lvl7$totalseqs
+polarbear_otu_lvl7$Rel_immobilis = polarbear_otu_lvl7$Psychrobacter_immobilis/polarbear_otu_lvl7$totalseqs
+
+otu_selected = polarbear_otu_lvl7 %>% 
+  select(SampleID, Rel_unclassifiedPsych, Rel_pulmonis, Rel_immobilis)
+otu_selected = left_join(otu_selected, polarbear_meta)
+
+#testing individual spp. against captivity
+wilcox.test(otu_selected$Rel_immobilis ~ otu_selected$CaptivevWild, alternative = "two.sided")
+wilcox.test(otu_selected$Rel_pulmonis ~ otu_selected$CaptivevWild, alternative = "two.sided")
+wilcox.test(otu_selected$Rel_unclassifiedPsych ~ otu_selected$CaptivevWild, alternative = "two.sided")
+
+#testing individual spp - unclassified
+otu_selected_narm = otu_selected %>% filter(diet_class != "NA")
+otu_selected_narm$diet_class = factor(otu_selected_narm$diet_class, levels = c("actinoterygii", "aves", "mixed", "mammalia"))
+
+(diet = ggplot(data = otu_selected_narm, aes(x = diet_class, y = Rel_unclassifiedPsych)) + geom_boxplot(outlier.shape = NA) +
+  geom_point() + theme_classic() + 
+        geom_signif(comparisons = list(c("mammalia", "mixed"), c("mammalia", "aves")), map_signif_level = T) +
+
+    theme(axis.text.x = element_text(angle = 45, vjust = 0.5, hjust=1)) + 
+  xlab("Class of prey animals") + ylab("Psychrobacter relative abundance"))
+
+kruskal.test(Rel_unclassifiedPsych ~ Location, data = otu_selected)
+kruskal.test(Rel_unclassifiedPsych ~ PBF.Year, data = otu_selected)
+kruskal.test(Rel_unclassifiedPsych ~ diet_class, data = otu_selected)
+pairwise.wilcox.test(otu_selected$Rel_unclassifiedPsych, otu_selected$diet_class,
+                     p.adjust.method = "BH")
+
+#testing individual spp - immobilis
+kruskal.test(Rel_immobilis ~ diet_class, data = otu_selected)
+kruskal.test(Rel_immobilis ~ Location, data = otu_selected)
+kruskal.test(Rel_immobilis ~ PBF.Year, data = otu_selected)
+
+#testing individual spp - pulmonis
+kruskal.test(Rel_pulmonis ~ diet_class, data = otu_selected)
+kruskal.test(Rel_pulmonis ~ Location, data = otu_selected)
+kruskal.test(Rel_pulmonis ~ PBF.Year, data = otu_selected)
+
+
+```
+
+```{r}
+#Fig 7 Something - Psychrobacter carbon source
+data_t = as.data.frame(t(data))
+data_t[20,] = colSums(data_t)
+carbon_av = as.data.frame(summarise_each(data_t, funs = mean))
+carbon_av = as.data.frame(t(carbon_av))
+colnames(carbon_av) = "average_total_abs"
+carbon_av$Compound = rownames(carbon_av)
+carbon_av = left_join(carbon_av, carbontypes)
+carbon_av = na.omit(carbon_av)
+
+(biolog = ggplot(data = carbon_av, aes(x = reorder(Type, average_total_abs, FUN = median), y = average_total_abs)) +
+  geom_boxplot(outlier.shape = NA) + geom_point() +
+    geom_signif(comparisons = list(c("amino acid", "carbohydrate"), c("amino acid", "sugar alcohol")), map_signif_level = T) +
+  theme_classic() + theme(axis.text.x = element_text(angle = 90, hjust=1)) + 
+    xlab("Type of carbon source") + ylab("Average absorbance change"))
+
+pairwise.wilcox.test(carbon_av$average_total_abs, carbon_av$Type, p.adjust.method = "BH")
+
+
+ggarrange(total_psych, diet, biolog, labels = c("A", "B", "C"), align = 'h', nrow = 1)
+
+
+test_data_t = data_t
+test_data_t$strainID = rownames(test_data_t)
+test = gather(test_data_t, key = "compound", value = "abs", names(test_data_t)[-193])
+
+#(biolog = ggplot(data = test, aes(x = reorder(Type, abs, FUN = median), y = abs)) +
+#  geom_boxplot(outlier.shape = NA, aes(color = ecotype)) + geom_point() +
+#  theme_classic() + theme(axis.text.x = element_text(angle = 45, vjust = 0.5, hjust=1)) + 
+#    xlab("Type of carbon source") + ylab("Average absorbance change"))
+
+pairwise.wilcox.test(test$abs, test$Type, p.adjust.method = "BH")
+
+test = left_join(test, psych_strain_collection[,c(5,3)])
+test = left_join(test, ecotype)
+biolog_by_ecotype = read.delim("~/ownCloud/Psychrobacter/Data_Analysis/PANX/masterfolder/Animal_Research/biologbyecotype.txt", stringsAsFactors = F)
+
+wilcox.test(biolog_by_ecotype$abs ~ biolog_by_ecotype$ecotype)
+bioecomodel = lm(abs ~ Type + ecotype, data = biolog_by_ecotype)
+
+fattyacid = biolog_by_ecotype %>% filter(Type == 'amino acid')
+wilcox.test(fattyacid$abs ~ fattyacid$ecotype)
+
+```
+
+
+```{r}
+#Figure 7 something
+#the mouse work
+#mouse tree visualized in iTol
+mousestrains = c("P_namhaensis_SW-242","P_pacificensis_NIBH-P2K6","P_okhotskensis_MD17","P_cibarius_JG-220","P_immobilis_S3","P_faecalis_PBFP-1","P_ciconiae_176-10","P_lutiphocae_IMMIBL-1110")
+                 #"immobilis_075", "cibarius_026", "okhotskensis_031")
+mouse.tree.final = keep.tip(P.tree, mousestrains)
+write.tree(mouse.tree.final, "mousestrainstree.nwk")
+
+#####
+#reorder strains so that they match the order of tips on the tree
+mouseboxplot$propername = factor(mouseboxplot$propername,
+                                 levels=c("P_namhaensis_SW-242","P_pacificensis_NIBH-P2K6","P_okhotskensis_MD17","P_cibarius_JG-220","P_immobilis_S3","P_faecalis_PBFP-1","P_ciconiae_176-10","P_lutiphocae_IMMIBL-1110"))
+
+#average the duplicate aliquots tested
+mouseboxplot2 = aggregate(mouseboxplot$CFUs.g, by = list(mouseboxplot$mouse, mouseboxplot$propername, 
+                                                         mouseboxplot$ecotype, mouseboxplot$isolation, mouseboxplot$Experiment), FUN = mean)
+colnames(mouseboxplot2) = c("mouse", "strainID", "ecotype", "isolation", "Experiment", "CFUs.g")
+
+#plot
+ggplot(data = mouseboxplot2, aes(y = strainID, x = CFUs.g, color = ecotype)) + 
+  geom_boxplot(outlier.shape = NA, lwd = 1, alpha = 0) + geom_jitter(width = 0.1, size = 4) + 
+  scale_color_manual(values = c("#FFCA45", "#1F4589")) +
+  scale_x_continuous(trans = 'log10') +
+  theme_classic() +
+  #stat_compare_means() +
+  theme(legend.position = "none")
+
+
+kruskal.test(CFUs.g ~ strain, data = mouseboxplot)
+pairwise.wilcox.test(mouseboxplot$CFUs.g, mouseboxplot$strain, p.adjust.method = "BH")
+
+```
+
