@@ -1,0 +1,4506 @@
+"strainID"	"COG_category"	"frequency"
+"P_adeliensis_SJ14"	"A"	1
+"P_aestuarii_SC35"	"A"	2
+"P_alimentarius_JG100"	"A"	2
+"P_alimentarius_JG102"	"A"	2
+"P_aquaticus_CMS56"	"A"	2
+"P_aquimaris_SW-210"	"A"	2
+"P_arcticus_273-4"	"A"	1
+"P_arenosus_R7"	"A"	3
+"P_celer_SW-238"	"A"	1
+"P_cibarius_JG-219"	"A"	2
+"P_cibarius_JG-220"	"A"	2
+"P_ciconiae_176-10"	"A"	1
+"P_cryohalolentis_K5"	"A"	1
+"P_faecalis_Iso-46"	"A"	1
+"P_faecalis_PBFP-1"	"A"	1
+"P_fjordensis_BSw21516B"	"A"	2
+"P_fozii_NF23"	"A"	2
+"P_frigidicola_ACAM304"	"A"	1
+"P_frigidicola_ACAM309"	"A"	1
+"P_fulvigenes_KC-40"	"A"	1
+"P_glaciei_Blc20019"	"A"	1
+"P_glacincola_1447"	"A"	2
+"P_glacincola_ACAM483"	"A"	1
+"P_immobilis_1159"	"A"	1
+"P_immobilis_1184"	"A"	2
+"P_immobilis_1347"	"A"	1
+"P_immobilis_1555"	"A"	2
+"P_immobilis_1617"	"A"	2
+"P_immobilis_1745"	"A"	1
+"P_immobilis_252"	"A"	1
+"P_immobilis_A-11"	"A"	1
+"P_immobilis_A-19"	"A"	2
+"P_immobilis_A1007"	"A"	1
+"P_immobilis_A1014"	"A"	2
+"P_immobilis_A351"	"A"	2
+"P_immobilis_A352"	"A"	2
+"P_immobilis_Liston1000"	"A"	1
+"P_immobilis_NC10"	"A"	1
+"P_immobilis_NCIMB357"	"A"	2
+"P_immobilis_NCIMB361"	"A"	2
+"P_immobilis_NCIMB362"	"A"	1
+"P_immobilis_S3"	"A"	1
+"P_jeotgali_YKJ-103"	"A"	1
+"P_luti_NF11"	"A"	1
+"P_lutiphocae_IMMIBL-1110"	"A"	1
+"P_marincola_KMM227"	"A"	1
+"P_maritimus_Pi2-20"	"A"	1
+"P_maritimus_Pi2-25"	"A"	1
+"P_namhaensis_SW-242"	"A"	1
+"P_nivimaris_88-2-7"	"A"	1
+"P_oceani_4k5"	"A"	2
+"P_okhotskensis_A1004"	"A"	2
+"P_okhotskensis_MD17"	"A"	2
+"P_pacificensis_NIBH-P2K6"	"A"	2
+"P_phenylpyruvicus_ACAM535"	"A"	1
+"P_piscatorii_T-3-2"	"A"	2
+"P_priscuii_LFX-15B1"	"A"	1
+"P_proteolyticus_116"	"A"	1
+"P_pulmonis_ES2-W5a2"	"A"	1
+"P_pulmonis_S-606"	"A"	1
+"P_salsus_DD48"	"A"	1
+"P_sanguinis_10070"	"A"	1
+"P_sanguinis_13983"	"A"	1
+"P_sanguinis_1501"	"A"	1
+"P_sanguinis_92"	"A"	1
+"P_sp_1044"	"A"	3
+"P_sp_2pS"	"A"	2
+"P_sp_72-O-c"	"A"	1
+"P_sp_CMS30"	"A"	1
+"P_sp_DD43"	"A"	1
+"P_sp_H7-1"	"A"	1
+"P_sp_H8-1"	"A"	1
+"P_sp_HII-4"	"A"	1
+"P_sp_IAM12030_72-O-c"	"A"	1
+"P_sp_JCM18900"	"A"	1
+"P_sp_JCM18902"	"A"	2
+"P_sp_JCM18903"	"A"	2
+"P_sp_NC44"	"A"	2
+"P_sp_Pi2-1"	"A"	1
+"P_sp_Pi2-51"	"A"	1
+"P_sp_Pi2-52"	"A"	1
+"P_submarinus_KMM225"	"A"	1
+"P_urativorans_ACAM311"	"A"	1
+"P_urativorans_ACAM534"	"A"	2
+"P_vallis_CMS39"	"A"	2
+"P_adeliensis_SJ14"	"B, K"	0
+"P_aestuarii_SC35"	"B, K"	0
+"P_alimentarius_JG100"	"B, K"	0
+"P_alimentarius_JG102"	"B, K"	0
+"P_aquaticus_CMS56"	"B, K"	0
+"P_aquimaris_SW-210"	"B, K"	0
+"P_arcticus_273-4"	"B, K"	0
+"P_arenosus_R7"	"B, K"	0
+"P_celer_SW-238"	"B, K"	0
+"P_cibarius_JG-219"	"B, K"	0
+"P_cibarius_JG-220"	"B, K"	0
+"P_ciconiae_176-10"	"B, K"	0
+"P_cryohalolentis_K5"	"B, K"	0
+"P_faecalis_Iso-46"	"B, K"	0
+"P_faecalis_PBFP-1"	"B, K"	0
+"P_fjordensis_BSw21516B"	"B, K"	0
+"P_fozii_NF23"	"B, K"	0
+"P_frigidicola_ACAM304"	"B, K"	0
+"P_frigidicola_ACAM309"	"B, K"	1
+"P_fulvigenes_KC-40"	"B, K"	0
+"P_glaciei_Blc20019"	"B, K"	0
+"P_glacincola_1447"	"B, K"	0
+"P_glacincola_ACAM483"	"B, K"	0
+"P_immobilis_1159"	"B, K"	0
+"P_immobilis_1184"	"B, K"	0
+"P_immobilis_1347"	"B, K"	0
+"P_immobilis_1555"	"B, K"	0
+"P_immobilis_1617"	"B, K"	0
+"P_immobilis_1745"	"B, K"	0
+"P_immobilis_252"	"B, K"	0
+"P_immobilis_A-11"	"B, K"	0
+"P_immobilis_A-19"	"B, K"	0
+"P_immobilis_A1007"	"B, K"	0
+"P_immobilis_A1014"	"B, K"	0
+"P_immobilis_A351"	"B, K"	0
+"P_immobilis_A352"	"B, K"	0
+"P_immobilis_Liston1000"	"B, K"	0
+"P_immobilis_NC10"	"B, K"	0
+"P_immobilis_NCIMB357"	"B, K"	0
+"P_immobilis_NCIMB361"	"B, K"	0
+"P_immobilis_NCIMB362"	"B, K"	0
+"P_immobilis_S3"	"B, K"	0
+"P_jeotgali_YKJ-103"	"B, K"	0
+"P_luti_NF11"	"B, K"	0
+"P_lutiphocae_IMMIBL-1110"	"B, K"	0
+"P_marincola_KMM227"	"B, K"	0
+"P_maritimus_Pi2-20"	"B, K"	0
+"P_maritimus_Pi2-25"	"B, K"	0
+"P_namhaensis_SW-242"	"B, K"	0
+"P_nivimaris_88-2-7"	"B, K"	0
+"P_oceani_4k5"	"B, K"	0
+"P_okhotskensis_A1004"	"B, K"	0
+"P_okhotskensis_MD17"	"B, K"	0
+"P_pacificensis_NIBH-P2K6"	"B, K"	0
+"P_phenylpyruvicus_ACAM535"	"B, K"	0
+"P_piscatorii_T-3-2"	"B, K"	0
+"P_priscuii_LFX-15B1"	"B, K"	0
+"P_proteolyticus_116"	"B, K"	0
+"P_pulmonis_ES2-W5a2"	"B, K"	0
+"P_pulmonis_S-606"	"B, K"	0
+"P_salsus_DD48"	"B, K"	0
+"P_sanguinis_10070"	"B, K"	0
+"P_sanguinis_13983"	"B, K"	0
+"P_sanguinis_1501"	"B, K"	0
+"P_sanguinis_92"	"B, K"	0
+"P_sp_1044"	"B, K"	0
+"P_sp_2pS"	"B, K"	0
+"P_sp_72-O-c"	"B, K"	0
+"P_sp_CMS30"	"B, K"	0
+"P_sp_DD43"	"B, K"	0
+"P_sp_H7-1"	"B, K"	0
+"P_sp_H8-1"	"B, K"	0
+"P_sp_HII-4"	"B, K"	0
+"P_sp_IAM12030_72-O-c"	"B, K"	0
+"P_sp_JCM18900"	"B, K"	0
+"P_sp_JCM18902"	"B, K"	0
+"P_sp_JCM18903"	"B, K"	0
+"P_sp_NC44"	"B, K"	0
+"P_sp_Pi2-1"	"B, K"	0
+"P_sp_Pi2-51"	"B, K"	0
+"P_sp_Pi2-52"	"B, K"	0
+"P_submarinus_KMM225"	"B, K"	0
+"P_urativorans_ACAM311"	"B, K"	0
+"P_urativorans_ACAM534"	"B, K"	0
+"P_vallis_CMS39"	"B, K"	0
+"P_adeliensis_SJ14"	"B, Q"	2
+"P_aestuarii_SC35"	"B, Q"	2
+"P_alimentarius_JG100"	"B, Q"	1
+"P_alimentarius_JG102"	"B, Q"	4
+"P_aquaticus_CMS56"	"B, Q"	1
+"P_aquimaris_SW-210"	"B, Q"	3
+"P_arcticus_273-4"	"B, Q"	1
+"P_arenosus_R7"	"B, Q"	2
+"P_celer_SW-238"	"B, Q"	1
+"P_cibarius_JG-219"	"B, Q"	2
+"P_cibarius_JG-220"	"B, Q"	2
+"P_ciconiae_176-10"	"B, Q"	1
+"P_cryohalolentis_K5"	"B, Q"	1
+"P_faecalis_Iso-46"	"B, Q"	1
+"P_faecalis_PBFP-1"	"B, Q"	1
+"P_fjordensis_BSw21516B"	"B, Q"	2
+"P_fozii_NF23"	"B, Q"	4
+"P_frigidicola_ACAM304"	"B, Q"	1
+"P_frigidicola_ACAM309"	"B, Q"	2
+"P_fulvigenes_KC-40"	"B, Q"	3
+"P_glaciei_Blc20019"	"B, Q"	1
+"P_glacincola_1447"	"B, Q"	2
+"P_glacincola_ACAM483"	"B, Q"	1
+"P_immobilis_1159"	"B, Q"	1
+"P_immobilis_1184"	"B, Q"	1
+"P_immobilis_1347"	"B, Q"	1
+"P_immobilis_1555"	"B, Q"	2
+"P_immobilis_1617"	"B, Q"	2
+"P_immobilis_1745"	"B, Q"	2
+"P_immobilis_252"	"B, Q"	1
+"P_immobilis_A-11"	"B, Q"	1
+"P_immobilis_A-19"	"B, Q"	2
+"P_immobilis_A1007"	"B, Q"	1
+"P_immobilis_A1014"	"B, Q"	1
+"P_immobilis_A351"	"B, Q"	2
+"P_immobilis_A352"	"B, Q"	2
+"P_immobilis_Liston1000"	"B, Q"	1
+"P_immobilis_NC10"	"B, Q"	1
+"P_immobilis_NCIMB357"	"B, Q"	2
+"P_immobilis_NCIMB361"	"B, Q"	2
+"P_immobilis_NCIMB362"	"B, Q"	1
+"P_immobilis_S3"	"B, Q"	3
+"P_jeotgali_YKJ-103"	"B, Q"	2
+"P_luti_NF11"	"B, Q"	2
+"P_lutiphocae_IMMIBL-1110"	"B, Q"	2
+"P_marincola_KMM227"	"B, Q"	2
+"P_maritimus_Pi2-20"	"B, Q"	1
+"P_maritimus_Pi2-25"	"B, Q"	2
+"P_namhaensis_SW-242"	"B, Q"	1
+"P_nivimaris_88-2-7"	"B, Q"	2
+"P_oceani_4k5"	"B, Q"	2
+"P_okhotskensis_A1004"	"B, Q"	1
+"P_okhotskensis_MD17"	"B, Q"	1
+"P_pacificensis_NIBH-P2K6"	"B, Q"	2
+"P_phenylpyruvicus_ACAM535"	"B, Q"	1
+"P_piscatorii_T-3-2"	"B, Q"	3
+"P_priscuii_LFX-15B1"	"B, Q"	1
+"P_proteolyticus_116"	"B, Q"	2
+"P_pulmonis_ES2-W5a2"	"B, Q"	3
+"P_pulmonis_S-606"	"B, Q"	2
+"P_salsus_DD48"	"B, Q"	1
+"P_sanguinis_10070"	"B, Q"	1
+"P_sanguinis_13983"	"B, Q"	1
+"P_sanguinis_1501"	"B, Q"	1
+"P_sanguinis_92"	"B, Q"	1
+"P_sp_1044"	"B, Q"	2
+"P_sp_2pS"	"B, Q"	3
+"P_sp_72-O-c"	"B, Q"	2
+"P_sp_CMS30"	"B, Q"	2
+"P_sp_DD43"	"B, Q"	1
+"P_sp_H7-1"	"B, Q"	1
+"P_sp_H8-1"	"B, Q"	2
+"P_sp_HII-4"	"B, Q"	2
+"P_sp_IAM12030_72-O-c"	"B, Q"	2
+"P_sp_JCM18900"	"B, Q"	1
+"P_sp_JCM18902"	"B, Q"	2
+"P_sp_JCM18903"	"B, Q"	2
+"P_sp_NC44"	"B, Q"	2
+"P_sp_Pi2-1"	"B, Q"	1
+"P_sp_Pi2-51"	"B, Q"	1
+"P_sp_Pi2-52"	"B, Q"	1
+"P_submarinus_KMM225"	"B, Q"	1
+"P_urativorans_ACAM311"	"B, Q"	1
+"P_urativorans_ACAM534"	"B, Q"	4
+"P_vallis_CMS39"	"B, Q"	1
+"P_adeliensis_SJ14"	"C"	175
+"P_aestuarii_SC35"	"C"	149
+"P_alimentarius_JG100"	"C"	181
+"P_alimentarius_JG102"	"C"	180
+"P_aquaticus_CMS56"	"C"	166
+"P_aquimaris_SW-210"	"C"	186
+"P_arcticus_273-4"	"C"	150
+"P_arenosus_R7"	"C"	183
+"P_celer_SW-238"	"C"	158
+"P_cibarius_JG-219"	"C"	170
+"P_cibarius_JG-220"	"C"	183
+"P_ciconiae_176-10"	"C"	134
+"P_cryohalolentis_K5"	"C"	171
+"P_faecalis_Iso-46"	"C"	169
+"P_faecalis_PBFP-1"	"C"	180
+"P_fjordensis_BSw21516B"	"C"	177
+"P_fozii_NF23"	"C"	183
+"P_frigidicola_ACAM304"	"C"	159
+"P_frigidicola_ACAM309"	"C"	150
+"P_fulvigenes_KC-40"	"C"	193
+"P_glaciei_Blc20019"	"C"	181
+"P_glacincola_1447"	"C"	186
+"P_glacincola_ACAM483"	"C"	165
+"P_immobilis_1159"	"C"	187
+"P_immobilis_1184"	"C"	169
+"P_immobilis_1347"	"C"	171
+"P_immobilis_1555"	"C"	185
+"P_immobilis_1617"	"C"	185
+"P_immobilis_1745"	"C"	178
+"P_immobilis_252"	"C"	177
+"P_immobilis_A-11"	"C"	168
+"P_immobilis_A-19"	"C"	166
+"P_immobilis_A1007"	"C"	180
+"P_immobilis_A1014"	"C"	185
+"P_immobilis_A351"	"C"	173
+"P_immobilis_A352"	"C"	178
+"P_immobilis_Liston1000"	"C"	182
+"P_immobilis_NC10"	"C"	195
+"P_immobilis_NCIMB357"	"C"	177
+"P_immobilis_NCIMB361"	"C"	176
+"P_immobilis_NCIMB362"	"C"	183
+"P_immobilis_S3"	"C"	174
+"P_jeotgali_YKJ-103"	"C"	184
+"P_luti_NF11"	"C"	167
+"P_lutiphocae_IMMIBL-1110"	"C"	171
+"P_marincola_KMM227"	"C"	167
+"P_maritimus_Pi2-20"	"C"	176
+"P_maritimus_Pi2-25"	"C"	175
+"P_namhaensis_SW-242"	"C"	151
+"P_nivimaris_88-2-7"	"C"	181
+"P_oceani_4k5"	"C"	166
+"P_okhotskensis_A1004"	"C"	178
+"P_okhotskensis_MD17"	"C"	181
+"P_pacificensis_NIBH-P2K6"	"C"	171
+"P_phenylpyruvicus_ACAM535"	"C"	172
+"P_piscatorii_T-3-2"	"C"	181
+"P_priscuii_LFX-15B1"	"C"	177
+"P_proteolyticus_116"	"C"	167
+"P_pulmonis_ES2-W5a2"	"C"	211
+"P_pulmonis_S-606"	"C"	175
+"P_salsus_DD48"	"C"	158
+"P_sanguinis_10070"	"C"	173
+"P_sanguinis_13983"	"C"	173
+"P_sanguinis_1501"	"C"	170
+"P_sanguinis_92"	"C"	172
+"P_sp_1044"	"C"	173
+"P_sp_2pS"	"C"	187
+"P_sp_72-O-c"	"C"	175
+"P_sp_CMS30"	"C"	176
+"P_sp_DD43"	"C"	175
+"P_sp_H7-1"	"C"	174
+"P_sp_H8-1"	"C"	205
+"P_sp_HII-4"	"C"	161
+"P_sp_IAM12030_72-O-c"	"C"	176
+"P_sp_JCM18900"	"C"	183
+"P_sp_JCM18902"	"C"	176
+"P_sp_JCM18903"	"C"	178
+"P_sp_NC44"	"C"	170
+"P_sp_Pi2-1"	"C"	170
+"P_sp_Pi2-51"	"C"	175
+"P_sp_Pi2-52"	"C"	176
+"P_submarinus_KMM225"	"C"	167
+"P_urativorans_ACAM311"	"C"	152
+"P_urativorans_ACAM534"	"C"	178
+"P_vallis_CMS39"	"C"	166
+"P_adeliensis_SJ14"	"C, H"	2
+"P_aestuarii_SC35"	"C, H"	2
+"P_alimentarius_JG100"	"C, H"	1
+"P_alimentarius_JG102"	"C, H"	1
+"P_aquaticus_CMS56"	"C, H"	1
+"P_aquimaris_SW-210"	"C, H"	2
+"P_arcticus_273-4"	"C, H"	1
+"P_arenosus_R7"	"C, H"	2
+"P_celer_SW-238"	"C, H"	1
+"P_cibarius_JG-219"	"C, H"	1
+"P_cibarius_JG-220"	"C, H"	1
+"P_ciconiae_176-10"	"C, H"	1
+"P_cryohalolentis_K5"	"C, H"	1
+"P_faecalis_Iso-46"	"C, H"	1
+"P_faecalis_PBFP-1"	"C, H"	1
+"P_fjordensis_BSw21516B"	"C, H"	1
+"P_fozii_NF23"	"C, H"	2
+"P_frigidicola_ACAM304"	"C, H"	1
+"P_frigidicola_ACAM309"	"C, H"	1
+"P_fulvigenes_KC-40"	"C, H"	2
+"P_glaciei_Blc20019"	"C, H"	1
+"P_glacincola_1447"	"C, H"	1
+"P_glacincola_ACAM483"	"C, H"	1
+"P_immobilis_1159"	"C, H"	1
+"P_immobilis_1184"	"C, H"	1
+"P_immobilis_1347"	"C, H"	1
+"P_immobilis_1555"	"C, H"	1
+"P_immobilis_1617"	"C, H"	1
+"P_immobilis_1745"	"C, H"	1
+"P_immobilis_252"	"C, H"	1
+"P_immobilis_A-11"	"C, H"	1
+"P_immobilis_A-19"	"C, H"	1
+"P_immobilis_A1007"	"C, H"	1
+"P_immobilis_A1014"	"C, H"	1
+"P_immobilis_A351"	"C, H"	1
+"P_immobilis_A352"	"C, H"	2
+"P_immobilis_Liston1000"	"C, H"	2
+"P_immobilis_NC10"	"C, H"	1
+"P_immobilis_NCIMB357"	"C, H"	1
+"P_immobilis_NCIMB361"	"C, H"	1
+"P_immobilis_NCIMB362"	"C, H"	1
+"P_immobilis_S3"	"C, H"	1
+"P_jeotgali_YKJ-103"	"C, H"	1
+"P_luti_NF11"	"C, H"	1
+"P_lutiphocae_IMMIBL-1110"	"C, H"	3
+"P_marincola_KMM227"	"C, H"	2
+"P_maritimus_Pi2-20"	"C, H"	1
+"P_maritimus_Pi2-25"	"C, H"	1
+"P_namhaensis_SW-242"	"C, H"	1
+"P_nivimaris_88-2-7"	"C, H"	1
+"P_oceani_4k5"	"C, H"	1
+"P_okhotskensis_A1004"	"C, H"	1
+"P_okhotskensis_MD17"	"C, H"	1
+"P_pacificensis_NIBH-P2K6"	"C, H"	1
+"P_phenylpyruvicus_ACAM535"	"C, H"	2
+"P_piscatorii_T-3-2"	"C, H"	1
+"P_priscuii_LFX-15B1"	"C, H"	1
+"P_proteolyticus_116"	"C, H"	2
+"P_pulmonis_ES2-W5a2"	"C, H"	1
+"P_pulmonis_S-606"	"C, H"	1
+"P_salsus_DD48"	"C, H"	1
+"P_sanguinis_10070"	"C, H"	1
+"P_sanguinis_13983"	"C, H"	1
+"P_sanguinis_1501"	"C, H"	1
+"P_sanguinis_92"	"C, H"	1
+"P_sp_1044"	"C, H"	1
+"P_sp_2pS"	"C, H"	2
+"P_sp_72-O-c"	"C, H"	1
+"P_sp_CMS30"	"C, H"	1
+"P_sp_DD43"	"C, H"	1
+"P_sp_H7-1"	"C, H"	1
+"P_sp_H8-1"	"C, H"	3
+"P_sp_HII-4"	"C, H"	1
+"P_sp_IAM12030_72-O-c"	"C, H"	1
+"P_sp_JCM18900"	"C, H"	2
+"P_sp_JCM18902"	"C, H"	3
+"P_sp_JCM18903"	"C, H"	1
+"P_sp_NC44"	"C, H"	1
+"P_sp_Pi2-1"	"C, H"	1
+"P_sp_Pi2-51"	"C, H"	1
+"P_sp_Pi2-52"	"C, H"	1
+"P_submarinus_KMM225"	"C, H"	1
+"P_urativorans_ACAM311"	"C, H"	2
+"P_urativorans_ACAM534"	"C, H"	1
+"P_vallis_CMS39"	"C, H"	1
+"P_adeliensis_SJ14"	"D"	23
+"P_aestuarii_SC35"	"D"	21
+"P_alimentarius_JG100"	"D"	23
+"P_alimentarius_JG102"	"D"	22
+"P_aquaticus_CMS56"	"D"	23
+"P_aquimaris_SW-210"	"D"	23
+"P_arcticus_273-4"	"D"	22
+"P_arenosus_R7"	"D"	24
+"P_celer_SW-238"	"D"	24
+"P_cibarius_JG-219"	"D"	23
+"P_cibarius_JG-220"	"D"	24
+"P_ciconiae_176-10"	"D"	20
+"P_cryohalolentis_K5"	"D"	23
+"P_faecalis_Iso-46"	"D"	22
+"P_faecalis_PBFP-1"	"D"	24
+"P_fjordensis_BSw21516B"	"D"	20
+"P_fozii_NF23"	"D"	21
+"P_frigidicola_ACAM304"	"D"	22
+"P_frigidicola_ACAM309"	"D"	22
+"P_fulvigenes_KC-40"	"D"	23
+"P_glaciei_Blc20019"	"D"	23
+"P_glacincola_1447"	"D"	23
+"P_glacincola_ACAM483"	"D"	23
+"P_immobilis_1159"	"D"	24
+"P_immobilis_1184"	"D"	23
+"P_immobilis_1347"	"D"	23
+"P_immobilis_1555"	"D"	23
+"P_immobilis_1617"	"D"	23
+"P_immobilis_1745"	"D"	23
+"P_immobilis_252"	"D"	25
+"P_immobilis_A-11"	"D"	25
+"P_immobilis_A-19"	"D"	23
+"P_immobilis_A1007"	"D"	25
+"P_immobilis_A1014"	"D"	23
+"P_immobilis_A351"	"D"	24
+"P_immobilis_A352"	"D"	23
+"P_immobilis_Liston1000"	"D"	24
+"P_immobilis_NC10"	"D"	25
+"P_immobilis_NCIMB357"	"D"	21
+"P_immobilis_NCIMB361"	"D"	23
+"P_immobilis_NCIMB362"	"D"	22
+"P_immobilis_S3"	"D"	24
+"P_jeotgali_YKJ-103"	"D"	23
+"P_luti_NF11"	"D"	22
+"P_lutiphocae_IMMIBL-1110"	"D"	22
+"P_marincola_KMM227"	"D"	23
+"P_maritimus_Pi2-20"	"D"	22
+"P_maritimus_Pi2-25"	"D"	23
+"P_namhaensis_SW-242"	"D"	21
+"P_nivimaris_88-2-7"	"D"	23
+"P_oceani_4k5"	"D"	26
+"P_okhotskensis_A1004"	"D"	25
+"P_okhotskensis_MD17"	"D"	25
+"P_pacificensis_NIBH-P2K6"	"D"	26
+"P_phenylpyruvicus_ACAM535"	"D"	24
+"P_piscatorii_T-3-2"	"D"	23
+"P_priscuii_LFX-15B1"	"D"	25
+"P_proteolyticus_116"	"D"	23
+"P_pulmonis_ES2-W5a2"	"D"	26
+"P_pulmonis_S-606"	"D"	21
+"P_salsus_DD48"	"D"	23
+"P_sanguinis_10070"	"D"	24
+"P_sanguinis_13983"	"D"	23
+"P_sanguinis_1501"	"D"	22
+"P_sanguinis_92"	"D"	24
+"P_sp_1044"	"D"	24
+"P_sp_2pS"	"D"	24
+"P_sp_72-O-c"	"D"	24
+"P_sp_CMS30"	"D"	23
+"P_sp_DD43"	"D"	25
+"P_sp_H7-1"	"D"	22
+"P_sp_H8-1"	"D"	22
+"P_sp_HII-4"	"D"	23
+"P_sp_IAM12030_72-O-c"	"D"	24
+"P_sp_JCM18900"	"D"	23
+"P_sp_JCM18902"	"D"	23
+"P_sp_JCM18903"	"D"	25
+"P_sp_NC44"	"D"	22
+"P_sp_Pi2-1"	"D"	22
+"P_sp_Pi2-51"	"D"	23
+"P_sp_Pi2-52"	"D"	21
+"P_submarinus_KMM225"	"D"	24
+"P_urativorans_ACAM311"	"D"	21
+"P_urativorans_ACAM534"	"D"	24
+"P_vallis_CMS39"	"D"	23
+"P_adeliensis_SJ14"	"D, J"	0
+"P_aestuarii_SC35"	"D, J"	0
+"P_alimentarius_JG100"	"D, J"	1
+"P_alimentarius_JG102"	"D, J"	1
+"P_aquaticus_CMS56"	"D, J"	1
+"P_aquimaris_SW-210"	"D, J"	0
+"P_arcticus_273-4"	"D, J"	1
+"P_arenosus_R7"	"D, J"	0
+"P_celer_SW-238"	"D, J"	1
+"P_cibarius_JG-219"	"D, J"	1
+"P_cibarius_JG-220"	"D, J"	1
+"P_ciconiae_176-10"	"D, J"	0
+"P_cryohalolentis_K5"	"D, J"	1
+"P_faecalis_Iso-46"	"D, J"	1
+"P_faecalis_PBFP-1"	"D, J"	1
+"P_fjordensis_BSw21516B"	"D, J"	0
+"P_fozii_NF23"	"D, J"	0
+"P_frigidicola_ACAM304"	"D, J"	0
+"P_frigidicola_ACAM309"	"D, J"	0
+"P_fulvigenes_KC-40"	"D, J"	0
+"P_glaciei_Blc20019"	"D, J"	0
+"P_glacincola_1447"	"D, J"	1
+"P_glacincola_ACAM483"	"D, J"	1
+"P_immobilis_1159"	"D, J"	0
+"P_immobilis_1184"	"D, J"	1
+"P_immobilis_1347"	"D, J"	1
+"P_immobilis_1555"	"D, J"	0
+"P_immobilis_1617"	"D, J"	0
+"P_immobilis_1745"	"D, J"	0
+"P_immobilis_252"	"D, J"	1
+"P_immobilis_A-11"	"D, J"	1
+"P_immobilis_A-19"	"D, J"	1
+"P_immobilis_A1007"	"D, J"	2
+"P_immobilis_A1014"	"D, J"	1
+"P_immobilis_A351"	"D, J"	1
+"P_immobilis_A352"	"D, J"	1
+"P_immobilis_Liston1000"	"D, J"	0
+"P_immobilis_NC10"	"D, J"	1
+"P_immobilis_NCIMB357"	"D, J"	0
+"P_immobilis_NCIMB361"	"D, J"	0
+"P_immobilis_NCIMB362"	"D, J"	0
+"P_immobilis_S3"	"D, J"	0
+"P_jeotgali_YKJ-103"	"D, J"	3
+"P_luti_NF11"	"D, J"	1
+"P_lutiphocae_IMMIBL-1110"	"D, J"	0
+"P_marincola_KMM227"	"D, J"	0
+"P_maritimus_Pi2-20"	"D, J"	1
+"P_maritimus_Pi2-25"	"D, J"	1
+"P_namhaensis_SW-242"	"D, J"	0
+"P_nivimaris_88-2-7"	"D, J"	0
+"P_oceani_4k5"	"D, J"	2
+"P_okhotskensis_A1004"	"D, J"	1
+"P_okhotskensis_MD17"	"D, J"	1
+"P_pacificensis_NIBH-P2K6"	"D, J"	3
+"P_phenylpyruvicus_ACAM535"	"D, J"	0
+"P_piscatorii_T-3-2"	"D, J"	1
+"P_priscuii_LFX-15B1"	"D, J"	1
+"P_proteolyticus_116"	"D, J"	0
+"P_pulmonis_ES2-W5a2"	"D, J"	1
+"P_pulmonis_S-606"	"D, J"	0
+"P_salsus_DD48"	"D, J"	2
+"P_sanguinis_10070"	"D, J"	0
+"P_sanguinis_13983"	"D, J"	0
+"P_sanguinis_1501"	"D, J"	0
+"P_sanguinis_92"	"D, J"	0
+"P_sp_1044"	"D, J"	0
+"P_sp_2pS"	"D, J"	0
+"P_sp_72-O-c"	"D, J"	1
+"P_sp_CMS30"	"D, J"	1
+"P_sp_DD43"	"D, J"	1
+"P_sp_H7-1"	"D, J"	0
+"P_sp_H8-1"	"D, J"	0
+"P_sp_HII-4"	"D, J"	1
+"P_sp_IAM12030_72-O-c"	"D, J"	1
+"P_sp_JCM18900"	"D, J"	0
+"P_sp_JCM18902"	"D, J"	0
+"P_sp_JCM18903"	"D, J"	1
+"P_sp_NC44"	"D, J"	1
+"P_sp_Pi2-1"	"D, J"	1
+"P_sp_Pi2-51"	"D, J"	1
+"P_sp_Pi2-52"	"D, J"	0
+"P_submarinus_KMM225"	"D, J"	1
+"P_urativorans_ACAM311"	"D, J"	0
+"P_urativorans_ACAM534"	"D, J"	1
+"P_vallis_CMS39"	"D, J"	1
+"P_adeliensis_SJ14"	"D, Z"	0
+"P_aestuarii_SC35"	"D, Z"	0
+"P_alimentarius_JG100"	"D, Z"	1
+"P_alimentarius_JG102"	"D, Z"	1
+"P_aquaticus_CMS56"	"D, Z"	0
+"P_aquimaris_SW-210"	"D, Z"	0
+"P_arcticus_273-4"	"D, Z"	0
+"P_arenosus_R7"	"D, Z"	0
+"P_celer_SW-238"	"D, Z"	0
+"P_cibarius_JG-219"	"D, Z"	1
+"P_cibarius_JG-220"	"D, Z"	1
+"P_ciconiae_176-10"	"D, Z"	1
+"P_cryohalolentis_K5"	"D, Z"	1
+"P_faecalis_Iso-46"	"D, Z"	1
+"P_faecalis_PBFP-1"	"D, Z"	1
+"P_fjordensis_BSw21516B"	"D, Z"	3
+"P_fozii_NF23"	"D, Z"	2
+"P_frigidicola_ACAM304"	"D, Z"	2
+"P_frigidicola_ACAM309"	"D, Z"	0
+"P_fulvigenes_KC-40"	"D, Z"	1
+"P_glaciei_Blc20019"	"D, Z"	0
+"P_glacincola_1447"	"D, Z"	1
+"P_glacincola_ACAM483"	"D, Z"	1
+"P_immobilis_1159"	"D, Z"	0
+"P_immobilis_1184"	"D, Z"	1
+"P_immobilis_1347"	"D, Z"	0
+"P_immobilis_1555"	"D, Z"	1
+"P_immobilis_1617"	"D, Z"	1
+"P_immobilis_1745"	"D, Z"	1
+"P_immobilis_252"	"D, Z"	1
+"P_immobilis_A-11"	"D, Z"	0
+"P_immobilis_A-19"	"D, Z"	1
+"P_immobilis_A1007"	"D, Z"	1
+"P_immobilis_A1014"	"D, Z"	2
+"P_immobilis_A351"	"D, Z"	1
+"P_immobilis_A352"	"D, Z"	0
+"P_immobilis_Liston1000"	"D, Z"	0
+"P_immobilis_NC10"	"D, Z"	0
+"P_immobilis_NCIMB357"	"D, Z"	1
+"P_immobilis_NCIMB361"	"D, Z"	1
+"P_immobilis_NCIMB362"	"D, Z"	1
+"P_immobilis_S3"	"D, Z"	0
+"P_jeotgali_YKJ-103"	"D, Z"	0
+"P_luti_NF11"	"D, Z"	0
+"P_lutiphocae_IMMIBL-1110"	"D, Z"	0
+"P_marincola_KMM227"	"D, Z"	0
+"P_maritimus_Pi2-20"	"D, Z"	1
+"P_maritimus_Pi2-25"	"D, Z"	0
+"P_namhaensis_SW-242"	"D, Z"	1
+"P_nivimaris_88-2-7"	"D, Z"	1
+"P_oceani_4k5"	"D, Z"	0
+"P_okhotskensis_A1004"	"D, Z"	0
+"P_okhotskensis_MD17"	"D, Z"	1
+"P_pacificensis_NIBH-P2K6"	"D, Z"	0
+"P_phenylpyruvicus_ACAM535"	"D, Z"	0
+"P_piscatorii_T-3-2"	"D, Z"	0
+"P_priscuii_LFX-15B1"	"D, Z"	1
+"P_proteolyticus_116"	"D, Z"	0
+"P_pulmonis_ES2-W5a2"	"D, Z"	2
+"P_pulmonis_S-606"	"D, Z"	1
+"P_salsus_DD48"	"D, Z"	0
+"P_sanguinis_10070"	"D, Z"	0
+"P_sanguinis_13983"	"D, Z"	0
+"P_sanguinis_1501"	"D, Z"	0
+"P_sanguinis_92"	"D, Z"	0
+"P_sp_1044"	"D, Z"	1
+"P_sp_2pS"	"D, Z"	0
+"P_sp_72-O-c"	"D, Z"	0
+"P_sp_CMS30"	"D, Z"	0
+"P_sp_DD43"	"D, Z"	1
+"P_sp_H7-1"	"D, Z"	0
+"P_sp_H8-1"	"D, Z"	0
+"P_sp_HII-4"	"D, Z"	0
+"P_sp_IAM12030_72-O-c"	"D, Z"	0
+"P_sp_JCM18900"	"D, Z"	0
+"P_sp_JCM18902"	"D, Z"	1
+"P_sp_JCM18903"	"D, Z"	1
+"P_sp_NC44"	"D, Z"	1
+"P_sp_Pi2-1"	"D, Z"	0
+"P_sp_Pi2-51"	"D, Z"	0
+"P_sp_Pi2-52"	"D, Z"	0
+"P_submarinus_KMM225"	"D, Z"	0
+"P_urativorans_ACAM311"	"D, Z"	0
+"P_urativorans_ACAM534"	"D, Z"	0
+"P_vallis_CMS39"	"D, Z"	2
+"P_adeliensis_SJ14"	"E"	199
+"P_aestuarii_SC35"	"E"	177
+"P_alimentarius_JG100"	"E"	193
+"P_alimentarius_JG102"	"E"	200
+"P_aquaticus_CMS56"	"E"	176
+"P_aquimaris_SW-210"	"E"	194
+"P_arcticus_273-4"	"E"	145
+"P_arenosus_R7"	"E"	196
+"P_celer_SW-238"	"E"	166
+"P_cibarius_JG-219"	"E"	184
+"P_cibarius_JG-220"	"E"	200
+"P_ciconiae_176-10"	"E"	141
+"P_cryohalolentis_K5"	"E"	194
+"P_faecalis_Iso-46"	"E"	168
+"P_faecalis_PBFP-1"	"E"	174
+"P_fjordensis_BSw21516B"	"E"	209
+"P_fozii_NF23"	"E"	215
+"P_frigidicola_ACAM304"	"E"	157
+"P_frigidicola_ACAM309"	"E"	157
+"P_fulvigenes_KC-40"	"E"	189
+"P_glaciei_Blc20019"	"E"	207
+"P_glacincola_1447"	"E"	192
+"P_glacincola_ACAM483"	"E"	164
+"P_immobilis_1159"	"E"	187
+"P_immobilis_1184"	"E"	178
+"P_immobilis_1347"	"E"	165
+"P_immobilis_1555"	"E"	194
+"P_immobilis_1617"	"E"	194
+"P_immobilis_1745"	"E"	190
+"P_immobilis_252"	"E"	182
+"P_immobilis_A-11"	"E"	172
+"P_immobilis_A-19"	"E"	178
+"P_immobilis_A1007"	"E"	184
+"P_immobilis_A1014"	"E"	187
+"P_immobilis_A351"	"E"	186
+"P_immobilis_A352"	"E"	185
+"P_immobilis_Liston1000"	"E"	192
+"P_immobilis_NC10"	"E"	195
+"P_immobilis_NCIMB357"	"E"	184
+"P_immobilis_NCIMB361"	"E"	185
+"P_immobilis_NCIMB362"	"E"	179
+"P_immobilis_S3"	"E"	169
+"P_jeotgali_YKJ-103"	"E"	176
+"P_luti_NF11"	"E"	176
+"P_lutiphocae_IMMIBL-1110"	"E"	180
+"P_marincola_KMM227"	"E"	201
+"P_maritimus_Pi2-20"	"E"	182
+"P_maritimus_Pi2-25"	"E"	180
+"P_namhaensis_SW-242"	"E"	160
+"P_nivimaris_88-2-7"	"E"	190
+"P_oceani_4k5"	"E"	166
+"P_okhotskensis_A1004"	"E"	176
+"P_okhotskensis_MD17"	"E"	176
+"P_pacificensis_NIBH-P2K6"	"E"	171
+"P_phenylpyruvicus_ACAM535"	"E"	168
+"P_piscatorii_T-3-2"	"E"	202
+"P_priscuii_LFX-15B1"	"E"	193
+"P_proteolyticus_116"	"E"	192
+"P_pulmonis_ES2-W5a2"	"E"	194
+"P_pulmonis_S-606"	"E"	172
+"P_salsus_DD48"	"E"	165
+"P_sanguinis_10070"	"E"	177
+"P_sanguinis_13983"	"E"	174
+"P_sanguinis_1501"	"E"	168
+"P_sanguinis_92"	"E"	177
+"P_sp_1044"	"E"	189
+"P_sp_2pS"	"E"	195
+"P_sp_72-O-c"	"E"	187
+"P_sp_CMS30"	"E"	178
+"P_sp_DD43"	"E"	192
+"P_sp_H7-1"	"E"	179
+"P_sp_H8-1"	"E"	186
+"P_sp_HII-4"	"E"	167
+"P_sp_IAM12030_72-O-c"	"E"	187
+"P_sp_JCM18900"	"E"	208
+"P_sp_JCM18902"	"E"	188
+"P_sp_JCM18903"	"E"	194
+"P_sp_NC44"	"E"	185
+"P_sp_Pi2-1"	"E"	187
+"P_sp_Pi2-51"	"E"	205
+"P_sp_Pi2-52"	"E"	189
+"P_submarinus_KMM225"	"E"	176
+"P_urativorans_ACAM311"	"E"	155
+"P_urativorans_ACAM534"	"E"	198
+"P_vallis_CMS39"	"E"	187
+"P_adeliensis_SJ14"	"E, F"	0
+"P_aestuarii_SC35"	"E, F"	0
+"P_alimentarius_JG100"	"E, F"	0
+"P_alimentarius_JG102"	"E, F"	0
+"P_aquaticus_CMS56"	"E, F"	0
+"P_aquimaris_SW-210"	"E, F"	0
+"P_arcticus_273-4"	"E, F"	0
+"P_arenosus_R7"	"E, F"	0
+"P_celer_SW-238"	"E, F"	0
+"P_cibarius_JG-219"	"E, F"	0
+"P_cibarius_JG-220"	"E, F"	0
+"P_ciconiae_176-10"	"E, F"	0
+"P_cryohalolentis_K5"	"E, F"	0
+"P_faecalis_Iso-46"	"E, F"	0
+"P_faecalis_PBFP-1"	"E, F"	0
+"P_fjordensis_BSw21516B"	"E, F"	0
+"P_fozii_NF23"	"E, F"	0
+"P_frigidicola_ACAM304"	"E, F"	0
+"P_frigidicola_ACAM309"	"E, F"	0
+"P_fulvigenes_KC-40"	"E, F"	1
+"P_glaciei_Blc20019"	"E, F"	0
+"P_glacincola_1447"	"E, F"	0
+"P_glacincola_ACAM483"	"E, F"	0
+"P_immobilis_1159"	"E, F"	0
+"P_immobilis_1184"	"E, F"	0
+"P_immobilis_1347"	"E, F"	0
+"P_immobilis_1555"	"E, F"	0
+"P_immobilis_1617"	"E, F"	0
+"P_immobilis_1745"	"E, F"	0
+"P_immobilis_252"	"E, F"	0
+"P_immobilis_A-11"	"E, F"	0
+"P_immobilis_A-19"	"E, F"	0
+"P_immobilis_A1007"	"E, F"	0
+"P_immobilis_A1014"	"E, F"	0
+"P_immobilis_A351"	"E, F"	0
+"P_immobilis_A352"	"E, F"	0
+"P_immobilis_Liston1000"	"E, F"	0
+"P_immobilis_NC10"	"E, F"	0
+"P_immobilis_NCIMB357"	"E, F"	0
+"P_immobilis_NCIMB361"	"E, F"	0
+"P_immobilis_NCIMB362"	"E, F"	0
+"P_immobilis_S3"	"E, F"	0
+"P_jeotgali_YKJ-103"	"E, F"	0
+"P_luti_NF11"	"E, F"	0
+"P_lutiphocae_IMMIBL-1110"	"E, F"	0
+"P_marincola_KMM227"	"E, F"	0
+"P_maritimus_Pi2-20"	"E, F"	0
+"P_maritimus_Pi2-25"	"E, F"	0
+"P_namhaensis_SW-242"	"E, F"	0
+"P_nivimaris_88-2-7"	"E, F"	0
+"P_oceani_4k5"	"E, F"	0
+"P_okhotskensis_A1004"	"E, F"	0
+"P_okhotskensis_MD17"	"E, F"	1
+"P_pacificensis_NIBH-P2K6"	"E, F"	0
+"P_phenylpyruvicus_ACAM535"	"E, F"	0
+"P_piscatorii_T-3-2"	"E, F"	0
+"P_priscuii_LFX-15B1"	"E, F"	0
+"P_proteolyticus_116"	"E, F"	0
+"P_pulmonis_ES2-W5a2"	"E, F"	0
+"P_pulmonis_S-606"	"E, F"	0
+"P_salsus_DD48"	"E, F"	0
+"P_sanguinis_10070"	"E, F"	1
+"P_sanguinis_13983"	"E, F"	0
+"P_sanguinis_1501"	"E, F"	0
+"P_sanguinis_92"	"E, F"	0
+"P_sp_1044"	"E, F"	0
+"P_sp_2pS"	"E, F"	0
+"P_sp_72-O-c"	"E, F"	0
+"P_sp_CMS30"	"E, F"	0
+"P_sp_DD43"	"E, F"	0
+"P_sp_H7-1"	"E, F"	0
+"P_sp_H8-1"	"E, F"	0
+"P_sp_HII-4"	"E, F"	0
+"P_sp_IAM12030_72-O-c"	"E, F"	0
+"P_sp_JCM18900"	"E, F"	0
+"P_sp_JCM18902"	"E, F"	0
+"P_sp_JCM18903"	"E, F"	0
+"P_sp_NC44"	"E, F"	0
+"P_sp_Pi2-1"	"E, F"	0
+"P_sp_Pi2-51"	"E, F"	0
+"P_sp_Pi2-52"	"E, F"	0
+"P_submarinus_KMM225"	"E, F"	0
+"P_urativorans_ACAM311"	"E, F"	0
+"P_urativorans_ACAM534"	"E, F"	1
+"P_vallis_CMS39"	"E, F"	0
+"P_adeliensis_SJ14"	"E, G"	3
+"P_aestuarii_SC35"	"E, G"	3
+"P_alimentarius_JG100"	"E, G"	6
+"P_alimentarius_JG102"	"E, G"	7
+"P_aquaticus_CMS56"	"E, G"	5
+"P_aquimaris_SW-210"	"E, G"	4
+"P_arcticus_273-4"	"E, G"	3
+"P_arenosus_R7"	"E, G"	5
+"P_celer_SW-238"	"E, G"	5
+"P_cibarius_JG-219"	"E, G"	3
+"P_cibarius_JG-220"	"E, G"	3
+"P_ciconiae_176-10"	"E, G"	0
+"P_cryohalolentis_K5"	"E, G"	3
+"P_faecalis_Iso-46"	"E, G"	4
+"P_faecalis_PBFP-1"	"E, G"	4
+"P_fjordensis_BSw21516B"	"E, G"	6
+"P_fozii_NF23"	"E, G"	5
+"P_frigidicola_ACAM304"	"E, G"	1
+"P_frigidicola_ACAM309"	"E, G"	2
+"P_fulvigenes_KC-40"	"E, G"	2
+"P_glaciei_Blc20019"	"E, G"	6
+"P_glacincola_1447"	"E, G"	4
+"P_glacincola_ACAM483"	"E, G"	3
+"P_immobilis_1159"	"E, G"	4
+"P_immobilis_1184"	"E, G"	4
+"P_immobilis_1347"	"E, G"	2
+"P_immobilis_1555"	"E, G"	3
+"P_immobilis_1617"	"E, G"	3
+"P_immobilis_1745"	"E, G"	4
+"P_immobilis_252"	"E, G"	3
+"P_immobilis_A-11"	"E, G"	5
+"P_immobilis_A-19"	"E, G"	4
+"P_immobilis_A1007"	"E, G"	3
+"P_immobilis_A1014"	"E, G"	4
+"P_immobilis_A351"	"E, G"	3
+"P_immobilis_A352"	"E, G"	4
+"P_immobilis_Liston1000"	"E, G"	4
+"P_immobilis_NC10"	"E, G"	5
+"P_immobilis_NCIMB357"	"E, G"	3
+"P_immobilis_NCIMB361"	"E, G"	3
+"P_immobilis_NCIMB362"	"E, G"	3
+"P_immobilis_S3"	"E, G"	6
+"P_jeotgali_YKJ-103"	"E, G"	3
+"P_luti_NF11"	"E, G"	2
+"P_lutiphocae_IMMIBL-1110"	"E, G"	4
+"P_marincola_KMM227"	"E, G"	3
+"P_maritimus_Pi2-20"	"E, G"	3
+"P_maritimus_Pi2-25"	"E, G"	4
+"P_namhaensis_SW-242"	"E, G"	2
+"P_nivimaris_88-2-7"	"E, G"	4
+"P_oceani_4k5"	"E, G"	4
+"P_okhotskensis_A1004"	"E, G"	4
+"P_okhotskensis_MD17"	"E, G"	4
+"P_pacificensis_NIBH-P2K6"	"E, G"	4
+"P_phenylpyruvicus_ACAM535"	"E, G"	3
+"P_piscatorii_T-3-2"	"E, G"	6
+"P_priscuii_LFX-15B1"	"E, G"	3
+"P_proteolyticus_116"	"E, G"	3
+"P_pulmonis_ES2-W5a2"	"E, G"	4
+"P_pulmonis_S-606"	"E, G"	1
+"P_salsus_DD48"	"E, G"	2
+"P_sanguinis_10070"	"E, G"	5
+"P_sanguinis_13983"	"E, G"	4
+"P_sanguinis_1501"	"E, G"	5
+"P_sanguinis_92"	"E, G"	4
+"P_sp_1044"	"E, G"	3
+"P_sp_2pS"	"E, G"	7
+"P_sp_72-O-c"	"E, G"	3
+"P_sp_CMS30"	"E, G"	4
+"P_sp_DD43"	"E, G"	2
+"P_sp_H7-1"	"E, G"	6
+"P_sp_H8-1"	"E, G"	2
+"P_sp_HII-4"	"E, G"	2
+"P_sp_IAM12030_72-O-c"	"E, G"	3
+"P_sp_JCM18900"	"E, G"	5
+"P_sp_JCM18902"	"E, G"	3
+"P_sp_JCM18903"	"E, G"	3
+"P_sp_NC44"	"E, G"	5
+"P_sp_Pi2-1"	"E, G"	3
+"P_sp_Pi2-51"	"E, G"	5
+"P_sp_Pi2-52"	"E, G"	4
+"P_submarinus_KMM225"	"E, G"	3
+"P_urativorans_ACAM311"	"E, G"	2
+"P_urativorans_ACAM534"	"E, G"	6
+"P_vallis_CMS39"	"E, G"	4
+"P_adeliensis_SJ14"	"E, H"	2
+"P_aestuarii_SC35"	"E, H"	3
+"P_alimentarius_JG100"	"E, H"	3
+"P_alimentarius_JG102"	"E, H"	3
+"P_aquaticus_CMS56"	"E, H"	2
+"P_aquimaris_SW-210"	"E, H"	2
+"P_arcticus_273-4"	"E, H"	2
+"P_arenosus_R7"	"E, H"	2
+"P_celer_SW-238"	"E, H"	2
+"P_cibarius_JG-219"	"E, H"	2
+"P_cibarius_JG-220"	"E, H"	2
+"P_ciconiae_176-10"	"E, H"	2
+"P_cryohalolentis_K5"	"E, H"	2
+"P_faecalis_Iso-46"	"E, H"	2
+"P_faecalis_PBFP-1"	"E, H"	2
+"P_fjordensis_BSw21516B"	"E, H"	2
+"P_fozii_NF23"	"E, H"	3
+"P_frigidicola_ACAM304"	"E, H"	2
+"P_frigidicola_ACAM309"	"E, H"	2
+"P_fulvigenes_KC-40"	"E, H"	2
+"P_glaciei_Blc20019"	"E, H"	2
+"P_glacincola_1447"	"E, H"	2
+"P_glacincola_ACAM483"	"E, H"	2
+"P_immobilis_1159"	"E, H"	2
+"P_immobilis_1184"	"E, H"	2
+"P_immobilis_1347"	"E, H"	2
+"P_immobilis_1555"	"E, H"	2
+"P_immobilis_1617"	"E, H"	2
+"P_immobilis_1745"	"E, H"	2
+"P_immobilis_252"	"E, H"	2
+"P_immobilis_A-11"	"E, H"	2
+"P_immobilis_A-19"	"E, H"	2
+"P_immobilis_A1007"	"E, H"	2
+"P_immobilis_A1014"	"E, H"	2
+"P_immobilis_A351"	"E, H"	2
+"P_immobilis_A352"	"E, H"	2
+"P_immobilis_Liston1000"	"E, H"	2
+"P_immobilis_NC10"	"E, H"	2
+"P_immobilis_NCIMB357"	"E, H"	2
+"P_immobilis_NCIMB361"	"E, H"	2
+"P_immobilis_NCIMB362"	"E, H"	2
+"P_immobilis_S3"	"E, H"	2
+"P_jeotgali_YKJ-103"	"E, H"	2
+"P_luti_NF11"	"E, H"	2
+"P_lutiphocae_IMMIBL-1110"	"E, H"	2
+"P_marincola_KMM227"	"E, H"	2
+"P_maritimus_Pi2-20"	"E, H"	2
+"P_maritimus_Pi2-25"	"E, H"	2
+"P_namhaensis_SW-242"	"E, H"	2
+"P_nivimaris_88-2-7"	"E, H"	2
+"P_oceani_4k5"	"E, H"	2
+"P_okhotskensis_A1004"	"E, H"	2
+"P_okhotskensis_MD17"	"E, H"	2
+"P_pacificensis_NIBH-P2K6"	"E, H"	3
+"P_phenylpyruvicus_ACAM535"	"E, H"	2
+"P_piscatorii_T-3-2"	"E, H"	2
+"P_priscuii_LFX-15B1"	"E, H"	2
+"P_proteolyticus_116"	"E, H"	2
+"P_pulmonis_ES2-W5a2"	"E, H"	2
+"P_pulmonis_S-606"	"E, H"	2
+"P_salsus_DD48"	"E, H"	2
+"P_sanguinis_10070"	"E, H"	2
+"P_sanguinis_13983"	"E, H"	2
+"P_sanguinis_1501"	"E, H"	2
+"P_sanguinis_92"	"E, H"	2
+"P_sp_1044"	"E, H"	2
+"P_sp_2pS"	"E, H"	2
+"P_sp_72-O-c"	"E, H"	2
+"P_sp_CMS30"	"E, H"	2
+"P_sp_DD43"	"E, H"	2
+"P_sp_H7-1"	"E, H"	6
+"P_sp_H8-1"	"E, H"	3
+"P_sp_HII-4"	"E, H"	2
+"P_sp_IAM12030_72-O-c"	"E, H"	2
+"P_sp_JCM18900"	"E, H"	3
+"P_sp_JCM18902"	"E, H"	3
+"P_sp_JCM18903"	"E, H"	3
+"P_sp_NC44"	"E, H"	2
+"P_sp_Pi2-1"	"E, H"	2
+"P_sp_Pi2-51"	"E, H"	2
+"P_sp_Pi2-52"	"E, H"	2
+"P_submarinus_KMM225"	"E, H"	2
+"P_urativorans_ACAM311"	"E, H"	2
+"P_urativorans_ACAM534"	"E, H"	2
+"P_vallis_CMS39"	"E, H"	2
+"P_adeliensis_SJ14"	"E, P"	2
+"P_aestuarii_SC35"	"E, P"	1
+"P_alimentarius_JG100"	"E, P"	3
+"P_alimentarius_JG102"	"E, P"	3
+"P_aquaticus_CMS56"	"E, P"	1
+"P_aquimaris_SW-210"	"E, P"	3
+"P_arcticus_273-4"	"E, P"	0
+"P_arenosus_R7"	"E, P"	2
+"P_celer_SW-238"	"E, P"	0
+"P_cibarius_JG-219"	"E, P"	2
+"P_cibarius_JG-220"	"E, P"	2
+"P_ciconiae_176-10"	"E, P"	0
+"P_cryohalolentis_K5"	"E, P"	2
+"P_faecalis_Iso-46"	"E, P"	2
+"P_faecalis_PBFP-1"	"E, P"	2
+"P_fjordensis_BSw21516B"	"E, P"	2
+"P_fozii_NF23"	"E, P"	2
+"P_frigidicola_ACAM304"	"E, P"	0
+"P_frigidicola_ACAM309"	"E, P"	0
+"P_fulvigenes_KC-40"	"E, P"	2
+"P_glaciei_Blc20019"	"E, P"	2
+"P_glacincola_1447"	"E, P"	2
+"P_glacincola_ACAM483"	"E, P"	0
+"P_immobilis_1159"	"E, P"	2
+"P_immobilis_1184"	"E, P"	0
+"P_immobilis_1347"	"E, P"	0
+"P_immobilis_1555"	"E, P"	2
+"P_immobilis_1617"	"E, P"	2
+"P_immobilis_1745"	"E, P"	2
+"P_immobilis_252"	"E, P"	2
+"P_immobilis_A-11"	"E, P"	2
+"P_immobilis_A-19"	"E, P"	2
+"P_immobilis_A1007"	"E, P"	2
+"P_immobilis_A1014"	"E, P"	2
+"P_immobilis_A351"	"E, P"	2
+"P_immobilis_A352"	"E, P"	3
+"P_immobilis_Liston1000"	"E, P"	2
+"P_immobilis_NC10"	"E, P"	2
+"P_immobilis_NCIMB357"	"E, P"	2
+"P_immobilis_NCIMB361"	"E, P"	2
+"P_immobilis_NCIMB362"	"E, P"	2
+"P_immobilis_S3"	"E, P"	2
+"P_jeotgali_YKJ-103"	"E, P"	2
+"P_luti_NF11"	"E, P"	2
+"P_lutiphocae_IMMIBL-1110"	"E, P"	4
+"P_marincola_KMM227"	"E, P"	2
+"P_maritimus_Pi2-20"	"E, P"	0
+"P_maritimus_Pi2-25"	"E, P"	2
+"P_namhaensis_SW-242"	"E, P"	0
+"P_nivimaris_88-2-7"	"E, P"	0
+"P_oceani_4k5"	"E, P"	2
+"P_okhotskensis_A1004"	"E, P"	2
+"P_okhotskensis_MD17"	"E, P"	2
+"P_pacificensis_NIBH-P2K6"	"E, P"	2
+"P_phenylpyruvicus_ACAM535"	"E, P"	2
+"P_piscatorii_T-3-2"	"E, P"	3
+"P_priscuii_LFX-15B1"	"E, P"	0
+"P_proteolyticus_116"	"E, P"	2
+"P_pulmonis_ES2-W5a2"	"E, P"	2
+"P_pulmonis_S-606"	"E, P"	0
+"P_salsus_DD48"	"E, P"	0
+"P_sanguinis_10070"	"E, P"	2
+"P_sanguinis_13983"	"E, P"	2
+"P_sanguinis_1501"	"E, P"	2
+"P_sanguinis_92"	"E, P"	2
+"P_sp_1044"	"E, P"	2
+"P_sp_2pS"	"E, P"	3
+"P_sp_72-O-c"	"E, P"	0
+"P_sp_CMS30"	"E, P"	2
+"P_sp_DD43"	"E, P"	0
+"P_sp_H7-1"	"E, P"	2
+"P_sp_H8-1"	"E, P"	2
+"P_sp_HII-4"	"E, P"	0
+"P_sp_IAM12030_72-O-c"	"E, P"	0
+"P_sp_JCM18900"	"E, P"	2
+"P_sp_JCM18902"	"E, P"	2
+"P_sp_JCM18903"	"E, P"	2
+"P_sp_NC44"	"E, P"	2
+"P_sp_Pi2-1"	"E, P"	2
+"P_sp_Pi2-51"	"E, P"	2
+"P_sp_Pi2-52"	"E, P"	2
+"P_submarinus_KMM225"	"E, P"	0
+"P_urativorans_ACAM311"	"E, P"	0
+"P_urativorans_ACAM534"	"E, P"	2
+"P_vallis_CMS39"	"E, P"	3
+"P_adeliensis_SJ14"	"E, Q"	0
+"P_aestuarii_SC35"	"E, Q"	0
+"P_alimentarius_JG100"	"E, Q"	0
+"P_alimentarius_JG102"	"E, Q"	0
+"P_aquaticus_CMS56"	"E, Q"	0
+"P_aquimaris_SW-210"	"E, Q"	0
+"P_arcticus_273-4"	"E, Q"	1
+"P_arenosus_R7"	"E, Q"	0
+"P_celer_SW-238"	"E, Q"	0
+"P_cibarius_JG-219"	"E, Q"	0
+"P_cibarius_JG-220"	"E, Q"	0
+"P_ciconiae_176-10"	"E, Q"	0
+"P_cryohalolentis_K5"	"E, Q"	0
+"P_faecalis_Iso-46"	"E, Q"	0
+"P_faecalis_PBFP-1"	"E, Q"	0
+"P_fjordensis_BSw21516B"	"E, Q"	0
+"P_fozii_NF23"	"E, Q"	0
+"P_frigidicola_ACAM304"	"E, Q"	0
+"P_frigidicola_ACAM309"	"E, Q"	0
+"P_fulvigenes_KC-40"	"E, Q"	0
+"P_glaciei_Blc20019"	"E, Q"	0
+"P_glacincola_1447"	"E, Q"	0
+"P_glacincola_ACAM483"	"E, Q"	0
+"P_immobilis_1159"	"E, Q"	0
+"P_immobilis_1184"	"E, Q"	0
+"P_immobilis_1347"	"E, Q"	0
+"P_immobilis_1555"	"E, Q"	0
+"P_immobilis_1617"	"E, Q"	0
+"P_immobilis_1745"	"E, Q"	0
+"P_immobilis_252"	"E, Q"	0
+"P_immobilis_A-11"	"E, Q"	0
+"P_immobilis_A-19"	"E, Q"	0
+"P_immobilis_A1007"	"E, Q"	0
+"P_immobilis_A1014"	"E, Q"	0
+"P_immobilis_A351"	"E, Q"	0
+"P_immobilis_A352"	"E, Q"	0
+"P_immobilis_Liston1000"	"E, Q"	0
+"P_immobilis_NC10"	"E, Q"	0
+"P_immobilis_NCIMB357"	"E, Q"	0
+"P_immobilis_NCIMB361"	"E, Q"	0
+"P_immobilis_NCIMB362"	"E, Q"	0
+"P_immobilis_S3"	"E, Q"	0
+"P_jeotgali_YKJ-103"	"E, Q"	0
+"P_luti_NF11"	"E, Q"	0
+"P_lutiphocae_IMMIBL-1110"	"E, Q"	0
+"P_marincola_KMM227"	"E, Q"	0
+"P_maritimus_Pi2-20"	"E, Q"	0
+"P_maritimus_Pi2-25"	"E, Q"	0
+"P_namhaensis_SW-242"	"E, Q"	0
+"P_nivimaris_88-2-7"	"E, Q"	0
+"P_oceani_4k5"	"E, Q"	0
+"P_okhotskensis_A1004"	"E, Q"	0
+"P_okhotskensis_MD17"	"E, Q"	0
+"P_pacificensis_NIBH-P2K6"	"E, Q"	0
+"P_phenylpyruvicus_ACAM535"	"E, Q"	0
+"P_piscatorii_T-3-2"	"E, Q"	0
+"P_priscuii_LFX-15B1"	"E, Q"	0
+"P_proteolyticus_116"	"E, Q"	0
+"P_pulmonis_ES2-W5a2"	"E, Q"	0
+"P_pulmonis_S-606"	"E, Q"	0
+"P_salsus_DD48"	"E, Q"	0
+"P_sanguinis_10070"	"E, Q"	0
+"P_sanguinis_13983"	"E, Q"	0
+"P_sanguinis_1501"	"E, Q"	0
+"P_sanguinis_92"	"E, Q"	0
+"P_sp_1044"	"E, Q"	0
+"P_sp_2pS"	"E, Q"	0
+"P_sp_72-O-c"	"E, Q"	0
+"P_sp_CMS30"	"E, Q"	0
+"P_sp_DD43"	"E, Q"	0
+"P_sp_H7-1"	"E, Q"	0
+"P_sp_H8-1"	"E, Q"	0
+"P_sp_HII-4"	"E, Q"	0
+"P_sp_IAM12030_72-O-c"	"E, Q"	0
+"P_sp_JCM18900"	"E, Q"	0
+"P_sp_JCM18902"	"E, Q"	0
+"P_sp_JCM18903"	"E, Q"	0
+"P_sp_NC44"	"E, Q"	0
+"P_sp_Pi2-1"	"E, Q"	0
+"P_sp_Pi2-51"	"E, Q"	0
+"P_sp_Pi2-52"	"E, Q"	0
+"P_submarinus_KMM225"	"E, Q"	0
+"P_urativorans_ACAM311"	"E, Q"	0
+"P_urativorans_ACAM534"	"E, Q"	0
+"P_vallis_CMS39"	"E, Q"	0
+"P_adeliensis_SJ14"	"F"	73
+"P_aestuarii_SC35"	"F"	59
+"P_alimentarius_JG100"	"F"	61
+"P_alimentarius_JG102"	"F"	59
+"P_aquaticus_CMS56"	"F"	61
+"P_aquimaris_SW-210"	"F"	71
+"P_arcticus_273-4"	"F"	54
+"P_arenosus_R7"	"F"	72
+"P_celer_SW-238"	"F"	59
+"P_cibarius_JG-219"	"F"	65
+"P_cibarius_JG-220"	"F"	66
+"P_ciconiae_176-10"	"F"	65
+"P_cryohalolentis_K5"	"F"	71
+"P_faecalis_Iso-46"	"F"	68
+"P_faecalis_PBFP-1"	"F"	68
+"P_fjordensis_BSw21516B"	"F"	69
+"P_fozii_NF23"	"F"	76
+"P_frigidicola_ACAM304"	"F"	73
+"P_frigidicola_ACAM309"	"F"	71
+"P_fulvigenes_KC-40"	"F"	64
+"P_glaciei_Blc20019"	"F"	61
+"P_glacincola_1447"	"F"	68
+"P_glacincola_ACAM483"	"F"	76
+"P_immobilis_1159"	"F"	62
+"P_immobilis_1184"	"F"	78
+"P_immobilis_1347"	"F"	71
+"P_immobilis_1555"	"F"	66
+"P_immobilis_1617"	"F"	66
+"P_immobilis_1745"	"F"	71
+"P_immobilis_252"	"F"	62
+"P_immobilis_A-11"	"F"	63
+"P_immobilis_A-19"	"F"	67
+"P_immobilis_A1007"	"F"	61
+"P_immobilis_A1014"	"F"	61
+"P_immobilis_A351"	"F"	71
+"P_immobilis_A352"	"F"	68
+"P_immobilis_Liston1000"	"F"	73
+"P_immobilis_NC10"	"F"	62
+"P_immobilis_NCIMB357"	"F"	66
+"P_immobilis_NCIMB361"	"F"	66
+"P_immobilis_NCIMB362"	"F"	68
+"P_immobilis_S3"	"F"	60
+"P_jeotgali_YKJ-103"	"F"	70
+"P_luti_NF11"	"F"	64
+"P_lutiphocae_IMMIBL-1110"	"F"	63
+"P_marincola_KMM227"	"F"	71
+"P_maritimus_Pi2-20"	"F"	70
+"P_maritimus_Pi2-25"	"F"	69
+"P_namhaensis_SW-242"	"F"	65
+"P_nivimaris_88-2-7"	"F"	71
+"P_oceani_4k5"	"F"	68
+"P_okhotskensis_A1004"	"F"	63
+"P_okhotskensis_MD17"	"F"	60
+"P_pacificensis_NIBH-P2K6"	"F"	79
+"P_phenylpyruvicus_ACAM535"	"F"	63
+"P_piscatorii_T-3-2"	"F"	79
+"P_priscuii_LFX-15B1"	"F"	71
+"P_proteolyticus_116"	"F"	71
+"P_pulmonis_ES2-W5a2"	"F"	69
+"P_pulmonis_S-606"	"F"	67
+"P_salsus_DD48"	"F"	70
+"P_sanguinis_10070"	"F"	61
+"P_sanguinis_13983"	"F"	60
+"P_sanguinis_1501"	"F"	63
+"P_sanguinis_92"	"F"	63
+"P_sp_1044"	"F"	66
+"P_sp_2pS"	"F"	69
+"P_sp_72-O-c"	"F"	71
+"P_sp_CMS30"	"F"	68
+"P_sp_DD43"	"F"	71
+"P_sp_H7-1"	"F"	59
+"P_sp_H8-1"	"F"	65
+"P_sp_HII-4"	"F"	58
+"P_sp_IAM12030_72-O-c"	"F"	71
+"P_sp_JCM18900"	"F"	78
+"P_sp_JCM18902"	"F"	66
+"P_sp_JCM18903"	"F"	67
+"P_sp_NC44"	"F"	69
+"P_sp_Pi2-1"	"F"	72
+"P_sp_Pi2-51"	"F"	62
+"P_sp_Pi2-52"	"F"	78
+"P_submarinus_KMM225"	"F"	70
+"P_urativorans_ACAM311"	"F"	72
+"P_urativorans_ACAM534"	"F"	74
+"P_vallis_CMS39"	"F"	59
+"P_adeliensis_SJ14"	"F, G"	2
+"P_aestuarii_SC35"	"F, G"	2
+"P_alimentarius_JG100"	"F, G"	2
+"P_alimentarius_JG102"	"F, G"	2
+"P_aquaticus_CMS56"	"F, G"	2
+"P_aquimaris_SW-210"	"F, G"	2
+"P_arcticus_273-4"	"F, G"	2
+"P_arenosus_R7"	"F, G"	2
+"P_celer_SW-238"	"F, G"	2
+"P_cibarius_JG-219"	"F, G"	2
+"P_cibarius_JG-220"	"F, G"	2
+"P_ciconiae_176-10"	"F, G"	2
+"P_cryohalolentis_K5"	"F, G"	2
+"P_faecalis_Iso-46"	"F, G"	2
+"P_faecalis_PBFP-1"	"F, G"	2
+"P_fjordensis_BSw21516B"	"F, G"	2
+"P_fozii_NF23"	"F, G"	2
+"P_frigidicola_ACAM304"	"F, G"	2
+"P_frigidicola_ACAM309"	"F, G"	2
+"P_fulvigenes_KC-40"	"F, G"	2
+"P_glaciei_Blc20019"	"F, G"	2
+"P_glacincola_1447"	"F, G"	2
+"P_glacincola_ACAM483"	"F, G"	2
+"P_immobilis_1159"	"F, G"	3
+"P_immobilis_1184"	"F, G"	2
+"P_immobilis_1347"	"F, G"	2
+"P_immobilis_1555"	"F, G"	2
+"P_immobilis_1617"	"F, G"	2
+"P_immobilis_1745"	"F, G"	2
+"P_immobilis_252"	"F, G"	2
+"P_immobilis_A-11"	"F, G"	2
+"P_immobilis_A-19"	"F, G"	2
+"P_immobilis_A1007"	"F, G"	2
+"P_immobilis_A1014"	"F, G"	2
+"P_immobilis_A351"	"F, G"	2
+"P_immobilis_A352"	"F, G"	2
+"P_immobilis_Liston1000"	"F, G"	2
+"P_immobilis_NC10"	"F, G"	2
+"P_immobilis_NCIMB357"	"F, G"	2
+"P_immobilis_NCIMB361"	"F, G"	2
+"P_immobilis_NCIMB362"	"F, G"	2
+"P_immobilis_S3"	"F, G"	2
+"P_jeotgali_YKJ-103"	"F, G"	2
+"P_luti_NF11"	"F, G"	2
+"P_lutiphocae_IMMIBL-1110"	"F, G"	2
+"P_marincola_KMM227"	"F, G"	2
+"P_maritimus_Pi2-20"	"F, G"	2
+"P_maritimus_Pi2-25"	"F, G"	2
+"P_namhaensis_SW-242"	"F, G"	2
+"P_nivimaris_88-2-7"	"F, G"	2
+"P_oceani_4k5"	"F, G"	2
+"P_okhotskensis_A1004"	"F, G"	2
+"P_okhotskensis_MD17"	"F, G"	2
+"P_pacificensis_NIBH-P2K6"	"F, G"	2
+"P_phenylpyruvicus_ACAM535"	"F, G"	2
+"P_piscatorii_T-3-2"	"F, G"	2
+"P_priscuii_LFX-15B1"	"F, G"	2
+"P_proteolyticus_116"	"F, G"	2
+"P_pulmonis_ES2-W5a2"	"F, G"	2
+"P_pulmonis_S-606"	"F, G"	2
+"P_salsus_DD48"	"F, G"	2
+"P_sanguinis_10070"	"F, G"	2
+"P_sanguinis_13983"	"F, G"	2
+"P_sanguinis_1501"	"F, G"	2
+"P_sanguinis_92"	"F, G"	2
+"P_sp_1044"	"F, G"	2
+"P_sp_2pS"	"F, G"	2
+"P_sp_72-O-c"	"F, G"	2
+"P_sp_CMS30"	"F, G"	2
+"P_sp_DD43"	"F, G"	2
+"P_sp_H7-1"	"F, G"	2
+"P_sp_H8-1"	"F, G"	2
+"P_sp_HII-4"	"F, G"	2
+"P_sp_IAM12030_72-O-c"	"F, G"	2
+"P_sp_JCM18900"	"F, G"	2
+"P_sp_JCM18902"	"F, G"	2
+"P_sp_JCM18903"	"F, G"	2
+"P_sp_NC44"	"F, G"	2
+"P_sp_Pi2-1"	"F, G"	2
+"P_sp_Pi2-51"	"F, G"	3
+"P_sp_Pi2-52"	"F, G"	2
+"P_submarinus_KMM225"	"F, G"	2
+"P_urativorans_ACAM311"	"F, G"	2
+"P_urativorans_ACAM534"	"F, G"	2
+"P_vallis_CMS39"	"F, G"	2
+"P_adeliensis_SJ14"	"F, H"	0
+"P_aestuarii_SC35"	"F, H"	0
+"P_alimentarius_JG100"	"F, H"	0
+"P_alimentarius_JG102"	"F, H"	0
+"P_aquaticus_CMS56"	"F, H"	0
+"P_aquimaris_SW-210"	"F, H"	0
+"P_arcticus_273-4"	"F, H"	0
+"P_arenosus_R7"	"F, H"	0
+"P_celer_SW-238"	"F, H"	0
+"P_cibarius_JG-219"	"F, H"	0
+"P_cibarius_JG-220"	"F, H"	0
+"P_ciconiae_176-10"	"F, H"	0
+"P_cryohalolentis_K5"	"F, H"	1
+"P_faecalis_Iso-46"	"F, H"	0
+"P_faecalis_PBFP-1"	"F, H"	0
+"P_fjordensis_BSw21516B"	"F, H"	0
+"P_fozii_NF23"	"F, H"	0
+"P_frigidicola_ACAM304"	"F, H"	1
+"P_frigidicola_ACAM309"	"F, H"	1
+"P_fulvigenes_KC-40"	"F, H"	0
+"P_glaciei_Blc20019"	"F, H"	0
+"P_glacincola_1447"	"F, H"	0
+"P_glacincola_ACAM483"	"F, H"	1
+"P_immobilis_1159"	"F, H"	0
+"P_immobilis_1184"	"F, H"	1
+"P_immobilis_1347"	"F, H"	0
+"P_immobilis_1555"	"F, H"	0
+"P_immobilis_1617"	"F, H"	0
+"P_immobilis_1745"	"F, H"	0
+"P_immobilis_252"	"F, H"	0
+"P_immobilis_A-11"	"F, H"	0
+"P_immobilis_A-19"	"F, H"	0
+"P_immobilis_A1007"	"F, H"	0
+"P_immobilis_A1014"	"F, H"	0
+"P_immobilis_A351"	"F, H"	0
+"P_immobilis_A352"	"F, H"	0
+"P_immobilis_Liston1000"	"F, H"	0
+"P_immobilis_NC10"	"F, H"	0
+"P_immobilis_NCIMB357"	"F, H"	0
+"P_immobilis_NCIMB361"	"F, H"	0
+"P_immobilis_NCIMB362"	"F, H"	0
+"P_immobilis_S3"	"F, H"	0
+"P_jeotgali_YKJ-103"	"F, H"	0
+"P_luti_NF11"	"F, H"	0
+"P_lutiphocae_IMMIBL-1110"	"F, H"	0
+"P_marincola_KMM227"	"F, H"	0
+"P_maritimus_Pi2-20"	"F, H"	0
+"P_maritimus_Pi2-25"	"F, H"	0
+"P_namhaensis_SW-242"	"F, H"	0
+"P_nivimaris_88-2-7"	"F, H"	0
+"P_oceani_4k5"	"F, H"	0
+"P_okhotskensis_A1004"	"F, H"	0
+"P_okhotskensis_MD17"	"F, H"	0
+"P_pacificensis_NIBH-P2K6"	"F, H"	0
+"P_phenylpyruvicus_ACAM535"	"F, H"	0
+"P_piscatorii_T-3-2"	"F, H"	0
+"P_priscuii_LFX-15B1"	"F, H"	1
+"P_proteolyticus_116"	"F, H"	0
+"P_pulmonis_ES2-W5a2"	"F, H"	0
+"P_pulmonis_S-606"	"F, H"	0
+"P_salsus_DD48"	"F, H"	0
+"P_sanguinis_10070"	"F, H"	0
+"P_sanguinis_13983"	"F, H"	0
+"P_sanguinis_1501"	"F, H"	0
+"P_sanguinis_92"	"F, H"	0
+"P_sp_1044"	"F, H"	0
+"P_sp_2pS"	"F, H"	0
+"P_sp_72-O-c"	"F, H"	0
+"P_sp_CMS30"	"F, H"	0
+"P_sp_DD43"	"F, H"	1
+"P_sp_H7-1"	"F, H"	0
+"P_sp_H8-1"	"F, H"	0
+"P_sp_HII-4"	"F, H"	0
+"P_sp_IAM12030_72-O-c"	"F, H"	0
+"P_sp_JCM18900"	"F, H"	0
+"P_sp_JCM18902"	"F, H"	0
+"P_sp_JCM18903"	"F, H"	0
+"P_sp_NC44"	"F, H"	0
+"P_sp_Pi2-1"	"F, H"	0
+"P_sp_Pi2-51"	"F, H"	0
+"P_sp_Pi2-52"	"F, H"	0
+"P_submarinus_KMM225"	"F, H"	0
+"P_urativorans_ACAM311"	"F, H"	1
+"P_urativorans_ACAM534"	"F, H"	2
+"P_vallis_CMS39"	"F, H"	0
+"P_adeliensis_SJ14"	"F, J"	2
+"P_aestuarii_SC35"	"F, J"	2
+"P_alimentarius_JG100"	"F, J"	2
+"P_alimentarius_JG102"	"F, J"	2
+"P_aquaticus_CMS56"	"F, J"	2
+"P_aquimaris_SW-210"	"F, J"	3
+"P_arcticus_273-4"	"F, J"	3
+"P_arenosus_R7"	"F, J"	3
+"P_celer_SW-238"	"F, J"	2
+"P_cibarius_JG-219"	"F, J"	3
+"P_cibarius_JG-220"	"F, J"	3
+"P_ciconiae_176-10"	"F, J"	4
+"P_cryohalolentis_K5"	"F, J"	3
+"P_faecalis_Iso-46"	"F, J"	3
+"P_faecalis_PBFP-1"	"F, J"	3
+"P_fjordensis_BSw21516B"	"F, J"	2
+"P_fozii_NF23"	"F, J"	2
+"P_frigidicola_ACAM304"	"F, J"	4
+"P_frigidicola_ACAM309"	"F, J"	3
+"P_fulvigenes_KC-40"	"F, J"	3
+"P_glaciei_Blc20019"	"F, J"	2
+"P_glacincola_1447"	"F, J"	3
+"P_glacincola_ACAM483"	"F, J"	3
+"P_immobilis_1159"	"F, J"	3
+"P_immobilis_1184"	"F, J"	3
+"P_immobilis_1347"	"F, J"	3
+"P_immobilis_1555"	"F, J"	3
+"P_immobilis_1617"	"F, J"	3
+"P_immobilis_1745"	"F, J"	2
+"P_immobilis_252"	"F, J"	3
+"P_immobilis_A-11"	"F, J"	3
+"P_immobilis_A-19"	"F, J"	3
+"P_immobilis_A1007"	"F, J"	3
+"P_immobilis_A1014"	"F, J"	3
+"P_immobilis_A351"	"F, J"	3
+"P_immobilis_A352"	"F, J"	3
+"P_immobilis_Liston1000"	"F, J"	2
+"P_immobilis_NC10"	"F, J"	3
+"P_immobilis_NCIMB357"	"F, J"	3
+"P_immobilis_NCIMB361"	"F, J"	3
+"P_immobilis_NCIMB362"	"F, J"	3
+"P_immobilis_S3"	"F, J"	3
+"P_jeotgali_YKJ-103"	"F, J"	3
+"P_luti_NF11"	"F, J"	3
+"P_lutiphocae_IMMIBL-1110"	"F, J"	3
+"P_marincola_KMM227"	"F, J"	2
+"P_maritimus_Pi2-20"	"F, J"	3
+"P_maritimus_Pi2-25"	"F, J"	3
+"P_namhaensis_SW-242"	"F, J"	2
+"P_nivimaris_88-2-7"	"F, J"	2
+"P_oceani_4k5"	"F, J"	2
+"P_okhotskensis_A1004"	"F, J"	3
+"P_okhotskensis_MD17"	"F, J"	3
+"P_pacificensis_NIBH-P2K6"	"F, J"	2
+"P_phenylpyruvicus_ACAM535"	"F, J"	3
+"P_piscatorii_T-3-2"	"F, J"	3
+"P_priscuii_LFX-15B1"	"F, J"	3
+"P_proteolyticus_116"	"F, J"	2
+"P_pulmonis_ES2-W5a2"	"F, J"	3
+"P_pulmonis_S-606"	"F, J"	3
+"P_salsus_DD48"	"F, J"	3
+"P_sanguinis_10070"	"F, J"	3
+"P_sanguinis_13983"	"F, J"	3
+"P_sanguinis_1501"	"F, J"	3
+"P_sanguinis_92"	"F, J"	3
+"P_sp_1044"	"F, J"	3
+"P_sp_2pS"	"F, J"	3
+"P_sp_72-O-c"	"F, J"	3
+"P_sp_CMS30"	"F, J"	3
+"P_sp_DD43"	"F, J"	3
+"P_sp_H7-1"	"F, J"	2
+"P_sp_H8-1"	"F, J"	3
+"P_sp_HII-4"	"F, J"	2
+"P_sp_IAM12030_72-O-c"	"F, J"	3
+"P_sp_JCM18900"	"F, J"	2
+"P_sp_JCM18902"	"F, J"	3
+"P_sp_JCM18903"	"F, J"	3
+"P_sp_NC44"	"F, J"	3
+"P_sp_Pi2-1"	"F, J"	2
+"P_sp_Pi2-51"	"F, J"	2
+"P_sp_Pi2-52"	"F, J"	2
+"P_submarinus_KMM225"	"F, J"	3
+"P_urativorans_ACAM311"	"F, J"	3
+"P_urativorans_ACAM534"	"F, J"	4
+"P_vallis_CMS39"	"F, J"	3
+"P_adeliensis_SJ14"	"F, L"	0
+"P_aestuarii_SC35"	"F, L"	0
+"P_alimentarius_JG100"	"F, L"	0
+"P_alimentarius_JG102"	"F, L"	0
+"P_aquaticus_CMS56"	"F, L"	0
+"P_aquimaris_SW-210"	"F, L"	0
+"P_arcticus_273-4"	"F, L"	0
+"P_arenosus_R7"	"F, L"	1
+"P_celer_SW-238"	"F, L"	0
+"P_cibarius_JG-219"	"F, L"	0
+"P_cibarius_JG-220"	"F, L"	0
+"P_ciconiae_176-10"	"F, L"	0
+"P_cryohalolentis_K5"	"F, L"	0
+"P_faecalis_Iso-46"	"F, L"	0
+"P_faecalis_PBFP-1"	"F, L"	0
+"P_fjordensis_BSw21516B"	"F, L"	0
+"P_fozii_NF23"	"F, L"	0
+"P_frigidicola_ACAM304"	"F, L"	0
+"P_frigidicola_ACAM309"	"F, L"	0
+"P_fulvigenes_KC-40"	"F, L"	0
+"P_glaciei_Blc20019"	"F, L"	0
+"P_glacincola_1447"	"F, L"	0
+"P_glacincola_ACAM483"	"F, L"	0
+"P_immobilis_1159"	"F, L"	0
+"P_immobilis_1184"	"F, L"	0
+"P_immobilis_1347"	"F, L"	0
+"P_immobilis_1555"	"F, L"	0
+"P_immobilis_1617"	"F, L"	0
+"P_immobilis_1745"	"F, L"	0
+"P_immobilis_252"	"F, L"	0
+"P_immobilis_A-11"	"F, L"	0
+"P_immobilis_A-19"	"F, L"	0
+"P_immobilis_A1007"	"F, L"	0
+"P_immobilis_A1014"	"F, L"	0
+"P_immobilis_A351"	"F, L"	0
+"P_immobilis_A352"	"F, L"	0
+"P_immobilis_Liston1000"	"F, L"	0
+"P_immobilis_NC10"	"F, L"	0
+"P_immobilis_NCIMB357"	"F, L"	0
+"P_immobilis_NCIMB361"	"F, L"	0
+"P_immobilis_NCIMB362"	"F, L"	0
+"P_immobilis_S3"	"F, L"	0
+"P_jeotgali_YKJ-103"	"F, L"	0
+"P_luti_NF11"	"F, L"	0
+"P_lutiphocae_IMMIBL-1110"	"F, L"	0
+"P_marincola_KMM227"	"F, L"	0
+"P_maritimus_Pi2-20"	"F, L"	0
+"P_maritimus_Pi2-25"	"F, L"	0
+"P_namhaensis_SW-242"	"F, L"	0
+"P_nivimaris_88-2-7"	"F, L"	0
+"P_oceani_4k5"	"F, L"	0
+"P_okhotskensis_A1004"	"F, L"	0
+"P_okhotskensis_MD17"	"F, L"	0
+"P_pacificensis_NIBH-P2K6"	"F, L"	0
+"P_phenylpyruvicus_ACAM535"	"F, L"	0
+"P_piscatorii_T-3-2"	"F, L"	0
+"P_priscuii_LFX-15B1"	"F, L"	0
+"P_proteolyticus_116"	"F, L"	0
+"P_pulmonis_ES2-W5a2"	"F, L"	0
+"P_pulmonis_S-606"	"F, L"	0
+"P_salsus_DD48"	"F, L"	0
+"P_sanguinis_10070"	"F, L"	0
+"P_sanguinis_13983"	"F, L"	0
+"P_sanguinis_1501"	"F, L"	0
+"P_sanguinis_92"	"F, L"	0
+"P_sp_1044"	"F, L"	0
+"P_sp_2pS"	"F, L"	0
+"P_sp_72-O-c"	"F, L"	0
+"P_sp_CMS30"	"F, L"	0
+"P_sp_DD43"	"F, L"	0
+"P_sp_H7-1"	"F, L"	0
+"P_sp_H8-1"	"F, L"	0
+"P_sp_HII-4"	"F, L"	0
+"P_sp_IAM12030_72-O-c"	"F, L"	0
+"P_sp_JCM18900"	"F, L"	0
+"P_sp_JCM18902"	"F, L"	0
+"P_sp_JCM18903"	"F, L"	0
+"P_sp_NC44"	"F, L"	0
+"P_sp_Pi2-1"	"F, L"	0
+"P_sp_Pi2-51"	"F, L"	0
+"P_sp_Pi2-52"	"F, L"	0
+"P_submarinus_KMM225"	"F, L"	0
+"P_urativorans_ACAM311"	"F, L"	0
+"P_urativorans_ACAM534"	"F, L"	0
+"P_vallis_CMS39"	"F, L"	0
+"P_adeliensis_SJ14"	"G"	55
+"P_aestuarii_SC35"	"G"	45
+"P_alimentarius_JG100"	"G"	49
+"P_alimentarius_JG102"	"G"	50
+"P_aquaticus_CMS56"	"G"	44
+"P_aquimaris_SW-210"	"G"	53
+"P_arcticus_273-4"	"G"	42
+"P_arenosus_R7"	"G"	52
+"P_celer_SW-238"	"G"	39
+"P_cibarius_JG-219"	"G"	43
+"P_cibarius_JG-220"	"G"	43
+"P_ciconiae_176-10"	"G"	38
+"P_cryohalolentis_K5"	"G"	47
+"P_faecalis_Iso-46"	"G"	44
+"P_faecalis_PBFP-1"	"G"	41
+"P_fjordensis_BSw21516B"	"G"	44
+"P_fozii_NF23"	"G"	52
+"P_frigidicola_ACAM304"	"G"	42
+"P_frigidicola_ACAM309"	"G"	38
+"P_fulvigenes_KC-40"	"G"	51
+"P_glaciei_Blc20019"	"G"	48
+"P_glacincola_1447"	"G"	43
+"P_glacincola_ACAM483"	"G"	49
+"P_immobilis_1159"	"G"	44
+"P_immobilis_1184"	"G"	46
+"P_immobilis_1347"	"G"	41
+"P_immobilis_1555"	"G"	43
+"P_immobilis_1617"	"G"	43
+"P_immobilis_1745"	"G"	47
+"P_immobilis_252"	"G"	44
+"P_immobilis_A-11"	"G"	40
+"P_immobilis_A-19"	"G"	41
+"P_immobilis_A1007"	"G"	43
+"P_immobilis_A1014"	"G"	43
+"P_immobilis_A351"	"G"	42
+"P_immobilis_A352"	"G"	48
+"P_immobilis_Liston1000"	"G"	49
+"P_immobilis_NC10"	"G"	47
+"P_immobilis_NCIMB357"	"G"	44
+"P_immobilis_NCIMB361"	"G"	44
+"P_immobilis_NCIMB362"	"G"	46
+"P_immobilis_S3"	"G"	41
+"P_jeotgali_YKJ-103"	"G"	43
+"P_luti_NF11"	"G"	43
+"P_lutiphocae_IMMIBL-1110"	"G"	49
+"P_marincola_KMM227"	"G"	50
+"P_maritimus_Pi2-20"	"G"	46
+"P_maritimus_Pi2-25"	"G"	43
+"P_namhaensis_SW-242"	"G"	42
+"P_nivimaris_88-2-7"	"G"	47
+"P_oceani_4k5"	"G"	43
+"P_okhotskensis_A1004"	"G"	44
+"P_okhotskensis_MD17"	"G"	42
+"P_pacificensis_NIBH-P2K6"	"G"	43
+"P_phenylpyruvicus_ACAM535"	"G"	46
+"P_piscatorii_T-3-2"	"G"	48
+"P_priscuii_LFX-15B1"	"G"	45
+"P_proteolyticus_116"	"G"	50
+"P_pulmonis_ES2-W5a2"	"G"	49
+"P_pulmonis_S-606"	"G"	40
+"P_salsus_DD48"	"G"	40
+"P_sanguinis_10070"	"G"	46
+"P_sanguinis_13983"	"G"	43
+"P_sanguinis_1501"	"G"	42
+"P_sanguinis_92"	"G"	43
+"P_sp_1044"	"G"	42
+"P_sp_2pS"	"G"	52
+"P_sp_72-O-c"	"G"	48
+"P_sp_CMS30"	"G"	45
+"P_sp_DD43"	"G"	45
+"P_sp_H7-1"	"G"	41
+"P_sp_H8-1"	"G"	51
+"P_sp_HII-4"	"G"	40
+"P_sp_IAM12030_72-O-c"	"G"	48
+"P_sp_JCM18900"	"G"	52
+"P_sp_JCM18902"	"G"	47
+"P_sp_JCM18903"	"G"	42
+"P_sp_NC44"	"G"	42
+"P_sp_Pi2-1"	"G"	47
+"P_sp_Pi2-51"	"G"	45
+"P_sp_Pi2-52"	"G"	48
+"P_submarinus_KMM225"	"G"	41
+"P_urativorans_ACAM311"	"G"	43
+"P_urativorans_ACAM534"	"G"	45
+"P_vallis_CMS39"	"G"	47
+"P_adeliensis_SJ14"	"G, H"	1
+"P_aestuarii_SC35"	"G, H"	1
+"P_alimentarius_JG100"	"G, H"	1
+"P_alimentarius_JG102"	"G, H"	1
+"P_aquaticus_CMS56"	"G, H"	1
+"P_aquimaris_SW-210"	"G, H"	1
+"P_arcticus_273-4"	"G, H"	1
+"P_arenosus_R7"	"G, H"	1
+"P_celer_SW-238"	"G, H"	1
+"P_cibarius_JG-219"	"G, H"	1
+"P_cibarius_JG-220"	"G, H"	1
+"P_ciconiae_176-10"	"G, H"	0
+"P_cryohalolentis_K5"	"G, H"	1
+"P_faecalis_Iso-46"	"G, H"	1
+"P_faecalis_PBFP-1"	"G, H"	1
+"P_fjordensis_BSw21516B"	"G, H"	1
+"P_fozii_NF23"	"G, H"	1
+"P_frigidicola_ACAM304"	"G, H"	1
+"P_frigidicola_ACAM309"	"G, H"	1
+"P_fulvigenes_KC-40"	"G, H"	1
+"P_glaciei_Blc20019"	"G, H"	1
+"P_glacincola_1447"	"G, H"	1
+"P_glacincola_ACAM483"	"G, H"	1
+"P_immobilis_1159"	"G, H"	1
+"P_immobilis_1184"	"G, H"	1
+"P_immobilis_1347"	"G, H"	1
+"P_immobilis_1555"	"G, H"	1
+"P_immobilis_1617"	"G, H"	1
+"P_immobilis_1745"	"G, H"	1
+"P_immobilis_252"	"G, H"	1
+"P_immobilis_A-11"	"G, H"	1
+"P_immobilis_A-19"	"G, H"	1
+"P_immobilis_A1007"	"G, H"	1
+"P_immobilis_A1014"	"G, H"	1
+"P_immobilis_A351"	"G, H"	1
+"P_immobilis_A352"	"G, H"	1
+"P_immobilis_Liston1000"	"G, H"	1
+"P_immobilis_NC10"	"G, H"	1
+"P_immobilis_NCIMB357"	"G, H"	1
+"P_immobilis_NCIMB361"	"G, H"	1
+"P_immobilis_NCIMB362"	"G, H"	1
+"P_immobilis_S3"	"G, H"	1
+"P_jeotgali_YKJ-103"	"G, H"	1
+"P_luti_NF11"	"G, H"	1
+"P_lutiphocae_IMMIBL-1110"	"G, H"	1
+"P_marincola_KMM227"	"G, H"	1
+"P_maritimus_Pi2-20"	"G, H"	1
+"P_maritimus_Pi2-25"	"G, H"	1
+"P_namhaensis_SW-242"	"G, H"	1
+"P_nivimaris_88-2-7"	"G, H"	1
+"P_oceani_4k5"	"G, H"	1
+"P_okhotskensis_A1004"	"G, H"	1
+"P_okhotskensis_MD17"	"G, H"	1
+"P_pacificensis_NIBH-P2K6"	"G, H"	1
+"P_phenylpyruvicus_ACAM535"	"G, H"	1
+"P_piscatorii_T-3-2"	"G, H"	1
+"P_priscuii_LFX-15B1"	"G, H"	1
+"P_proteolyticus_116"	"G, H"	1
+"P_pulmonis_ES2-W5a2"	"G, H"	3
+"P_pulmonis_S-606"	"G, H"	1
+"P_salsus_DD48"	"G, H"	1
+"P_sanguinis_10070"	"G, H"	1
+"P_sanguinis_13983"	"G, H"	1
+"P_sanguinis_1501"	"G, H"	1
+"P_sanguinis_92"	"G, H"	1
+"P_sp_1044"	"G, H"	1
+"P_sp_2pS"	"G, H"	1
+"P_sp_72-O-c"	"G, H"	1
+"P_sp_CMS30"	"G, H"	1
+"P_sp_DD43"	"G, H"	1
+"P_sp_H7-1"	"G, H"	1
+"P_sp_H8-1"	"G, H"	1
+"P_sp_HII-4"	"G, H"	1
+"P_sp_IAM12030_72-O-c"	"G, H"	1
+"P_sp_JCM18900"	"G, H"	1
+"P_sp_JCM18902"	"G, H"	1
+"P_sp_JCM18903"	"G, H"	1
+"P_sp_NC44"	"G, H"	1
+"P_sp_Pi2-1"	"G, H"	1
+"P_sp_Pi2-51"	"G, H"	1
+"P_sp_Pi2-52"	"G, H"	1
+"P_submarinus_KMM225"	"G, H"	1
+"P_urativorans_ACAM311"	"G, H"	1
+"P_urativorans_ACAM534"	"G, H"	0
+"P_vallis_CMS39"	"G, H"	1
+"P_adeliensis_SJ14"	"G, M"	2
+"P_aestuarii_SC35"	"G, M"	2
+"P_alimentarius_JG100"	"G, M"	4
+"P_alimentarius_JG102"	"G, M"	4
+"P_aquaticus_CMS56"	"G, M"	3
+"P_aquimaris_SW-210"	"G, M"	5
+"P_arcticus_273-4"	"G, M"	1
+"P_arenosus_R7"	"G, M"	3
+"P_celer_SW-238"	"G, M"	4
+"P_cibarius_JG-219"	"G, M"	4
+"P_cibarius_JG-220"	"G, M"	4
+"P_ciconiae_176-10"	"G, M"	1
+"P_cryohalolentis_K5"	"G, M"	2
+"P_faecalis_Iso-46"	"G, M"	2
+"P_faecalis_PBFP-1"	"G, M"	3
+"P_fjordensis_BSw21516B"	"G, M"	4
+"P_fozii_NF23"	"G, M"	4
+"P_frigidicola_ACAM304"	"G, M"	2
+"P_frigidicola_ACAM309"	"G, M"	2
+"P_fulvigenes_KC-40"	"G, M"	4
+"P_glaciei_Blc20019"	"G, M"	4
+"P_glacincola_1447"	"G, M"	4
+"P_glacincola_ACAM483"	"G, M"	3
+"P_immobilis_1159"	"G, M"	4
+"P_immobilis_1184"	"G, M"	3
+"P_immobilis_1347"	"G, M"	2
+"P_immobilis_1555"	"G, M"	4
+"P_immobilis_1617"	"G, M"	4
+"P_immobilis_1745"	"G, M"	4
+"P_immobilis_252"	"G, M"	4
+"P_immobilis_A-11"	"G, M"	3
+"P_immobilis_A-19"	"G, M"	4
+"P_immobilis_A1007"	"G, M"	4
+"P_immobilis_A1014"	"G, M"	4
+"P_immobilis_A351"	"G, M"	4
+"P_immobilis_A352"	"G, M"	4
+"P_immobilis_Liston1000"	"G, M"	2
+"P_immobilis_NC10"	"G, M"	4
+"P_immobilis_NCIMB357"	"G, M"	4
+"P_immobilis_NCIMB361"	"G, M"	4
+"P_immobilis_NCIMB362"	"G, M"	3
+"P_immobilis_S3"	"G, M"	3
+"P_jeotgali_YKJ-103"	"G, M"	2
+"P_luti_NF11"	"G, M"	2
+"P_lutiphocae_IMMIBL-1110"	"G, M"	1
+"P_marincola_KMM227"	"G, M"	2
+"P_maritimus_Pi2-20"	"G, M"	2
+"P_maritimus_Pi2-25"	"G, M"	2
+"P_namhaensis_SW-242"	"G, M"	2
+"P_nivimaris_88-2-7"	"G, M"	4
+"P_oceani_4k5"	"G, M"	2
+"P_okhotskensis_A1004"	"G, M"	4
+"P_okhotskensis_MD17"	"G, M"	4
+"P_pacificensis_NIBH-P2K6"	"G, M"	2
+"P_phenylpyruvicus_ACAM535"	"G, M"	2
+"P_piscatorii_T-3-2"	"G, M"	4
+"P_priscuii_LFX-15B1"	"G, M"	2
+"P_proteolyticus_116"	"G, M"	2
+"P_pulmonis_ES2-W5a2"	"G, M"	2
+"P_pulmonis_S-606"	"G, M"	2
+"P_salsus_DD48"	"G, M"	2
+"P_sanguinis_10070"	"G, M"	3
+"P_sanguinis_13983"	"G, M"	2
+"P_sanguinis_1501"	"G, M"	2
+"P_sanguinis_92"	"G, M"	2
+"P_sp_1044"	"G, M"	4
+"P_sp_2pS"	"G, M"	4
+"P_sp_72-O-c"	"G, M"	2
+"P_sp_CMS30"	"G, M"	2
+"P_sp_DD43"	"G, M"	2
+"P_sp_H7-1"	"G, M"	1
+"P_sp_H8-1"	"G, M"	4
+"P_sp_HII-4"	"G, M"	4
+"P_sp_IAM12030_72-O-c"	"G, M"	2
+"P_sp_JCM18900"	"G, M"	5
+"P_sp_JCM18902"	"G, M"	4
+"P_sp_JCM18903"	"G, M"	4
+"P_sp_NC44"	"G, M"	4
+"P_sp_Pi2-1"	"G, M"	4
+"P_sp_Pi2-51"	"G, M"	4
+"P_sp_Pi2-52"	"G, M"	2
+"P_submarinus_KMM225"	"G, M"	2
+"P_urativorans_ACAM311"	"G, M"	2
+"P_urativorans_ACAM534"	"G, M"	1
+"P_vallis_CMS39"	"G, M"	2
+"P_adeliensis_SJ14"	"H"	101
+"P_aestuarii_SC35"	"H"	90
+"P_alimentarius_JG100"	"H"	94
+"P_alimentarius_JG102"	"H"	94
+"P_aquaticus_CMS56"	"H"	100
+"P_aquimaris_SW-210"	"H"	99
+"P_arcticus_273-4"	"H"	83
+"P_arenosus_R7"	"H"	96
+"P_celer_SW-238"	"H"	94
+"P_cibarius_JG-219"	"H"	90
+"P_cibarius_JG-220"	"H"	97
+"P_ciconiae_176-10"	"H"	86
+"P_cryohalolentis_K5"	"H"	91
+"P_faecalis_Iso-46"	"H"	92
+"P_faecalis_PBFP-1"	"H"	96
+"P_fjordensis_BSw21516B"	"H"	90
+"P_fozii_NF23"	"H"	90
+"P_frigidicola_ACAM304"	"H"	94
+"P_frigidicola_ACAM309"	"H"	86
+"P_fulvigenes_KC-40"	"H"	95
+"P_glaciei_Blc20019"	"H"	87
+"P_glacincola_1447"	"H"	93
+"P_glacincola_ACAM483"	"H"	88
+"P_immobilis_1159"	"H"	94
+"P_immobilis_1184"	"H"	95
+"P_immobilis_1347"	"H"	86
+"P_immobilis_1555"	"H"	95
+"P_immobilis_1617"	"H"	94
+"P_immobilis_1745"	"H"	93
+"P_immobilis_252"	"H"	88
+"P_immobilis_A-11"	"H"	95
+"P_immobilis_A-19"	"H"	90
+"P_immobilis_A1007"	"H"	92
+"P_immobilis_A1014"	"H"	90
+"P_immobilis_A351"	"H"	95
+"P_immobilis_A352"	"H"	93
+"P_immobilis_Liston1000"	"H"	92
+"P_immobilis_NC10"	"H"	91
+"P_immobilis_NCIMB357"	"H"	90
+"P_immobilis_NCIMB361"	"H"	91
+"P_immobilis_NCIMB362"	"H"	89
+"P_immobilis_S3"	"H"	90
+"P_jeotgali_YKJ-103"	"H"	87
+"P_luti_NF11"	"H"	90
+"P_lutiphocae_IMMIBL-1110"	"H"	88
+"P_marincola_KMM227"	"H"	93
+"P_maritimus_Pi2-20"	"H"	90
+"P_maritimus_Pi2-25"	"H"	90
+"P_namhaensis_SW-242"	"H"	99
+"P_nivimaris_88-2-7"	"H"	91
+"P_oceani_4k5"	"H"	91
+"P_okhotskensis_A1004"	"H"	90
+"P_okhotskensis_MD17"	"H"	90
+"P_pacificensis_NIBH-P2K6"	"H"	91
+"P_phenylpyruvicus_ACAM535"	"H"	93
+"P_piscatorii_T-3-2"	"H"	93
+"P_priscuii_LFX-15B1"	"H"	91
+"P_proteolyticus_116"	"H"	93
+"P_pulmonis_ES2-W5a2"	"H"	97
+"P_pulmonis_S-606"	"H"	90
+"P_salsus_DD48"	"H"	84
+"P_sanguinis_10070"	"H"	96
+"P_sanguinis_13983"	"H"	97
+"P_sanguinis_1501"	"H"	96
+"P_sanguinis_92"	"H"	97
+"P_sp_1044"	"H"	91
+"P_sp_2pS"	"H"	99
+"P_sp_72-O-c"	"H"	88
+"P_sp_CMS30"	"H"	89
+"P_sp_DD43"	"H"	90
+"P_sp_H7-1"	"H"	93
+"P_sp_H8-1"	"H"	91
+"P_sp_HII-4"	"H"	91
+"P_sp_IAM12030_72-O-c"	"H"	88
+"P_sp_JCM18900"	"H"	93
+"P_sp_JCM18902"	"H"	92
+"P_sp_JCM18903"	"H"	89
+"P_sp_NC44"	"H"	89
+"P_sp_Pi2-1"	"H"	92
+"P_sp_Pi2-51"	"H"	90
+"P_sp_Pi2-52"	"H"	94
+"P_submarinus_KMM225"	"H"	86
+"P_urativorans_ACAM311"	"H"	88
+"P_urativorans_ACAM534"	"H"	94
+"P_vallis_CMS39"	"H"	103
+"P_adeliensis_SJ14"	"I"	103
+"P_aestuarii_SC35"	"I"	64
+"P_alimentarius_JG100"	"I"	102
+"P_alimentarius_JG102"	"I"	107
+"P_aquaticus_CMS56"	"I"	93
+"P_aquimaris_SW-210"	"I"	107
+"P_arcticus_273-4"	"I"	82
+"P_arenosus_R7"	"I"	105
+"P_celer_SW-238"	"I"	79
+"P_cibarius_JG-219"	"I"	87
+"P_cibarius_JG-220"	"I"	91
+"P_ciconiae_176-10"	"I"	56
+"P_cryohalolentis_K5"	"I"	93
+"P_faecalis_Iso-46"	"I"	87
+"P_faecalis_PBFP-1"	"I"	81
+"P_fjordensis_BSw21516B"	"I"	95
+"P_fozii_NF23"	"I"	100
+"P_frigidicola_ACAM304"	"I"	70
+"P_frigidicola_ACAM309"	"I"	86
+"P_fulvigenes_KC-40"	"I"	104
+"P_glaciei_Blc20019"	"I"	103
+"P_glacincola_1447"	"I"	94
+"P_glacincola_ACAM483"	"I"	96
+"P_immobilis_1159"	"I"	101
+"P_immobilis_1184"	"I"	93
+"P_immobilis_1347"	"I"	89
+"P_immobilis_1555"	"I"	91
+"P_immobilis_1617"	"I"	91
+"P_immobilis_1745"	"I"	96
+"P_immobilis_252"	"I"	100
+"P_immobilis_A-11"	"I"	85
+"P_immobilis_A-19"	"I"	89
+"P_immobilis_A1007"	"I"	106
+"P_immobilis_A1014"	"I"	102
+"P_immobilis_A351"	"I"	90
+"P_immobilis_A352"	"I"	103
+"P_immobilis_Liston1000"	"I"	100
+"P_immobilis_NC10"	"I"	108
+"P_immobilis_NCIMB357"	"I"	89
+"P_immobilis_NCIMB361"	"I"	89
+"P_immobilis_NCIMB362"	"I"	91
+"P_immobilis_S3"	"I"	85
+"P_jeotgali_YKJ-103"	"I"	93
+"P_luti_NF11"	"I"	86
+"P_lutiphocae_IMMIBL-1110"	"I"	91
+"P_marincola_KMM227"	"I"	101
+"P_maritimus_Pi2-20"	"I"	90
+"P_maritimus_Pi2-25"	"I"	95
+"P_namhaensis_SW-242"	"I"	79
+"P_nivimaris_88-2-7"	"I"	102
+"P_oceani_4k5"	"I"	88
+"P_okhotskensis_A1004"	"I"	102
+"P_okhotskensis_MD17"	"I"	103
+"P_pacificensis_NIBH-P2K6"	"I"	88
+"P_phenylpyruvicus_ACAM535"	"I"	88
+"P_piscatorii_T-3-2"	"I"	101
+"P_priscuii_LFX-15B1"	"I"	94
+"P_proteolyticus_116"	"I"	101
+"P_pulmonis_ES2-W5a2"	"I"	89
+"P_pulmonis_S-606"	"I"	84
+"P_salsus_DD48"	"I"	88
+"P_sanguinis_10070"	"I"	90
+"P_sanguinis_13983"	"I"	87
+"P_sanguinis_1501"	"I"	86
+"P_sanguinis_92"	"I"	86
+"P_sp_1044"	"I"	91
+"P_sp_2pS"	"I"	108
+"P_sp_72-O-c"	"I"	98
+"P_sp_CMS30"	"I"	86
+"P_sp_DD43"	"I"	91
+"P_sp_H7-1"	"I"	91
+"P_sp_H8-1"	"I"	96
+"P_sp_HII-4"	"I"	80
+"P_sp_IAM12030_72-O-c"	"I"	98
+"P_sp_JCM18900"	"I"	100
+"P_sp_JCM18902"	"I"	96
+"P_sp_JCM18903"	"I"	91
+"P_sp_NC44"	"I"	86
+"P_sp_Pi2-1"	"I"	96
+"P_sp_Pi2-51"	"I"	103
+"P_sp_Pi2-52"	"I"	101
+"P_submarinus_KMM225"	"I"	99
+"P_urativorans_ACAM311"	"I"	82
+"P_urativorans_ACAM534"	"I"	87
+"P_vallis_CMS39"	"I"	86
+"P_adeliensis_SJ14"	"I, M"	0
+"P_aestuarii_SC35"	"I, M"	0
+"P_alimentarius_JG100"	"I, M"	0
+"P_alimentarius_JG102"	"I, M"	0
+"P_aquaticus_CMS56"	"I, M"	0
+"P_aquimaris_SW-210"	"I, M"	0
+"P_arcticus_273-4"	"I, M"	0
+"P_arenosus_R7"	"I, M"	0
+"P_celer_SW-238"	"I, M"	0
+"P_cibarius_JG-219"	"I, M"	0
+"P_cibarius_JG-220"	"I, M"	0
+"P_ciconiae_176-10"	"I, M"	0
+"P_cryohalolentis_K5"	"I, M"	0
+"P_faecalis_Iso-46"	"I, M"	0
+"P_faecalis_PBFP-1"	"I, M"	0
+"P_fjordensis_BSw21516B"	"I, M"	1
+"P_fozii_NF23"	"I, M"	0
+"P_frigidicola_ACAM304"	"I, M"	0
+"P_frigidicola_ACAM309"	"I, M"	0
+"P_fulvigenes_KC-40"	"I, M"	0
+"P_glaciei_Blc20019"	"I, M"	0
+"P_glacincola_1447"	"I, M"	0
+"P_glacincola_ACAM483"	"I, M"	0
+"P_immobilis_1159"	"I, M"	1
+"P_immobilis_1184"	"I, M"	0
+"P_immobilis_1347"	"I, M"	0
+"P_immobilis_1555"	"I, M"	0
+"P_immobilis_1617"	"I, M"	0
+"P_immobilis_1745"	"I, M"	0
+"P_immobilis_252"	"I, M"	0
+"P_immobilis_A-11"	"I, M"	0
+"P_immobilis_A-19"	"I, M"	0
+"P_immobilis_A1007"	"I, M"	0
+"P_immobilis_A1014"	"I, M"	1
+"P_immobilis_A351"	"I, M"	0
+"P_immobilis_A352"	"I, M"	0
+"P_immobilis_Liston1000"	"I, M"	0
+"P_immobilis_NC10"	"I, M"	0
+"P_immobilis_NCIMB357"	"I, M"	0
+"P_immobilis_NCIMB361"	"I, M"	0
+"P_immobilis_NCIMB362"	"I, M"	0
+"P_immobilis_S3"	"I, M"	0
+"P_jeotgali_YKJ-103"	"I, M"	0
+"P_luti_NF11"	"I, M"	0
+"P_lutiphocae_IMMIBL-1110"	"I, M"	0
+"P_marincola_KMM227"	"I, M"	0
+"P_maritimus_Pi2-20"	"I, M"	0
+"P_maritimus_Pi2-25"	"I, M"	0
+"P_namhaensis_SW-242"	"I, M"	0
+"P_nivimaris_88-2-7"	"I, M"	1
+"P_oceani_4k5"	"I, M"	0
+"P_okhotskensis_A1004"	"I, M"	0
+"P_okhotskensis_MD17"	"I, M"	0
+"P_pacificensis_NIBH-P2K6"	"I, M"	0
+"P_phenylpyruvicus_ACAM535"	"I, M"	0
+"P_piscatorii_T-3-2"	"I, M"	0
+"P_priscuii_LFX-15B1"	"I, M"	0
+"P_proteolyticus_116"	"I, M"	0
+"P_pulmonis_ES2-W5a2"	"I, M"	0
+"P_pulmonis_S-606"	"I, M"	0
+"P_salsus_DD48"	"I, M"	0
+"P_sanguinis_10070"	"I, M"	0
+"P_sanguinis_13983"	"I, M"	0
+"P_sanguinis_1501"	"I, M"	0
+"P_sanguinis_92"	"I, M"	0
+"P_sp_1044"	"I, M"	0
+"P_sp_2pS"	"I, M"	0
+"P_sp_72-O-c"	"I, M"	0
+"P_sp_CMS30"	"I, M"	0
+"P_sp_DD43"	"I, M"	0
+"P_sp_H7-1"	"I, M"	0
+"P_sp_H8-1"	"I, M"	0
+"P_sp_HII-4"	"I, M"	0
+"P_sp_IAM12030_72-O-c"	"I, M"	0
+"P_sp_JCM18900"	"I, M"	0
+"P_sp_JCM18902"	"I, M"	0
+"P_sp_JCM18903"	"I, M"	0
+"P_sp_NC44"	"I, M"	0
+"P_sp_Pi2-1"	"I, M"	0
+"P_sp_Pi2-51"	"I, M"	0
+"P_sp_Pi2-52"	"I, M"	0
+"P_submarinus_KMM225"	"I, M"	0
+"P_urativorans_ACAM311"	"I, M"	0
+"P_urativorans_ACAM534"	"I, M"	0
+"P_vallis_CMS39"	"I, M"	0
+"P_adeliensis_SJ14"	"I, Q"	7
+"P_aestuarii_SC35"	"I, Q"	6
+"P_alimentarius_JG100"	"I, Q"	10
+"P_alimentarius_JG102"	"I, Q"	9
+"P_aquaticus_CMS56"	"I, Q"	6
+"P_aquimaris_SW-210"	"I, Q"	5
+"P_arcticus_273-4"	"I, Q"	4
+"P_arenosus_R7"	"I, Q"	9
+"P_celer_SW-238"	"I, Q"	6
+"P_cibarius_JG-219"	"I, Q"	9
+"P_cibarius_JG-220"	"I, Q"	9
+"P_ciconiae_176-10"	"I, Q"	5
+"P_cryohalolentis_K5"	"I, Q"	6
+"P_faecalis_Iso-46"	"I, Q"	8
+"P_faecalis_PBFP-1"	"I, Q"	7
+"P_fjordensis_BSw21516B"	"I, Q"	9
+"P_fozii_NF23"	"I, Q"	10
+"P_frigidicola_ACAM304"	"I, Q"	5
+"P_frigidicola_ACAM309"	"I, Q"	5
+"P_fulvigenes_KC-40"	"I, Q"	7
+"P_glaciei_Blc20019"	"I, Q"	9
+"P_glacincola_1447"	"I, Q"	8
+"P_glacincola_ACAM483"	"I, Q"	6
+"P_immobilis_1159"	"I, Q"	9
+"P_immobilis_1184"	"I, Q"	7
+"P_immobilis_1347"	"I, Q"	8
+"P_immobilis_1555"	"I, Q"	8
+"P_immobilis_1617"	"I, Q"	9
+"P_immobilis_1745"	"I, Q"	9
+"P_immobilis_252"	"I, Q"	9
+"P_immobilis_A-11"	"I, Q"	7
+"P_immobilis_A-19"	"I, Q"	9
+"P_immobilis_A1007"	"I, Q"	9
+"P_immobilis_A1014"	"I, Q"	9
+"P_immobilis_A351"	"I, Q"	9
+"P_immobilis_A352"	"I, Q"	8
+"P_immobilis_Liston1000"	"I, Q"	9
+"P_immobilis_NC10"	"I, Q"	10
+"P_immobilis_NCIMB357"	"I, Q"	9
+"P_immobilis_NCIMB361"	"I, Q"	9
+"P_immobilis_NCIMB362"	"I, Q"	9
+"P_immobilis_S3"	"I, Q"	7
+"P_jeotgali_YKJ-103"	"I, Q"	8
+"P_luti_NF11"	"I, Q"	7
+"P_lutiphocae_IMMIBL-1110"	"I, Q"	2
+"P_marincola_KMM227"	"I, Q"	7
+"P_maritimus_Pi2-20"	"I, Q"	7
+"P_maritimus_Pi2-25"	"I, Q"	8
+"P_namhaensis_SW-242"	"I, Q"	5
+"P_nivimaris_88-2-7"	"I, Q"	10
+"P_oceani_4k5"	"I, Q"	7
+"P_okhotskensis_A1004"	"I, Q"	10
+"P_okhotskensis_MD17"	"I, Q"	10
+"P_pacificensis_NIBH-P2K6"	"I, Q"	6
+"P_phenylpyruvicus_ACAM535"	"I, Q"	4
+"P_piscatorii_T-3-2"	"I, Q"	7
+"P_priscuii_LFX-15B1"	"I, Q"	7
+"P_proteolyticus_116"	"I, Q"	7
+"P_pulmonis_ES2-W5a2"	"I, Q"	7
+"P_pulmonis_S-606"	"I, Q"	9
+"P_salsus_DD48"	"I, Q"	7
+"P_sanguinis_10070"	"I, Q"	5
+"P_sanguinis_13983"	"I, Q"	5
+"P_sanguinis_1501"	"I, Q"	5
+"P_sanguinis_92"	"I, Q"	5
+"P_sp_1044"	"I, Q"	9
+"P_sp_2pS"	"I, Q"	6
+"P_sp_72-O-c"	"I, Q"	7
+"P_sp_CMS30"	"I, Q"	7
+"P_sp_DD43"	"I, Q"	6
+"P_sp_H7-1"	"I, Q"	4
+"P_sp_H8-1"	"I, Q"	9
+"P_sp_HII-4"	"I, Q"	5
+"P_sp_IAM12030_72-O-c"	"I, Q"	7
+"P_sp_JCM18900"	"I, Q"	9
+"P_sp_JCM18902"	"I, Q"	10
+"P_sp_JCM18903"	"I, Q"	10
+"P_sp_NC44"	"I, Q"	9
+"P_sp_Pi2-1"	"I, Q"	8
+"P_sp_Pi2-51"	"I, Q"	9
+"P_sp_Pi2-52"	"I, Q"	8
+"P_submarinus_KMM225"	"I, Q"	8
+"P_urativorans_ACAM311"	"I, Q"	5
+"P_urativorans_ACAM534"	"I, Q"	8
+"P_vallis_CMS39"	"I, Q"	5
+"P_adeliensis_SJ14"	"J"	167
+"P_aestuarii_SC35"	"J"	157
+"P_alimentarius_JG100"	"J"	159
+"P_alimentarius_JG102"	"J"	161
+"P_aquaticus_CMS56"	"J"	160
+"P_aquimaris_SW-210"	"J"	159
+"P_arcticus_273-4"	"J"	153
+"P_arenosus_R7"	"J"	160
+"P_celer_SW-238"	"J"	155
+"P_cibarius_JG-219"	"J"	156
+"P_cibarius_JG-220"	"J"	165
+"P_ciconiae_176-10"	"J"	152
+"P_cryohalolentis_K5"	"J"	160
+"P_faecalis_Iso-46"	"J"	155
+"P_faecalis_PBFP-1"	"J"	159
+"P_fjordensis_BSw21516B"	"J"	158
+"P_fozii_NF23"	"J"	161
+"P_frigidicola_ACAM304"	"J"	158
+"P_frigidicola_ACAM309"	"J"	156
+"P_fulvigenes_KC-40"	"J"	164
+"P_glaciei_Blc20019"	"J"	161
+"P_glacincola_1447"	"J"	161
+"P_glacincola_ACAM483"	"J"	160
+"P_immobilis_1159"	"J"	159
+"P_immobilis_1184"	"J"	160
+"P_immobilis_1347"	"J"	158
+"P_immobilis_1555"	"J"	160
+"P_immobilis_1617"	"J"	161
+"P_immobilis_1745"	"J"	156
+"P_immobilis_252"	"J"	158
+"P_immobilis_A-11"	"J"	157
+"P_immobilis_A-19"	"J"	156
+"P_immobilis_A1007"	"J"	159
+"P_immobilis_A1014"	"J"	157
+"P_immobilis_A351"	"J"	162
+"P_immobilis_A352"	"J"	163
+"P_immobilis_Liston1000"	"J"	157
+"P_immobilis_NC10"	"J"	164
+"P_immobilis_NCIMB357"	"J"	161
+"P_immobilis_NCIMB361"	"J"	161
+"P_immobilis_NCIMB362"	"J"	158
+"P_immobilis_S3"	"J"	157
+"P_jeotgali_YKJ-103"	"J"	162
+"P_luti_NF11"	"J"	157
+"P_lutiphocae_IMMIBL-1110"	"J"	157
+"P_marincola_KMM227"	"J"	155
+"P_maritimus_Pi2-20"	"J"	156
+"P_maritimus_Pi2-25"	"J"	156
+"P_namhaensis_SW-242"	"J"	151
+"P_nivimaris_88-2-7"	"J"	156
+"P_oceani_4k5"	"J"	155
+"P_okhotskensis_A1004"	"J"	158
+"P_okhotskensis_MD17"	"J"	157
+"P_pacificensis_NIBH-P2K6"	"J"	161
+"P_phenylpyruvicus_ACAM535"	"J"	159
+"P_piscatorii_T-3-2"	"J"	160
+"P_priscuii_LFX-15B1"	"J"	160
+"P_proteolyticus_116"	"J"	156
+"P_pulmonis_ES2-W5a2"	"J"	170
+"P_pulmonis_S-606"	"J"	156
+"P_salsus_DD48"	"J"	159
+"P_sanguinis_10070"	"J"	159
+"P_sanguinis_13983"	"J"	162
+"P_sanguinis_1501"	"J"	161
+"P_sanguinis_92"	"J"	159
+"P_sp_1044"	"J"	157
+"P_sp_2pS"	"J"	158
+"P_sp_72-O-c"	"J"	157
+"P_sp_CMS30"	"J"	158
+"P_sp_DD43"	"J"	159
+"P_sp_H7-1"	"J"	160
+"P_sp_H8-1"	"J"	163
+"P_sp_HII-4"	"J"	158
+"P_sp_IAM12030_72-O-c"	"J"	159
+"P_sp_JCM18900"	"J"	159
+"P_sp_JCM18902"	"J"	160
+"P_sp_JCM18903"	"J"	160
+"P_sp_NC44"	"J"	159
+"P_sp_Pi2-1"	"J"	157
+"P_sp_Pi2-51"	"J"	158
+"P_sp_Pi2-52"	"J"	157
+"P_submarinus_KMM225"	"J"	158
+"P_urativorans_ACAM311"	"J"	153
+"P_urativorans_ACAM534"	"J"	160
+"P_vallis_CMS39"	"J"	158
+"P_adeliensis_SJ14"	"K"	121
+"P_aestuarii_SC35"	"K"	92
+"P_alimentarius_JG100"	"K"	116
+"P_alimentarius_JG102"	"K"	119
+"P_aquaticus_CMS56"	"K"	116
+"P_aquimaris_SW-210"	"K"	119
+"P_arcticus_273-4"	"K"	76
+"P_arenosus_R7"	"K"	105
+"P_celer_SW-238"	"K"	99
+"P_cibarius_JG-219"	"K"	94
+"P_cibarius_JG-220"	"K"	109
+"P_ciconiae_176-10"	"K"	72
+"P_cryohalolentis_K5"	"K"	103
+"P_faecalis_Iso-46"	"K"	102
+"P_faecalis_PBFP-1"	"K"	96
+"P_fjordensis_BSw21516B"	"K"	120
+"P_fozii_NF23"	"K"	128
+"P_frigidicola_ACAM304"	"K"	72
+"P_frigidicola_ACAM309"	"K"	75
+"P_fulvigenes_KC-40"	"K"	115
+"P_glaciei_Blc20019"	"K"	118
+"P_glacincola_1447"	"K"	107
+"P_glacincola_ACAM483"	"K"	106
+"P_immobilis_1159"	"K"	102
+"P_immobilis_1184"	"K"	100
+"P_immobilis_1347"	"K"	95
+"P_immobilis_1555"	"K"	118
+"P_immobilis_1617"	"K"	117
+"P_immobilis_1745"	"K"	111
+"P_immobilis_252"	"K"	93
+"P_immobilis_A-11"	"K"	97
+"P_immobilis_A-19"	"K"	102
+"P_immobilis_A1007"	"K"	107
+"P_immobilis_A1014"	"K"	105
+"P_immobilis_A351"	"K"	103
+"P_immobilis_A352"	"K"	118
+"P_immobilis_Liston1000"	"K"	117
+"P_immobilis_NC10"	"K"	99
+"P_immobilis_NCIMB357"	"K"	107
+"P_immobilis_NCIMB361"	"K"	109
+"P_immobilis_NCIMB362"	"K"	113
+"P_immobilis_S3"	"K"	100
+"P_jeotgali_YKJ-103"	"K"	89
+"P_luti_NF11"	"K"	91
+"P_lutiphocae_IMMIBL-1110"	"K"	94
+"P_marincola_KMM227"	"K"	112
+"P_maritimus_Pi2-20"	"K"	98
+"P_maritimus_Pi2-25"	"K"	103
+"P_namhaensis_SW-242"	"K"	82
+"P_nivimaris_88-2-7"	"K"	126
+"P_oceani_4k5"	"K"	104
+"P_okhotskensis_A1004"	"K"	96
+"P_okhotskensis_MD17"	"K"	101
+"P_pacificensis_NIBH-P2K6"	"K"	107
+"P_phenylpyruvicus_ACAM535"	"K"	84
+"P_piscatorii_T-3-2"	"K"	121
+"P_priscuii_LFX-15B1"	"K"	105
+"P_proteolyticus_116"	"K"	112
+"P_pulmonis_ES2-W5a2"	"K"	121
+"P_pulmonis_S-606"	"K"	92
+"P_salsus_DD48"	"K"	81
+"P_sanguinis_10070"	"K"	86
+"P_sanguinis_13983"	"K"	81
+"P_sanguinis_1501"	"K"	75
+"P_sanguinis_92"	"K"	93
+"P_sp_1044"	"K"	106
+"P_sp_2pS"	"K"	112
+"P_sp_72-O-c"	"K"	90
+"P_sp_CMS30"	"K"	99
+"P_sp_DD43"	"K"	106
+"P_sp_H7-1"	"K"	101
+"P_sp_H8-1"	"K"	115
+"P_sp_HII-4"	"K"	98
+"P_sp_IAM12030_72-O-c"	"K"	91
+"P_sp_JCM18900"	"K"	121
+"P_sp_JCM18902"	"K"	105
+"P_sp_JCM18903"	"K"	114
+"P_sp_NC44"	"K"	100
+"P_sp_Pi2-1"	"K"	109
+"P_sp_Pi2-51"	"K"	113
+"P_sp_Pi2-52"	"K"	117
+"P_submarinus_KMM225"	"K"	100
+"P_urativorans_ACAM311"	"K"	70
+"P_urativorans_ACAM534"	"K"	108
+"P_vallis_CMS39"	"K"	98
+"P_adeliensis_SJ14"	"K, L, T"	0
+"P_aestuarii_SC35"	"K, L, T"	0
+"P_alimentarius_JG100"	"K, L, T"	0
+"P_alimentarius_JG102"	"K, L, T"	0
+"P_aquaticus_CMS56"	"K, L, T"	0
+"P_aquimaris_SW-210"	"K, L, T"	0
+"P_arcticus_273-4"	"K, L, T"	0
+"P_arenosus_R7"	"K, L, T"	1
+"P_celer_SW-238"	"K, L, T"	2
+"P_cibarius_JG-219"	"K, L, T"	0
+"P_cibarius_JG-220"	"K, L, T"	1
+"P_ciconiae_176-10"	"K, L, T"	0
+"P_cryohalolentis_K5"	"K, L, T"	2
+"P_faecalis_Iso-46"	"K, L, T"	0
+"P_faecalis_PBFP-1"	"K, L, T"	0
+"P_fjordensis_BSw21516B"	"K, L, T"	0
+"P_fozii_NF23"	"K, L, T"	0
+"P_frigidicola_ACAM304"	"K, L, T"	0
+"P_frigidicola_ACAM309"	"K, L, T"	0
+"P_fulvigenes_KC-40"	"K, L, T"	0
+"P_glaciei_Blc20019"	"K, L, T"	0
+"P_glacincola_1447"	"K, L, T"	1
+"P_glacincola_ACAM483"	"K, L, T"	0
+"P_immobilis_1159"	"K, L, T"	0
+"P_immobilis_1184"	"K, L, T"	0
+"P_immobilis_1347"	"K, L, T"	0
+"P_immobilis_1555"	"K, L, T"	0
+"P_immobilis_1617"	"K, L, T"	0
+"P_immobilis_1745"	"K, L, T"	0
+"P_immobilis_252"	"K, L, T"	0
+"P_immobilis_A-11"	"K, L, T"	2
+"P_immobilis_A-19"	"K, L, T"	0
+"P_immobilis_A1007"	"K, L, T"	1
+"P_immobilis_A1014"	"K, L, T"	0
+"P_immobilis_A351"	"K, L, T"	0
+"P_immobilis_A352"	"K, L, T"	0
+"P_immobilis_Liston1000"	"K, L, T"	0
+"P_immobilis_NC10"	"K, L, T"	0
+"P_immobilis_NCIMB357"	"K, L, T"	3
+"P_immobilis_NCIMB361"	"K, L, T"	3
+"P_immobilis_NCIMB362"	"K, L, T"	2
+"P_immobilis_S3"	"K, L, T"	1
+"P_jeotgali_YKJ-103"	"K, L, T"	0
+"P_luti_NF11"	"K, L, T"	1
+"P_lutiphocae_IMMIBL-1110"	"K, L, T"	0
+"P_marincola_KMM227"	"K, L, T"	0
+"P_maritimus_Pi2-20"	"K, L, T"	2
+"P_maritimus_Pi2-25"	"K, L, T"	0
+"P_namhaensis_SW-242"	"K, L, T"	0
+"P_nivimaris_88-2-7"	"K, L, T"	0
+"P_oceani_4k5"	"K, L, T"	0
+"P_okhotskensis_A1004"	"K, L, T"	0
+"P_okhotskensis_MD17"	"K, L, T"	3
+"P_pacificensis_NIBH-P2K6"	"K, L, T"	0
+"P_phenylpyruvicus_ACAM535"	"K, L, T"	1
+"P_piscatorii_T-3-2"	"K, L, T"	0
+"P_priscuii_LFX-15B1"	"K, L, T"	0
+"P_proteolyticus_116"	"K, L, T"	0
+"P_pulmonis_ES2-W5a2"	"K, L, T"	0
+"P_pulmonis_S-606"	"K, L, T"	0
+"P_salsus_DD48"	"K, L, T"	0
+"P_sanguinis_10070"	"K, L, T"	2
+"P_sanguinis_13983"	"K, L, T"	1
+"P_sanguinis_1501"	"K, L, T"	0
+"P_sanguinis_92"	"K, L, T"	1
+"P_sp_1044"	"K, L, T"	0
+"P_sp_2pS"	"K, L, T"	0
+"P_sp_72-O-c"	"K, L, T"	0
+"P_sp_CMS30"	"K, L, T"	1
+"P_sp_DD43"	"K, L, T"	0
+"P_sp_H7-1"	"K, L, T"	1
+"P_sp_H8-1"	"K, L, T"	0
+"P_sp_HII-4"	"K, L, T"	0
+"P_sp_IAM12030_72-O-c"	"K, L, T"	0
+"P_sp_JCM18900"	"K, L, T"	0
+"P_sp_JCM18902"	"K, L, T"	0
+"P_sp_JCM18903"	"K, L, T"	2
+"P_sp_NC44"	"K, L, T"	0
+"P_sp_Pi2-1"	"K, L, T"	0
+"P_sp_Pi2-51"	"K, L, T"	0
+"P_sp_Pi2-52"	"K, L, T"	0
+"P_submarinus_KMM225"	"K, L, T"	0
+"P_urativorans_ACAM311"	"K, L, T"	0
+"P_urativorans_ACAM534"	"K, L, T"	0
+"P_vallis_CMS39"	"K, L, T"	0
+"P_adeliensis_SJ14"	"K, T"	0
+"P_aestuarii_SC35"	"K, T"	0
+"P_alimentarius_JG100"	"K, T"	0
+"P_alimentarius_JG102"	"K, T"	0
+"P_aquaticus_CMS56"	"K, T"	1
+"P_aquimaris_SW-210"	"K, T"	0
+"P_arcticus_273-4"	"K, T"	0
+"P_arenosus_R7"	"K, T"	0
+"P_celer_SW-238"	"K, T"	1
+"P_cibarius_JG-219"	"K, T"	0
+"P_cibarius_JG-220"	"K, T"	0
+"P_ciconiae_176-10"	"K, T"	0
+"P_cryohalolentis_K5"	"K, T"	1
+"P_faecalis_Iso-46"	"K, T"	0
+"P_faecalis_PBFP-1"	"K, T"	0
+"P_fjordensis_BSw21516B"	"K, T"	0
+"P_fozii_NF23"	"K, T"	0
+"P_frigidicola_ACAM304"	"K, T"	0
+"P_frigidicola_ACAM309"	"K, T"	0
+"P_fulvigenes_KC-40"	"K, T"	0
+"P_glaciei_Blc20019"	"K, T"	0
+"P_glacincola_1447"	"K, T"	0
+"P_glacincola_ACAM483"	"K, T"	0
+"P_immobilis_1159"	"K, T"	1
+"P_immobilis_1184"	"K, T"	0
+"P_immobilis_1347"	"K, T"	0
+"P_immobilis_1555"	"K, T"	0
+"P_immobilis_1617"	"K, T"	0
+"P_immobilis_1745"	"K, T"	0
+"P_immobilis_252"	"K, T"	2
+"P_immobilis_A-11"	"K, T"	0
+"P_immobilis_A-19"	"K, T"	0
+"P_immobilis_A1007"	"K, T"	1
+"P_immobilis_A1014"	"K, T"	0
+"P_immobilis_A351"	"K, T"	0
+"P_immobilis_A352"	"K, T"	1
+"P_immobilis_Liston1000"	"K, T"	0
+"P_immobilis_NC10"	"K, T"	0
+"P_immobilis_NCIMB357"	"K, T"	0
+"P_immobilis_NCIMB361"	"K, T"	0
+"P_immobilis_NCIMB362"	"K, T"	0
+"P_immobilis_S3"	"K, T"	0
+"P_jeotgali_YKJ-103"	"K, T"	2
+"P_luti_NF11"	"K, T"	1
+"P_lutiphocae_IMMIBL-1110"	"K, T"	2
+"P_marincola_KMM227"	"K, T"	0
+"P_maritimus_Pi2-20"	"K, T"	0
+"P_maritimus_Pi2-25"	"K, T"	0
+"P_namhaensis_SW-242"	"K, T"	0
+"P_nivimaris_88-2-7"	"K, T"	1
+"P_oceani_4k5"	"K, T"	1
+"P_okhotskensis_A1004"	"K, T"	1
+"P_okhotskensis_MD17"	"K, T"	0
+"P_pacificensis_NIBH-P2K6"	"K, T"	2
+"P_phenylpyruvicus_ACAM535"	"K, T"	1
+"P_piscatorii_T-3-2"	"K, T"	0
+"P_priscuii_LFX-15B1"	"K, T"	0
+"P_proteolyticus_116"	"K, T"	0
+"P_pulmonis_ES2-W5a2"	"K, T"	0
+"P_pulmonis_S-606"	"K, T"	0
+"P_salsus_DD48"	"K, T"	0
+"P_sanguinis_10070"	"K, T"	0
+"P_sanguinis_13983"	"K, T"	1
+"P_sanguinis_1501"	"K, T"	0
+"P_sanguinis_92"	"K, T"	0
+"P_sp_1044"	"K, T"	0
+"P_sp_2pS"	"K, T"	0
+"P_sp_72-O-c"	"K, T"	0
+"P_sp_CMS30"	"K, T"	0
+"P_sp_DD43"	"K, T"	0
+"P_sp_H7-1"	"K, T"	0
+"P_sp_H8-1"	"K, T"	0
+"P_sp_HII-4"	"K, T"	0
+"P_sp_IAM12030_72-O-c"	"K, T"	0
+"P_sp_JCM18900"	"K, T"	0
+"P_sp_JCM18902"	"K, T"	0
+"P_sp_JCM18903"	"K, T"	0
+"P_sp_NC44"	"K, T"	0
+"P_sp_Pi2-1"	"K, T"	0
+"P_sp_Pi2-51"	"K, T"	0
+"P_sp_Pi2-52"	"K, T"	0
+"P_submarinus_KMM225"	"K, T"	1
+"P_urativorans_ACAM311"	"K, T"	0
+"P_urativorans_ACAM534"	"K, T"	0
+"P_vallis_CMS39"	"K, T"	0
+"P_adeliensis_SJ14"	"L"	103
+"P_aestuarii_SC35"	"L"	97
+"P_alimentarius_JG100"	"L"	107
+"P_alimentarius_JG102"	"L"	119
+"P_aquaticus_CMS56"	"L"	124
+"P_aquimaris_SW-210"	"L"	155
+"P_arcticus_273-4"	"L"	122
+"P_arenosus_R7"	"L"	159
+"P_celer_SW-238"	"L"	167
+"P_cibarius_JG-219"	"L"	177
+"P_cibarius_JG-220"	"L"	246
+"P_ciconiae_176-10"	"L"	190
+"P_cryohalolentis_K5"	"L"	121
+"P_faecalis_Iso-46"	"L"	164
+"P_faecalis_PBFP-1"	"L"	340
+"P_fjordensis_BSw21516B"	"L"	113
+"P_fozii_NF23"	"L"	107
+"P_frigidicola_ACAM304"	"L"	98
+"P_frigidicola_ACAM309"	"L"	136
+"P_fulvigenes_KC-40"	"L"	296
+"P_glaciei_Blc20019"	"L"	117
+"P_glacincola_1447"	"L"	163
+"P_glacincola_ACAM483"	"L"	193
+"P_immobilis_1159"	"L"	176
+"P_immobilis_1184"	"L"	201
+"P_immobilis_1347"	"L"	163
+"P_immobilis_1555"	"L"	161
+"P_immobilis_1617"	"L"	159
+"P_immobilis_1745"	"L"	140
+"P_immobilis_252"	"L"	160
+"P_immobilis_A-11"	"L"	126
+"P_immobilis_A-19"	"L"	154
+"P_immobilis_A1007"	"L"	193
+"P_immobilis_A1014"	"L"	182
+"P_immobilis_A351"	"L"	137
+"P_immobilis_A352"	"L"	133
+"P_immobilis_Liston1000"	"L"	148
+"P_immobilis_NC10"	"L"	199
+"P_immobilis_NCIMB357"	"L"	162
+"P_immobilis_NCIMB361"	"L"	166
+"P_immobilis_NCIMB362"	"L"	158
+"P_immobilis_S3"	"L"	149
+"P_jeotgali_YKJ-103"	"L"	143
+"P_luti_NF11"	"L"	111
+"P_lutiphocae_IMMIBL-1110"	"L"	245
+"P_marincola_KMM227"	"L"	104
+"P_maritimus_Pi2-20"	"L"	149
+"P_maritimus_Pi2-25"	"L"	121
+"P_namhaensis_SW-242"	"L"	148
+"P_nivimaris_88-2-7"	"L"	177
+"P_oceani_4k5"	"L"	158
+"P_okhotskensis_A1004"	"L"	156
+"P_okhotskensis_MD17"	"L"	156
+"P_pacificensis_NIBH-P2K6"	"L"	240
+"P_phenylpyruvicus_ACAM535"	"L"	280
+"P_piscatorii_T-3-2"	"L"	200
+"P_priscuii_LFX-15B1"	"L"	132
+"P_proteolyticus_116"	"L"	97
+"P_pulmonis_ES2-W5a2"	"L"	290
+"P_pulmonis_S-606"	"L"	123
+"P_salsus_DD48"	"L"	141
+"P_sanguinis_10070"	"L"	134
+"P_sanguinis_13983"	"L"	163
+"P_sanguinis_1501"	"L"	159
+"P_sanguinis_92"	"L"	201
+"P_sp_1044"	"L"	150
+"P_sp_2pS"	"L"	126
+"P_sp_72-O-c"	"L"	135
+"P_sp_CMS30"	"L"	162
+"P_sp_DD43"	"L"	131
+"P_sp_H7-1"	"L"	180
+"P_sp_H8-1"	"L"	208
+"P_sp_HII-4"	"L"	225
+"P_sp_IAM12030_72-O-c"	"L"	136
+"P_sp_JCM18900"	"L"	103
+"P_sp_JCM18902"	"L"	117
+"P_sp_JCM18903"	"L"	170
+"P_sp_NC44"	"L"	127
+"P_sp_Pi2-1"	"L"	150
+"P_sp_Pi2-51"	"L"	116
+"P_sp_Pi2-52"	"L"	138
+"P_submarinus_KMM225"	"L"	183
+"P_urativorans_ACAM311"	"L"	135
+"P_urativorans_ACAM534"	"L"	187
+"P_vallis_CMS39"	"L"	113
+"P_adeliensis_SJ14"	"L, U"	0
+"P_aestuarii_SC35"	"L, U"	0
+"P_alimentarius_JG100"	"L, U"	0
+"P_alimentarius_JG102"	"L, U"	0
+"P_aquaticus_CMS56"	"L, U"	0
+"P_aquimaris_SW-210"	"L, U"	0
+"P_arcticus_273-4"	"L, U"	0
+"P_arenosus_R7"	"L, U"	0
+"P_celer_SW-238"	"L, U"	0
+"P_cibarius_JG-219"	"L, U"	0
+"P_cibarius_JG-220"	"L, U"	0
+"P_ciconiae_176-10"	"L, U"	0
+"P_cryohalolentis_K5"	"L, U"	0
+"P_faecalis_Iso-46"	"L, U"	0
+"P_faecalis_PBFP-1"	"L, U"	0
+"P_fjordensis_BSw21516B"	"L, U"	0
+"P_fozii_NF23"	"L, U"	0
+"P_frigidicola_ACAM304"	"L, U"	0
+"P_frigidicola_ACAM309"	"L, U"	0
+"P_fulvigenes_KC-40"	"L, U"	0
+"P_glaciei_Blc20019"	"L, U"	0
+"P_glacincola_1447"	"L, U"	0
+"P_glacincola_ACAM483"	"L, U"	0
+"P_immobilis_1159"	"L, U"	0
+"P_immobilis_1184"	"L, U"	0
+"P_immobilis_1347"	"L, U"	1
+"P_immobilis_1555"	"L, U"	1
+"P_immobilis_1617"	"L, U"	1
+"P_immobilis_1745"	"L, U"	1
+"P_immobilis_252"	"L, U"	0
+"P_immobilis_A-11"	"L, U"	0
+"P_immobilis_A-19"	"L, U"	0
+"P_immobilis_A1007"	"L, U"	0
+"P_immobilis_A1014"	"L, U"	0
+"P_immobilis_A351"	"L, U"	0
+"P_immobilis_A352"	"L, U"	0
+"P_immobilis_Liston1000"	"L, U"	0
+"P_immobilis_NC10"	"L, U"	0
+"P_immobilis_NCIMB357"	"L, U"	0
+"P_immobilis_NCIMB361"	"L, U"	0
+"P_immobilis_NCIMB362"	"L, U"	0
+"P_immobilis_S3"	"L, U"	0
+"P_jeotgali_YKJ-103"	"L, U"	0
+"P_luti_NF11"	"L, U"	0
+"P_lutiphocae_IMMIBL-1110"	"L, U"	0
+"P_marincola_KMM227"	"L, U"	0
+"P_maritimus_Pi2-20"	"L, U"	0
+"P_maritimus_Pi2-25"	"L, U"	0
+"P_namhaensis_SW-242"	"L, U"	0
+"P_nivimaris_88-2-7"	"L, U"	0
+"P_oceani_4k5"	"L, U"	0
+"P_okhotskensis_A1004"	"L, U"	0
+"P_okhotskensis_MD17"	"L, U"	0
+"P_pacificensis_NIBH-P2K6"	"L, U"	0
+"P_phenylpyruvicus_ACAM535"	"L, U"	0
+"P_piscatorii_T-3-2"	"L, U"	0
+"P_priscuii_LFX-15B1"	"L, U"	0
+"P_proteolyticus_116"	"L, U"	0
+"P_pulmonis_ES2-W5a2"	"L, U"	0
+"P_pulmonis_S-606"	"L, U"	0
+"P_salsus_DD48"	"L, U"	0
+"P_sanguinis_10070"	"L, U"	0
+"P_sanguinis_13983"	"L, U"	0
+"P_sanguinis_1501"	"L, U"	0
+"P_sanguinis_92"	"L, U"	0
+"P_sp_1044"	"L, U"	0
+"P_sp_2pS"	"L, U"	0
+"P_sp_72-O-c"	"L, U"	0
+"P_sp_CMS30"	"L, U"	0
+"P_sp_DD43"	"L, U"	0
+"P_sp_H7-1"	"L, U"	0
+"P_sp_H8-1"	"L, U"	1
+"P_sp_HII-4"	"L, U"	0
+"P_sp_IAM12030_72-O-c"	"L, U"	0
+"P_sp_JCM18900"	"L, U"	0
+"P_sp_JCM18902"	"L, U"	0
+"P_sp_JCM18903"	"L, U"	0
+"P_sp_NC44"	"L, U"	0
+"P_sp_Pi2-1"	"L, U"	0
+"P_sp_Pi2-51"	"L, U"	0
+"P_sp_Pi2-52"	"L, U"	0
+"P_submarinus_KMM225"	"L, U"	0
+"P_urativorans_ACAM311"	"L, U"	0
+"P_urativorans_ACAM534"	"L, U"	0
+"P_vallis_CMS39"	"L, U"	0
+"P_adeliensis_SJ14"	"M"	134
+"P_aestuarii_SC35"	"M"	134
+"P_alimentarius_JG100"	"M"	145
+"P_alimentarius_JG102"	"M"	143
+"P_aquaticus_CMS56"	"M"	141
+"P_aquimaris_SW-210"	"M"	152
+"P_arcticus_273-4"	"M"	135
+"P_arenosus_R7"	"M"	154
+"P_celer_SW-238"	"M"	133
+"P_cibarius_JG-219"	"M"	145
+"P_cibarius_JG-220"	"M"	164
+"P_ciconiae_176-10"	"M"	115
+"P_cryohalolentis_K5"	"M"	141
+"P_faecalis_Iso-46"	"M"	137
+"P_faecalis_PBFP-1"	"M"	137
+"P_fjordensis_BSw21516B"	"M"	160
+"P_fozii_NF23"	"M"	155
+"P_frigidicola_ACAM304"	"M"	155
+"P_frigidicola_ACAM309"	"M"	144
+"P_fulvigenes_KC-40"	"M"	146
+"P_glaciei_Blc20019"	"M"	138
+"P_glacincola_1447"	"M"	167
+"P_glacincola_ACAM483"	"M"	164
+"P_immobilis_1159"	"M"	158
+"P_immobilis_1184"	"M"	142
+"P_immobilis_1347"	"M"	136
+"P_immobilis_1555"	"M"	154
+"P_immobilis_1617"	"M"	157
+"P_immobilis_1745"	"M"	142
+"P_immobilis_252"	"M"	163
+"P_immobilis_A-11"	"M"	152
+"P_immobilis_A-19"	"M"	168
+"P_immobilis_A1007"	"M"	164
+"P_immobilis_A1014"	"M"	161
+"P_immobilis_A351"	"M"	165
+"P_immobilis_A352"	"M"	146
+"P_immobilis_Liston1000"	"M"	134
+"P_immobilis_NC10"	"M"	160
+"P_immobilis_NCIMB357"	"M"	147
+"P_immobilis_NCIMB361"	"M"	149
+"P_immobilis_NCIMB362"	"M"	149
+"P_immobilis_S3"	"M"	148
+"P_jeotgali_YKJ-103"	"M"	146
+"P_luti_NF11"	"M"	136
+"P_lutiphocae_IMMIBL-1110"	"M"	137
+"P_marincola_KMM227"	"M"	132
+"P_maritimus_Pi2-20"	"M"	150
+"P_maritimus_Pi2-25"	"M"	136
+"P_namhaensis_SW-242"	"M"	130
+"P_nivimaris_88-2-7"	"M"	152
+"P_oceani_4k5"	"M"	135
+"P_okhotskensis_A1004"	"M"	170
+"P_okhotskensis_MD17"	"M"	157
+"P_pacificensis_NIBH-P2K6"	"M"	133
+"P_phenylpyruvicus_ACAM535"	"M"	148
+"P_piscatorii_T-3-2"	"M"	154
+"P_priscuii_LFX-15B1"	"M"	138
+"P_proteolyticus_116"	"M"	133
+"P_pulmonis_ES2-W5a2"	"M"	147
+"P_pulmonis_S-606"	"M"	150
+"P_salsus_DD48"	"M"	142
+"P_sanguinis_10070"	"M"	143
+"P_sanguinis_13983"	"M"	147
+"P_sanguinis_1501"	"M"	149
+"P_sanguinis_92"	"M"	146
+"P_sp_1044"	"M"	157
+"P_sp_2pS"	"M"	149
+"P_sp_72-O-c"	"M"	156
+"P_sp_CMS30"	"M"	153
+"P_sp_DD43"	"M"	144
+"P_sp_H7-1"	"M"	140
+"P_sp_H8-1"	"M"	147
+"P_sp_HII-4"	"M"	145
+"P_sp_IAM12030_72-O-c"	"M"	157
+"P_sp_JCM18900"	"M"	144
+"P_sp_JCM18902"	"M"	153
+"P_sp_JCM18903"	"M"	156
+"P_sp_NC44"	"M"	158
+"P_sp_Pi2-1"	"M"	138
+"P_sp_Pi2-51"	"M"	159
+"P_sp_Pi2-52"	"M"	138
+"P_submarinus_KMM225"	"M"	148
+"P_urativorans_ACAM311"	"M"	137
+"P_urativorans_ACAM534"	"M"	152
+"P_vallis_CMS39"	"M"	152
+"P_adeliensis_SJ14"	"M, U"	2
+"P_aestuarii_SC35"	"M, U"	1
+"P_alimentarius_JG100"	"M, U"	1
+"P_alimentarius_JG102"	"M, U"	1
+"P_aquaticus_CMS56"	"M, U"	1
+"P_aquimaris_SW-210"	"M, U"	2
+"P_arcticus_273-4"	"M, U"	1
+"P_arenosus_R7"	"M, U"	2
+"P_celer_SW-238"	"M, U"	2
+"P_cibarius_JG-219"	"M, U"	1
+"P_cibarius_JG-220"	"M, U"	1
+"P_ciconiae_176-10"	"M, U"	1
+"P_cryohalolentis_K5"	"M, U"	2
+"P_faecalis_Iso-46"	"M, U"	1
+"P_faecalis_PBFP-1"	"M, U"	1
+"P_fjordensis_BSw21516B"	"M, U"	1
+"P_fozii_NF23"	"M, U"	1
+"P_frigidicola_ACAM304"	"M, U"	1
+"P_frigidicola_ACAM309"	"M, U"	1
+"P_fulvigenes_KC-40"	"M, U"	1
+"P_glaciei_Blc20019"	"M, U"	2
+"P_glacincola_1447"	"M, U"	2
+"P_glacincola_ACAM483"	"M, U"	2
+"P_immobilis_1159"	"M, U"	2
+"P_immobilis_1184"	"M, U"	2
+"P_immobilis_1347"	"M, U"	1
+"P_immobilis_1555"	"M, U"	2
+"P_immobilis_1617"	"M, U"	2
+"P_immobilis_1745"	"M, U"	1
+"P_immobilis_252"	"M, U"	2
+"P_immobilis_A-11"	"M, U"	2
+"P_immobilis_A-19"	"M, U"	2
+"P_immobilis_A1007"	"M, U"	2
+"P_immobilis_A1014"	"M, U"	1
+"P_immobilis_A351"	"M, U"	2
+"P_immobilis_A352"	"M, U"	1
+"P_immobilis_Liston1000"	"M, U"	2
+"P_immobilis_NC10"	"M, U"	1
+"P_immobilis_NCIMB357"	"M, U"	1
+"P_immobilis_NCIMB361"	"M, U"	2
+"P_immobilis_NCIMB362"	"M, U"	2
+"P_immobilis_S3"	"M, U"	2
+"P_jeotgali_YKJ-103"	"M, U"	1
+"P_luti_NF11"	"M, U"	1
+"P_lutiphocae_IMMIBL-1110"	"M, U"	1
+"P_marincola_KMM227"	"M, U"	2
+"P_maritimus_Pi2-20"	"M, U"	2
+"P_maritimus_Pi2-25"	"M, U"	1
+"P_namhaensis_SW-242"	"M, U"	2
+"P_nivimaris_88-2-7"	"M, U"	3
+"P_oceani_4k5"	"M, U"	1
+"P_okhotskensis_A1004"	"M, U"	3
+"P_okhotskensis_MD17"	"M, U"	1
+"P_pacificensis_NIBH-P2K6"	"M, U"	3
+"P_phenylpyruvicus_ACAM535"	"M, U"	1
+"P_piscatorii_T-3-2"	"M, U"	1
+"P_priscuii_LFX-15B1"	"M, U"	2
+"P_proteolyticus_116"	"M, U"	2
+"P_pulmonis_ES2-W5a2"	"M, U"	2
+"P_pulmonis_S-606"	"M, U"	1
+"P_salsus_DD48"	"M, U"	2
+"P_sanguinis_10070"	"M, U"	2
+"P_sanguinis_13983"	"M, U"	2
+"P_sanguinis_1501"	"M, U"	2
+"P_sanguinis_92"	"M, U"	2
+"P_sp_1044"	"M, U"	1
+"P_sp_2pS"	"M, U"	2
+"P_sp_72-O-c"	"M, U"	1
+"P_sp_CMS30"	"M, U"	1
+"P_sp_DD43"	"M, U"	2
+"P_sp_H7-1"	"M, U"	2
+"P_sp_H8-1"	"M, U"	1
+"P_sp_HII-4"	"M, U"	1
+"P_sp_IAM12030_72-O-c"	"M, U"	1
+"P_sp_JCM18900"	"M, U"	2
+"P_sp_JCM18902"	"M, U"	2
+"P_sp_JCM18903"	"M, U"	2
+"P_sp_NC44"	"M, U"	1
+"P_sp_Pi2-1"	"M, U"	2
+"P_sp_Pi2-51"	"M, U"	2
+"P_sp_Pi2-52"	"M, U"	2
+"P_submarinus_KMM225"	"M, U"	2
+"P_urativorans_ACAM311"	"M, U"	1
+"P_urativorans_ACAM534"	"M, U"	1
+"P_vallis_CMS39"	"M, U"	1
+"P_adeliensis_SJ14"	"N"	0
+"P_aestuarii_SC35"	"N"	0
+"P_alimentarius_JG100"	"N"	1
+"P_alimentarius_JG102"	"N"	1
+"P_aquaticus_CMS56"	"N"	0
+"P_aquimaris_SW-210"	"N"	1
+"P_arcticus_273-4"	"N"	1
+"P_arenosus_R7"	"N"	1
+"P_celer_SW-238"	"N"	0
+"P_cibarius_JG-219"	"N"	0
+"P_cibarius_JG-220"	"N"	0
+"P_ciconiae_176-10"	"N"	0
+"P_cryohalolentis_K5"	"N"	0
+"P_faecalis_Iso-46"	"N"	0
+"P_faecalis_PBFP-1"	"N"	0
+"P_fjordensis_BSw21516B"	"N"	1
+"P_fozii_NF23"	"N"	1
+"P_frigidicola_ACAM304"	"N"	0
+"P_frigidicola_ACAM309"	"N"	1
+"P_fulvigenes_KC-40"	"N"	0
+"P_glaciei_Blc20019"	"N"	1
+"P_glacincola_1447"	"N"	0
+"P_glacincola_ACAM483"	"N"	1
+"P_immobilis_1159"	"N"	0
+"P_immobilis_1184"	"N"	1
+"P_immobilis_1347"	"N"	1
+"P_immobilis_1555"	"N"	0
+"P_immobilis_1617"	"N"	0
+"P_immobilis_1745"	"N"	0
+"P_immobilis_252"	"N"	0
+"P_immobilis_A-11"	"N"	1
+"P_immobilis_A-19"	"N"	0
+"P_immobilis_A1007"	"N"	1
+"P_immobilis_A1014"	"N"	0
+"P_immobilis_A351"	"N"	0
+"P_immobilis_A352"	"N"	1
+"P_immobilis_Liston1000"	"N"	1
+"P_immobilis_NC10"	"N"	2
+"P_immobilis_NCIMB357"	"N"	0
+"P_immobilis_NCIMB361"	"N"	0
+"P_immobilis_NCIMB362"	"N"	0
+"P_immobilis_S3"	"N"	1
+"P_jeotgali_YKJ-103"	"N"	1
+"P_luti_NF11"	"N"	0
+"P_lutiphocae_IMMIBL-1110"	"N"	1
+"P_marincola_KMM227"	"N"	0
+"P_maritimus_Pi2-20"	"N"	0
+"P_maritimus_Pi2-25"	"N"	0
+"P_namhaensis_SW-242"	"N"	0
+"P_nivimaris_88-2-7"	"N"	0
+"P_oceani_4k5"	"N"	1
+"P_okhotskensis_A1004"	"N"	1
+"P_okhotskensis_MD17"	"N"	1
+"P_pacificensis_NIBH-P2K6"	"N"	0
+"P_phenylpyruvicus_ACAM535"	"N"	0
+"P_piscatorii_T-3-2"	"N"	2
+"P_priscuii_LFX-15B1"	"N"	0
+"P_proteolyticus_116"	"N"	0
+"P_pulmonis_ES2-W5a2"	"N"	0
+"P_pulmonis_S-606"	"N"	0
+"P_salsus_DD48"	"N"	2
+"P_sanguinis_10070"	"N"	0
+"P_sanguinis_13983"	"N"	1
+"P_sanguinis_1501"	"N"	0
+"P_sanguinis_92"	"N"	0
+"P_sp_1044"	"N"	1
+"P_sp_2pS"	"N"	0
+"P_sp_72-O-c"	"N"	0
+"P_sp_CMS30"	"N"	0
+"P_sp_DD43"	"N"	0
+"P_sp_H7-1"	"N"	0
+"P_sp_H8-1"	"N"	0
+"P_sp_HII-4"	"N"	1
+"P_sp_IAM12030_72-O-c"	"N"	0
+"P_sp_JCM18900"	"N"	0
+"P_sp_JCM18902"	"N"	0
+"P_sp_JCM18903"	"N"	1
+"P_sp_NC44"	"N"	0
+"P_sp_Pi2-1"	"N"	2
+"P_sp_Pi2-51"	"N"	1
+"P_sp_Pi2-52"	"N"	0
+"P_submarinus_KMM225"	"N"	0
+"P_urativorans_ACAM311"	"N"	0
+"P_urativorans_ACAM534"	"N"	1
+"P_vallis_CMS39"	"N"	0
+"P_adeliensis_SJ14"	"N, O, U"	1
+"P_aestuarii_SC35"	"N, O, U"	1
+"P_alimentarius_JG100"	"N, O, U"	1
+"P_alimentarius_JG102"	"N, O, U"	1
+"P_aquaticus_CMS56"	"N, O, U"	1
+"P_aquimaris_SW-210"	"N, O, U"	1
+"P_arcticus_273-4"	"N, O, U"	1
+"P_arenosus_R7"	"N, O, U"	1
+"P_celer_SW-238"	"N, O, U"	1
+"P_cibarius_JG-219"	"N, O, U"	1
+"P_cibarius_JG-220"	"N, O, U"	1
+"P_ciconiae_176-10"	"N, O, U"	1
+"P_cryohalolentis_K5"	"N, O, U"	1
+"P_faecalis_Iso-46"	"N, O, U"	1
+"P_faecalis_PBFP-1"	"N, O, U"	1
+"P_fjordensis_BSw21516B"	"N, O, U"	1
+"P_fozii_NF23"	"N, O, U"	1
+"P_frigidicola_ACAM304"	"N, O, U"	1
+"P_frigidicola_ACAM309"	"N, O, U"	1
+"P_fulvigenes_KC-40"	"N, O, U"	1
+"P_glaciei_Blc20019"	"N, O, U"	1
+"P_glacincola_1447"	"N, O, U"	1
+"P_glacincola_ACAM483"	"N, O, U"	1
+"P_immobilis_1159"	"N, O, U"	1
+"P_immobilis_1184"	"N, O, U"	1
+"P_immobilis_1347"	"N, O, U"	1
+"P_immobilis_1555"	"N, O, U"	1
+"P_immobilis_1617"	"N, O, U"	1
+"P_immobilis_1745"	"N, O, U"	1
+"P_immobilis_252"	"N, O, U"	1
+"P_immobilis_A-11"	"N, O, U"	1
+"P_immobilis_A-19"	"N, O, U"	1
+"P_immobilis_A1007"	"N, O, U"	1
+"P_immobilis_A1014"	"N, O, U"	1
+"P_immobilis_A351"	"N, O, U"	1
+"P_immobilis_A352"	"N, O, U"	1
+"P_immobilis_Liston1000"	"N, O, U"	1
+"P_immobilis_NC10"	"N, O, U"	1
+"P_immobilis_NCIMB357"	"N, O, U"	1
+"P_immobilis_NCIMB361"	"N, O, U"	1
+"P_immobilis_NCIMB362"	"N, O, U"	1
+"P_immobilis_S3"	"N, O, U"	1
+"P_jeotgali_YKJ-103"	"N, O, U"	1
+"P_luti_NF11"	"N, O, U"	1
+"P_lutiphocae_IMMIBL-1110"	"N, O, U"	1
+"P_marincola_KMM227"	"N, O, U"	1
+"P_maritimus_Pi2-20"	"N, O, U"	1
+"P_maritimus_Pi2-25"	"N, O, U"	1
+"P_namhaensis_SW-242"	"N, O, U"	1
+"P_nivimaris_88-2-7"	"N, O, U"	1
+"P_oceani_4k5"	"N, O, U"	1
+"P_okhotskensis_A1004"	"N, O, U"	1
+"P_okhotskensis_MD17"	"N, O, U"	1
+"P_pacificensis_NIBH-P2K6"	"N, O, U"	1
+"P_phenylpyruvicus_ACAM535"	"N, O, U"	1
+"P_piscatorii_T-3-2"	"N, O, U"	1
+"P_priscuii_LFX-15B1"	"N, O, U"	1
+"P_proteolyticus_116"	"N, O, U"	1
+"P_pulmonis_ES2-W5a2"	"N, O, U"	1
+"P_pulmonis_S-606"	"N, O, U"	1
+"P_salsus_DD48"	"N, O, U"	1
+"P_sanguinis_10070"	"N, O, U"	1
+"P_sanguinis_13983"	"N, O, U"	1
+"P_sanguinis_1501"	"N, O, U"	1
+"P_sanguinis_92"	"N, O, U"	1
+"P_sp_1044"	"N, O, U"	1
+"P_sp_2pS"	"N, O, U"	1
+"P_sp_72-O-c"	"N, O, U"	1
+"P_sp_CMS30"	"N, O, U"	1
+"P_sp_DD43"	"N, O, U"	1
+"P_sp_H7-1"	"N, O, U"	1
+"P_sp_H8-1"	"N, O, U"	1
+"P_sp_HII-4"	"N, O, U"	1
+"P_sp_IAM12030_72-O-c"	"N, O, U"	1
+"P_sp_JCM18900"	"N, O, U"	1
+"P_sp_JCM18902"	"N, O, U"	1
+"P_sp_JCM18903"	"N, O, U"	1
+"P_sp_NC44"	"N, O, U"	1
+"P_sp_Pi2-1"	"N, O, U"	1
+"P_sp_Pi2-51"	"N, O, U"	1
+"P_sp_Pi2-52"	"N, O, U"	1
+"P_submarinus_KMM225"	"N, O, U"	1
+"P_urativorans_ACAM311"	"N, O, U"	1
+"P_urativorans_ACAM534"	"N, O, U"	1
+"P_vallis_CMS39"	"N, O, U"	1
+"P_adeliensis_SJ14"	"N, P, T, U"	1
+"P_aestuarii_SC35"	"N, P, T, U"	1
+"P_alimentarius_JG100"	"N, P, T, U"	1
+"P_alimentarius_JG102"	"N, P, T, U"	1
+"P_aquaticus_CMS56"	"N, P, T, U"	1
+"P_aquimaris_SW-210"	"N, P, T, U"	1
+"P_arcticus_273-4"	"N, P, T, U"	0
+"P_arenosus_R7"	"N, P, T, U"	1
+"P_celer_SW-238"	"N, P, T, U"	1
+"P_cibarius_JG-219"	"N, P, T, U"	1
+"P_cibarius_JG-220"	"N, P, T, U"	1
+"P_ciconiae_176-10"	"N, P, T, U"	1
+"P_cryohalolentis_K5"	"N, P, T, U"	1
+"P_faecalis_Iso-46"	"N, P, T, U"	1
+"P_faecalis_PBFP-1"	"N, P, T, U"	1
+"P_fjordensis_BSw21516B"	"N, P, T, U"	2
+"P_fozii_NF23"	"N, P, T, U"	1
+"P_frigidicola_ACAM304"	"N, P, T, U"	1
+"P_frigidicola_ACAM309"	"N, P, T, U"	1
+"P_fulvigenes_KC-40"	"N, P, T, U"	1
+"P_glaciei_Blc20019"	"N, P, T, U"	1
+"P_glacincola_1447"	"N, P, T, U"	1
+"P_glacincola_ACAM483"	"N, P, T, U"	0
+"P_immobilis_1159"	"N, P, T, U"	1
+"P_immobilis_1184"	"N, P, T, U"	1
+"P_immobilis_1347"	"N, P, T, U"	2
+"P_immobilis_1555"	"N, P, T, U"	1
+"P_immobilis_1617"	"N, P, T, U"	1
+"P_immobilis_1745"	"N, P, T, U"	1
+"P_immobilis_252"	"N, P, T, U"	1
+"P_immobilis_A-11"	"N, P, T, U"	1
+"P_immobilis_A-19"	"N, P, T, U"	1
+"P_immobilis_A1007"	"N, P, T, U"	1
+"P_immobilis_A1014"	"N, P, T, U"	1
+"P_immobilis_A351"	"N, P, T, U"	1
+"P_immobilis_A352"	"N, P, T, U"	1
+"P_immobilis_Liston1000"	"N, P, T, U"	1
+"P_immobilis_NC10"	"N, P, T, U"	1
+"P_immobilis_NCIMB357"	"N, P, T, U"	1
+"P_immobilis_NCIMB361"	"N, P, T, U"	1
+"P_immobilis_NCIMB362"	"N, P, T, U"	1
+"P_immobilis_S3"	"N, P, T, U"	1
+"P_jeotgali_YKJ-103"	"N, P, T, U"	1
+"P_luti_NF11"	"N, P, T, U"	1
+"P_lutiphocae_IMMIBL-1110"	"N, P, T, U"	1
+"P_marincola_KMM227"	"N, P, T, U"	1
+"P_maritimus_Pi2-20"	"N, P, T, U"	1
+"P_maritimus_Pi2-25"	"N, P, T, U"	1
+"P_namhaensis_SW-242"	"N, P, T, U"	1
+"P_nivimaris_88-2-7"	"N, P, T, U"	1
+"P_oceani_4k5"	"N, P, T, U"	1
+"P_okhotskensis_A1004"	"N, P, T, U"	1
+"P_okhotskensis_MD17"	"N, P, T, U"	1
+"P_pacificensis_NIBH-P2K6"	"N, P, T, U"	1
+"P_phenylpyruvicus_ACAM535"	"N, P, T, U"	1
+"P_piscatorii_T-3-2"	"N, P, T, U"	1
+"P_priscuii_LFX-15B1"	"N, P, T, U"	1
+"P_proteolyticus_116"	"N, P, T, U"	1
+"P_pulmonis_ES2-W5a2"	"N, P, T, U"	1
+"P_pulmonis_S-606"	"N, P, T, U"	1
+"P_salsus_DD48"	"N, P, T, U"	1
+"P_sanguinis_10070"	"N, P, T, U"	1
+"P_sanguinis_13983"	"N, P, T, U"	1
+"P_sanguinis_1501"	"N, P, T, U"	1
+"P_sanguinis_92"	"N, P, T, U"	1
+"P_sp_1044"	"N, P, T, U"	1
+"P_sp_2pS"	"N, P, T, U"	1
+"P_sp_72-O-c"	"N, P, T, U"	0
+"P_sp_CMS30"	"N, P, T, U"	1
+"P_sp_DD43"	"N, P, T, U"	1
+"P_sp_H7-1"	"N, P, T, U"	1
+"P_sp_H8-1"	"N, P, T, U"	1
+"P_sp_HII-4"	"N, P, T, U"	1
+"P_sp_IAM12030_72-O-c"	"N, P, T, U"	0
+"P_sp_JCM18900"	"N, P, T, U"	1
+"P_sp_JCM18902"	"N, P, T, U"	1
+"P_sp_JCM18903"	"N, P, T, U"	1
+"P_sp_NC44"	"N, P, T, U"	1
+"P_sp_Pi2-1"	"N, P, T, U"	1
+"P_sp_Pi2-51"	"N, P, T, U"	1
+"P_sp_Pi2-52"	"N, P, T, U"	1
+"P_submarinus_KMM225"	"N, P, T, U"	1
+"P_urativorans_ACAM311"	"N, P, T, U"	2
+"P_urativorans_ACAM534"	"N, P, T, U"	0
+"P_vallis_CMS39"	"N, P, T, U"	1
+"P_adeliensis_SJ14"	"N, T"	3
+"P_aestuarii_SC35"	"N, T"	3
+"P_alimentarius_JG100"	"N, T"	3
+"P_alimentarius_JG102"	"N, T"	3
+"P_aquaticus_CMS56"	"N, T"	3
+"P_aquimaris_SW-210"	"N, T"	3
+"P_arcticus_273-4"	"N, T"	2
+"P_arenosus_R7"	"N, T"	3
+"P_celer_SW-238"	"N, T"	3
+"P_cibarius_JG-219"	"N, T"	3
+"P_cibarius_JG-220"	"N, T"	3
+"P_ciconiae_176-10"	"N, T"	3
+"P_cryohalolentis_K5"	"N, T"	3
+"P_faecalis_Iso-46"	"N, T"	4
+"P_faecalis_PBFP-1"	"N, T"	1
+"P_fjordensis_BSw21516B"	"N, T"	3
+"P_fozii_NF23"	"N, T"	3
+"P_frigidicola_ACAM304"	"N, T"	3
+"P_frigidicola_ACAM309"	"N, T"	1
+"P_fulvigenes_KC-40"	"N, T"	2
+"P_glaciei_Blc20019"	"N, T"	3
+"P_glacincola_1447"	"N, T"	3
+"P_glacincola_ACAM483"	"N, T"	3
+"P_immobilis_1159"	"N, T"	3
+"P_immobilis_1184"	"N, T"	1
+"P_immobilis_1347"	"N, T"	1
+"P_immobilis_1555"	"N, T"	3
+"P_immobilis_1617"	"N, T"	3
+"P_immobilis_1745"	"N, T"	3
+"P_immobilis_252"	"N, T"	3
+"P_immobilis_A-11"	"N, T"	3
+"P_immobilis_A-19"	"N, T"	3
+"P_immobilis_A1007"	"N, T"	3
+"P_immobilis_A1014"	"N, T"	3
+"P_immobilis_A351"	"N, T"	3
+"P_immobilis_A352"	"N, T"	3
+"P_immobilis_Liston1000"	"N, T"	3
+"P_immobilis_NC10"	"N, T"	3
+"P_immobilis_NCIMB357"	"N, T"	4
+"P_immobilis_NCIMB361"	"N, T"	3
+"P_immobilis_NCIMB362"	"N, T"	3
+"P_immobilis_S3"	"N, T"	3
+"P_jeotgali_YKJ-103"	"N, T"	1
+"P_luti_NF11"	"N, T"	3
+"P_lutiphocae_IMMIBL-1110"	"N, T"	1
+"P_marincola_KMM227"	"N, T"	3
+"P_maritimus_Pi2-20"	"N, T"	3
+"P_maritimus_Pi2-25"	"N, T"	3
+"P_namhaensis_SW-242"	"N, T"	3
+"P_nivimaris_88-2-7"	"N, T"	3
+"P_oceani_4k5"	"N, T"	3
+"P_okhotskensis_A1004"	"N, T"	3
+"P_okhotskensis_MD17"	"N, T"	3
+"P_pacificensis_NIBH-P2K6"	"N, T"	3
+"P_phenylpyruvicus_ACAM535"	"N, T"	0
+"P_piscatorii_T-3-2"	"N, T"	3
+"P_priscuii_LFX-15B1"	"N, T"	3
+"P_proteolyticus_116"	"N, T"	3
+"P_pulmonis_ES2-W5a2"	"N, T"	4
+"P_pulmonis_S-606"	"N, T"	3
+"P_salsus_DD48"	"N, T"	1
+"P_sanguinis_10070"	"N, T"	0
+"P_sanguinis_13983"	"N, T"	0
+"P_sanguinis_1501"	"N, T"	0
+"P_sanguinis_92"	"N, T"	0
+"P_sp_1044"	"N, T"	3
+"P_sp_2pS"	"N, T"	3
+"P_sp_72-O-c"	"N, T"	3
+"P_sp_CMS30"	"N, T"	3
+"P_sp_DD43"	"N, T"	3
+"P_sp_H7-1"	"N, T"	1
+"P_sp_H8-1"	"N, T"	2
+"P_sp_HII-4"	"N, T"	3
+"P_sp_IAM12030_72-O-c"	"N, T"	3
+"P_sp_JCM18900"	"N, T"	3
+"P_sp_JCM18902"	"N, T"	3
+"P_sp_JCM18903"	"N, T"	3
+"P_sp_NC44"	"N, T"	3
+"P_sp_Pi2-1"	"N, T"	3
+"P_sp_Pi2-51"	"N, T"	3
+"P_sp_Pi2-52"	"N, T"	3
+"P_submarinus_KMM225"	"N, T"	1
+"P_urativorans_ACAM311"	"N, T"	1
+"P_urativorans_ACAM534"	"N, T"	1
+"P_vallis_CMS39"	"N, T"	3
+"P_adeliensis_SJ14"	"N, U"	10
+"P_aestuarii_SC35"	"N, U"	10
+"P_alimentarius_JG100"	"N, U"	10
+"P_alimentarius_JG102"	"N, U"	10
+"P_aquaticus_CMS56"	"N, U"	10
+"P_aquimaris_SW-210"	"N, U"	11
+"P_arcticus_273-4"	"N, U"	9
+"P_arenosus_R7"	"N, U"	10
+"P_celer_SW-238"	"N, U"	9
+"P_cibarius_JG-219"	"N, U"	13
+"P_cibarius_JG-220"	"N, U"	13
+"P_ciconiae_176-10"	"N, U"	9
+"P_cryohalolentis_K5"	"N, U"	10
+"P_faecalis_Iso-46"	"N, U"	9
+"P_faecalis_PBFP-1"	"N, U"	9
+"P_fjordensis_BSw21516B"	"N, U"	10
+"P_fozii_NF23"	"N, U"	10
+"P_frigidicola_ACAM304"	"N, U"	10
+"P_frigidicola_ACAM309"	"N, U"	10
+"P_fulvigenes_KC-40"	"N, U"	9
+"P_glaciei_Blc20019"	"N, U"	9
+"P_glacincola_1447"	"N, U"	10
+"P_glacincola_ACAM483"	"N, U"	9
+"P_immobilis_1159"	"N, U"	9
+"P_immobilis_1184"	"N, U"	9
+"P_immobilis_1347"	"N, U"	9
+"P_immobilis_1555"	"N, U"	9
+"P_immobilis_1617"	"N, U"	10
+"P_immobilis_1745"	"N, U"	9
+"P_immobilis_252"	"N, U"	9
+"P_immobilis_A-11"	"N, U"	11
+"P_immobilis_A-19"	"N, U"	13
+"P_immobilis_A1007"	"N, U"	9
+"P_immobilis_A1014"	"N, U"	9
+"P_immobilis_A351"	"N, U"	9
+"P_immobilis_A352"	"N, U"	10
+"P_immobilis_Liston1000"	"N, U"	10
+"P_immobilis_NC10"	"N, U"	11
+"P_immobilis_NCIMB357"	"N, U"	9
+"P_immobilis_NCIMB361"	"N, U"	10
+"P_immobilis_NCIMB362"	"N, U"	9
+"P_immobilis_S3"	"N, U"	9
+"P_jeotgali_YKJ-103"	"N, U"	13
+"P_luti_NF11"	"N, U"	10
+"P_lutiphocae_IMMIBL-1110"	"N, U"	4
+"P_marincola_KMM227"	"N, U"	10
+"P_maritimus_Pi2-20"	"N, U"	10
+"P_maritimus_Pi2-25"	"N, U"	10
+"P_namhaensis_SW-242"	"N, U"	8
+"P_nivimaris_88-2-7"	"N, U"	9
+"P_oceani_4k5"	"N, U"	9
+"P_okhotskensis_A1004"	"N, U"	9
+"P_okhotskensis_MD17"	"N, U"	9
+"P_pacificensis_NIBH-P2K6"	"N, U"	9
+"P_phenylpyruvicus_ACAM535"	"N, U"	4
+"P_piscatorii_T-3-2"	"N, U"	12
+"P_priscuii_LFX-15B1"	"N, U"	10
+"P_proteolyticus_116"	"N, U"	10
+"P_pulmonis_ES2-W5a2"	"N, U"	9
+"P_pulmonis_S-606"	"N, U"	9
+"P_salsus_DD48"	"N, U"	9
+"P_sanguinis_10070"	"N, U"	8
+"P_sanguinis_13983"	"N, U"	8
+"P_sanguinis_1501"	"N, U"	9
+"P_sanguinis_92"	"N, U"	8
+"P_sp_1044"	"N, U"	9
+"P_sp_2pS"	"N, U"	10
+"P_sp_72-O-c"	"N, U"	9
+"P_sp_CMS30"	"N, U"	10
+"P_sp_DD43"	"N, U"	11
+"P_sp_H7-1"	"N, U"	7
+"P_sp_H8-1"	"N, U"	9
+"P_sp_HII-4"	"N, U"	9
+"P_sp_IAM12030_72-O-c"	"N, U"	9
+"P_sp_JCM18900"	"N, U"	10
+"P_sp_JCM18902"	"N, U"	9
+"P_sp_JCM18903"	"N, U"	9
+"P_sp_NC44"	"N, U"	9
+"P_sp_Pi2-1"	"N, U"	9
+"P_sp_Pi2-51"	"N, U"	10
+"P_sp_Pi2-52"	"N, U"	9
+"P_submarinus_KMM225"	"N, U"	9
+"P_urativorans_ACAM311"	"N, U"	10
+"P_urativorans_ACAM534"	"N, U"	17
+"P_vallis_CMS39"	"N, U"	10
+"P_adeliensis_SJ14"	"O"	108
+"P_aestuarii_SC35"	"O"	92
+"P_alimentarius_JG100"	"O"	98
+"P_alimentarius_JG102"	"O"	99
+"P_aquaticus_CMS56"	"O"	108
+"P_aquimaris_SW-210"	"O"	107
+"P_arcticus_273-4"	"O"	86
+"P_arenosus_R7"	"O"	101
+"P_celer_SW-238"	"O"	100
+"P_cibarius_JG-219"	"O"	100
+"P_cibarius_JG-220"	"O"	110
+"P_ciconiae_176-10"	"O"	86
+"P_cryohalolentis_K5"	"O"	105
+"P_faecalis_Iso-46"	"O"	99
+"P_faecalis_PBFP-1"	"O"	105
+"P_fjordensis_BSw21516B"	"O"	103
+"P_fozii_NF23"	"O"	106
+"P_frigidicola_ACAM304"	"O"	104
+"P_frigidicola_ACAM309"	"O"	92
+"P_fulvigenes_KC-40"	"O"	110
+"P_glaciei_Blc20019"	"O"	106
+"P_glacincola_1447"	"O"	109
+"P_glacincola_ACAM483"	"O"	108
+"P_immobilis_1159"	"O"	108
+"P_immobilis_1184"	"O"	112
+"P_immobilis_1347"	"O"	97
+"P_immobilis_1555"	"O"	118
+"P_immobilis_1617"	"O"	116
+"P_immobilis_1745"	"O"	111
+"P_immobilis_252"	"O"	110
+"P_immobilis_A-11"	"O"	111
+"P_immobilis_A-19"	"O"	109
+"P_immobilis_A1007"	"O"	116
+"P_immobilis_A1014"	"O"	109
+"P_immobilis_A351"	"O"	105
+"P_immobilis_A352"	"O"	103
+"P_immobilis_Liston1000"	"O"	107
+"P_immobilis_NC10"	"O"	111
+"P_immobilis_NCIMB357"	"O"	107
+"P_immobilis_NCIMB361"	"O"	111
+"P_immobilis_NCIMB362"	"O"	105
+"P_immobilis_S3"	"O"	103
+"P_jeotgali_YKJ-103"	"O"	106
+"P_luti_NF11"	"O"	95
+"P_lutiphocae_IMMIBL-1110"	"O"	100
+"P_marincola_KMM227"	"O"	109
+"P_maritimus_Pi2-20"	"O"	111
+"P_maritimus_Pi2-25"	"O"	103
+"P_namhaensis_SW-242"	"O"	99
+"P_nivimaris_88-2-7"	"O"	105
+"P_oceani_4k5"	"O"	105
+"P_okhotskensis_A1004"	"O"	109
+"P_okhotskensis_MD17"	"O"	107
+"P_pacificensis_NIBH-P2K6"	"O"	109
+"P_phenylpyruvicus_ACAM535"	"O"	101
+"P_piscatorii_T-3-2"	"O"	113
+"P_priscuii_LFX-15B1"	"O"	109
+"P_proteolyticus_116"	"O"	107
+"P_pulmonis_ES2-W5a2"	"O"	114
+"P_pulmonis_S-606"	"O"	100
+"P_salsus_DD48"	"O"	99
+"P_sanguinis_10070"	"O"	114
+"P_sanguinis_13983"	"O"	107
+"P_sanguinis_1501"	"O"	101
+"P_sanguinis_92"	"O"	105
+"P_sp_1044"	"O"	103
+"P_sp_2pS"	"O"	106
+"P_sp_72-O-c"	"O"	102
+"P_sp_CMS30"	"O"	107
+"P_sp_DD43"	"O"	107
+"P_sp_H7-1"	"O"	102
+"P_sp_H8-1"	"O"	109
+"P_sp_HII-4"	"O"	102
+"P_sp_IAM12030_72-O-c"	"O"	102
+"P_sp_JCM18900"	"O"	108
+"P_sp_JCM18902"	"O"	107
+"P_sp_JCM18903"	"O"	107
+"P_sp_NC44"	"O"	102
+"P_sp_Pi2-1"	"O"	109
+"P_sp_Pi2-51"	"O"	107
+"P_sp_Pi2-52"	"O"	111
+"P_submarinus_KMM225"	"O"	101
+"P_urativorans_ACAM311"	"O"	91
+"P_urativorans_ACAM534"	"O"	100
+"P_vallis_CMS39"	"O"	101
+"P_adeliensis_SJ14"	"O, T"	1
+"P_aestuarii_SC35"	"O, T"	1
+"P_alimentarius_JG100"	"O, T"	1
+"P_alimentarius_JG102"	"O, T"	1
+"P_aquaticus_CMS56"	"O, T"	1
+"P_aquimaris_SW-210"	"O, T"	1
+"P_arcticus_273-4"	"O, T"	1
+"P_arenosus_R7"	"O, T"	1
+"P_celer_SW-238"	"O, T"	1
+"P_cibarius_JG-219"	"O, T"	1
+"P_cibarius_JG-220"	"O, T"	1
+"P_ciconiae_176-10"	"O, T"	1
+"P_cryohalolentis_K5"	"O, T"	1
+"P_faecalis_Iso-46"	"O, T"	1
+"P_faecalis_PBFP-1"	"O, T"	1
+"P_fjordensis_BSw21516B"	"O, T"	1
+"P_fozii_NF23"	"O, T"	1
+"P_frigidicola_ACAM304"	"O, T"	1
+"P_frigidicola_ACAM309"	"O, T"	1
+"P_fulvigenes_KC-40"	"O, T"	1
+"P_glaciei_Blc20019"	"O, T"	1
+"P_glacincola_1447"	"O, T"	1
+"P_glacincola_ACAM483"	"O, T"	1
+"P_immobilis_1159"	"O, T"	1
+"P_immobilis_1184"	"O, T"	1
+"P_immobilis_1347"	"O, T"	1
+"P_immobilis_1555"	"O, T"	1
+"P_immobilis_1617"	"O, T"	1
+"P_immobilis_1745"	"O, T"	1
+"P_immobilis_252"	"O, T"	1
+"P_immobilis_A-11"	"O, T"	1
+"P_immobilis_A-19"	"O, T"	1
+"P_immobilis_A1007"	"O, T"	1
+"P_immobilis_A1014"	"O, T"	1
+"P_immobilis_A351"	"O, T"	1
+"P_immobilis_A352"	"O, T"	1
+"P_immobilis_Liston1000"	"O, T"	1
+"P_immobilis_NC10"	"O, T"	1
+"P_immobilis_NCIMB357"	"O, T"	1
+"P_immobilis_NCIMB361"	"O, T"	1
+"P_immobilis_NCIMB362"	"O, T"	1
+"P_immobilis_S3"	"O, T"	1
+"P_jeotgali_YKJ-103"	"O, T"	1
+"P_luti_NF11"	"O, T"	1
+"P_lutiphocae_IMMIBL-1110"	"O, T"	1
+"P_marincola_KMM227"	"O, T"	1
+"P_maritimus_Pi2-20"	"O, T"	1
+"P_maritimus_Pi2-25"	"O, T"	1
+"P_namhaensis_SW-242"	"O, T"	1
+"P_nivimaris_88-2-7"	"O, T"	1
+"P_oceani_4k5"	"O, T"	1
+"P_okhotskensis_A1004"	"O, T"	1
+"P_okhotskensis_MD17"	"O, T"	1
+"P_pacificensis_NIBH-P2K6"	"O, T"	1
+"P_phenylpyruvicus_ACAM535"	"O, T"	1
+"P_piscatorii_T-3-2"	"O, T"	1
+"P_priscuii_LFX-15B1"	"O, T"	1
+"P_proteolyticus_116"	"O, T"	1
+"P_pulmonis_ES2-W5a2"	"O, T"	2
+"P_pulmonis_S-606"	"O, T"	1
+"P_salsus_DD48"	"O, T"	1
+"P_sanguinis_10070"	"O, T"	1
+"P_sanguinis_13983"	"O, T"	1
+"P_sanguinis_1501"	"O, T"	1
+"P_sanguinis_92"	"O, T"	1
+"P_sp_1044"	"O, T"	1
+"P_sp_2pS"	"O, T"	1
+"P_sp_72-O-c"	"O, T"	1
+"P_sp_CMS30"	"O, T"	1
+"P_sp_DD43"	"O, T"	1
+"P_sp_H7-1"	"O, T"	1
+"P_sp_H8-1"	"O, T"	2
+"P_sp_HII-4"	"O, T"	1
+"P_sp_IAM12030_72-O-c"	"O, T"	1
+"P_sp_JCM18900"	"O, T"	1
+"P_sp_JCM18902"	"O, T"	1
+"P_sp_JCM18903"	"O, T"	1
+"P_sp_NC44"	"O, T"	1
+"P_sp_Pi2-1"	"O, T"	1
+"P_sp_Pi2-51"	"O, T"	1
+"P_sp_Pi2-52"	"O, T"	1
+"P_submarinus_KMM225"	"O, T"	1
+"P_urativorans_ACAM311"	"O, T"	1
+"P_urativorans_ACAM534"	"O, T"	1
+"P_vallis_CMS39"	"O, T"	1
+"P_adeliensis_SJ14"	"O, U"	2
+"P_aestuarii_SC35"	"O, U"	2
+"P_alimentarius_JG100"	"O, U"	2
+"P_alimentarius_JG102"	"O, U"	2
+"P_aquaticus_CMS56"	"O, U"	2
+"P_aquimaris_SW-210"	"O, U"	3
+"P_arcticus_273-4"	"O, U"	3
+"P_arenosus_R7"	"O, U"	2
+"P_celer_SW-238"	"O, U"	2
+"P_cibarius_JG-219"	"O, U"	2
+"P_cibarius_JG-220"	"O, U"	2
+"P_ciconiae_176-10"	"O, U"	2
+"P_cryohalolentis_K5"	"O, U"	2
+"P_faecalis_Iso-46"	"O, U"	2
+"P_faecalis_PBFP-1"	"O, U"	2
+"P_fjordensis_BSw21516B"	"O, U"	2
+"P_fozii_NF23"	"O, U"	2
+"P_frigidicola_ACAM304"	"O, U"	2
+"P_frigidicola_ACAM309"	"O, U"	2
+"P_fulvigenes_KC-40"	"O, U"	2
+"P_glaciei_Blc20019"	"O, U"	2
+"P_glacincola_1447"	"O, U"	2
+"P_glacincola_ACAM483"	"O, U"	2
+"P_immobilis_1159"	"O, U"	2
+"P_immobilis_1184"	"O, U"	2
+"P_immobilis_1347"	"O, U"	2
+"P_immobilis_1555"	"O, U"	2
+"P_immobilis_1617"	"O, U"	2
+"P_immobilis_1745"	"O, U"	2
+"P_immobilis_252"	"O, U"	2
+"P_immobilis_A-11"	"O, U"	2
+"P_immobilis_A-19"	"O, U"	2
+"P_immobilis_A1007"	"O, U"	2
+"P_immobilis_A1014"	"O, U"	2
+"P_immobilis_A351"	"O, U"	2
+"P_immobilis_A352"	"O, U"	2
+"P_immobilis_Liston1000"	"O, U"	2
+"P_immobilis_NC10"	"O, U"	2
+"P_immobilis_NCIMB357"	"O, U"	2
+"P_immobilis_NCIMB361"	"O, U"	2
+"P_immobilis_NCIMB362"	"O, U"	2
+"P_immobilis_S3"	"O, U"	2
+"P_jeotgali_YKJ-103"	"O, U"	2
+"P_luti_NF11"	"O, U"	2
+"P_lutiphocae_IMMIBL-1110"	"O, U"	2
+"P_marincola_KMM227"	"O, U"	2
+"P_maritimus_Pi2-20"	"O, U"	2
+"P_maritimus_Pi2-25"	"O, U"	2
+"P_namhaensis_SW-242"	"O, U"	2
+"P_nivimaris_88-2-7"	"O, U"	3
+"P_oceani_4k5"	"O, U"	2
+"P_okhotskensis_A1004"	"O, U"	2
+"P_okhotskensis_MD17"	"O, U"	2
+"P_pacificensis_NIBH-P2K6"	"O, U"	2
+"P_phenylpyruvicus_ACAM535"	"O, U"	2
+"P_piscatorii_T-3-2"	"O, U"	2
+"P_priscuii_LFX-15B1"	"O, U"	2
+"P_proteolyticus_116"	"O, U"	2
+"P_pulmonis_ES2-W5a2"	"O, U"	2
+"P_pulmonis_S-606"	"O, U"	2
+"P_salsus_DD48"	"O, U"	2
+"P_sanguinis_10070"	"O, U"	3
+"P_sanguinis_13983"	"O, U"	2
+"P_sanguinis_1501"	"O, U"	2
+"P_sanguinis_92"	"O, U"	2
+"P_sp_1044"	"O, U"	3
+"P_sp_2pS"	"O, U"	3
+"P_sp_72-O-c"	"O, U"	2
+"P_sp_CMS30"	"O, U"	2
+"P_sp_DD43"	"O, U"	2
+"P_sp_H7-1"	"O, U"	2
+"P_sp_H8-1"	"O, U"	2
+"P_sp_HII-4"	"O, U"	2
+"P_sp_IAM12030_72-O-c"	"O, U"	2
+"P_sp_JCM18900"	"O, U"	2
+"P_sp_JCM18902"	"O, U"	2
+"P_sp_JCM18903"	"O, U"	2
+"P_sp_NC44"	"O, U"	2
+"P_sp_Pi2-1"	"O, U"	2
+"P_sp_Pi2-51"	"O, U"	2
+"P_sp_Pi2-52"	"O, U"	2
+"P_submarinus_KMM225"	"O, U"	2
+"P_urativorans_ACAM311"	"O, U"	2
+"P_urativorans_ACAM534"	"O, U"	2
+"P_vallis_CMS39"	"O, U"	2
+"P_adeliensis_SJ14"	"P"	139
+"P_aestuarii_SC35"	"P"	117
+"P_alimentarius_JG100"	"P"	141
+"P_alimentarius_JG102"	"P"	140
+"P_aquaticus_CMS56"	"P"	143
+"P_aquimaris_SW-210"	"P"	138
+"P_arcticus_273-4"	"P"	95
+"P_arenosus_R7"	"P"	139
+"P_celer_SW-238"	"P"	136
+"P_cibarius_JG-219"	"P"	141
+"P_cibarius_JG-220"	"P"	157
+"P_ciconiae_176-10"	"P"	105
+"P_cryohalolentis_K5"	"P"	121
+"P_faecalis_Iso-46"	"P"	137
+"P_faecalis_PBFP-1"	"P"	154
+"P_fjordensis_BSw21516B"	"P"	146
+"P_fozii_NF23"	"P"	142
+"P_frigidicola_ACAM304"	"P"	113
+"P_frigidicola_ACAM309"	"P"	107
+"P_fulvigenes_KC-40"	"P"	143
+"P_glaciei_Blc20019"	"P"	132
+"P_glacincola_1447"	"P"	141
+"P_glacincola_ACAM483"	"P"	128
+"P_immobilis_1159"	"P"	136
+"P_immobilis_1184"	"P"	127
+"P_immobilis_1347"	"P"	128
+"P_immobilis_1555"	"P"	156
+"P_immobilis_1617"	"P"	153
+"P_immobilis_1745"	"P"	139
+"P_immobilis_252"	"P"	137
+"P_immobilis_A-11"	"P"	125
+"P_immobilis_A-19"	"P"	143
+"P_immobilis_A1007"	"P"	141
+"P_immobilis_A1014"	"P"	148
+"P_immobilis_A351"	"P"	143
+"P_immobilis_A352"	"P"	145
+"P_immobilis_Liston1000"	"P"	130
+"P_immobilis_NC10"	"P"	143
+"P_immobilis_NCIMB357"	"P"	142
+"P_immobilis_NCIMB361"	"P"	144
+"P_immobilis_NCIMB362"	"P"	127
+"P_immobilis_S3"	"P"	135
+"P_jeotgali_YKJ-103"	"P"	130
+"P_luti_NF11"	"P"	120
+"P_lutiphocae_IMMIBL-1110"	"P"	139
+"P_marincola_KMM227"	"P"	134
+"P_maritimus_Pi2-20"	"P"	140
+"P_maritimus_Pi2-25"	"P"	139
+"P_namhaensis_SW-242"	"P"	135
+"P_nivimaris_88-2-7"	"P"	137
+"P_oceani_4k5"	"P"	129
+"P_okhotskensis_A1004"	"P"	141
+"P_okhotskensis_MD17"	"P"	141
+"P_pacificensis_NIBH-P2K6"	"P"	141
+"P_phenylpyruvicus_ACAM535"	"P"	144
+"P_piscatorii_T-3-2"	"P"	146
+"P_priscuii_LFX-15B1"	"P"	128
+"P_proteolyticus_116"	"P"	132
+"P_pulmonis_ES2-W5a2"	"P"	179
+"P_pulmonis_S-606"	"P"	131
+"P_salsus_DD48"	"P"	122
+"P_sanguinis_10070"	"P"	143
+"P_sanguinis_13983"	"P"	140
+"P_sanguinis_1501"	"P"	134
+"P_sanguinis_92"	"P"	143
+"P_sp_1044"	"P"	145
+"P_sp_2pS"	"P"	134
+"P_sp_72-O-c"	"P"	120
+"P_sp_CMS30"	"P"	143
+"P_sp_DD43"	"P"	130
+"P_sp_H7-1"	"P"	155
+"P_sp_H8-1"	"P"	132
+"P_sp_HII-4"	"P"	126
+"P_sp_IAM12030_72-O-c"	"P"	120
+"P_sp_JCM18900"	"P"	135
+"P_sp_JCM18902"	"P"	140
+"P_sp_JCM18903"	"P"	152
+"P_sp_NC44"	"P"	148
+"P_sp_Pi2-1"	"P"	130
+"P_sp_Pi2-51"	"P"	132
+"P_sp_Pi2-52"	"P"	132
+"P_submarinus_KMM225"	"P"	132
+"P_urativorans_ACAM311"	"P"	108
+"P_urativorans_ACAM534"	"P"	124
+"P_vallis_CMS39"	"P"	146
+"P_adeliensis_SJ14"	"Q"	40
+"P_aestuarii_SC35"	"Q"	33
+"P_alimentarius_JG100"	"Q"	41
+"P_alimentarius_JG102"	"Q"	46
+"P_aquaticus_CMS56"	"Q"	41
+"P_aquimaris_SW-210"	"Q"	48
+"P_arcticus_273-4"	"Q"	24
+"P_arenosus_R7"	"Q"	30
+"P_celer_SW-238"	"Q"	23
+"P_cibarius_JG-219"	"Q"	24
+"P_cibarius_JG-220"	"Q"	27
+"P_ciconiae_176-10"	"Q"	13
+"P_cryohalolentis_K5"	"Q"	36
+"P_faecalis_Iso-46"	"Q"	32
+"P_faecalis_PBFP-1"	"Q"	30
+"P_fjordensis_BSw21516B"	"Q"	45
+"P_fozii_NF23"	"Q"	46
+"P_frigidicola_ACAM304"	"Q"	21
+"P_frigidicola_ACAM309"	"Q"	16
+"P_fulvigenes_KC-40"	"Q"	36
+"P_glaciei_Blc20019"	"Q"	40
+"P_glacincola_1447"	"Q"	34
+"P_glacincola_ACAM483"	"Q"	28
+"P_immobilis_1159"	"Q"	30
+"P_immobilis_1184"	"Q"	25
+"P_immobilis_1347"	"Q"	38
+"P_immobilis_1555"	"Q"	25
+"P_immobilis_1617"	"Q"	26
+"P_immobilis_1745"	"Q"	38
+"P_immobilis_252"	"Q"	33
+"P_immobilis_A-11"	"Q"	33
+"P_immobilis_A-19"	"Q"	28
+"P_immobilis_A1007"	"Q"	31
+"P_immobilis_A1014"	"Q"	31
+"P_immobilis_A351"	"Q"	25
+"P_immobilis_A352"	"Q"	36
+"P_immobilis_Liston1000"	"Q"	49
+"P_immobilis_NC10"	"Q"	33
+"P_immobilis_NCIMB357"	"Q"	25
+"P_immobilis_NCIMB361"	"Q"	25
+"P_immobilis_NCIMB362"	"Q"	37
+"P_immobilis_S3"	"Q"	41
+"P_jeotgali_YKJ-103"	"Q"	30
+"P_luti_NF11"	"Q"	21
+"P_lutiphocae_IMMIBL-1110"	"Q"	39
+"P_marincola_KMM227"	"Q"	40
+"P_maritimus_Pi2-20"	"Q"	37
+"P_maritimus_Pi2-25"	"Q"	36
+"P_namhaensis_SW-242"	"Q"	34
+"P_nivimaris_88-2-7"	"Q"	52
+"P_oceani_4k5"	"Q"	27
+"P_okhotskensis_A1004"	"Q"	27
+"P_okhotskensis_MD17"	"Q"	29
+"P_pacificensis_NIBH-P2K6"	"Q"	31
+"P_phenylpyruvicus_ACAM535"	"Q"	31
+"P_piscatorii_T-3-2"	"Q"	40
+"P_priscuii_LFX-15B1"	"Q"	30
+"P_proteolyticus_116"	"Q"	39
+"P_pulmonis_ES2-W5a2"	"Q"	40
+"P_pulmonis_S-606"	"Q"	34
+"P_salsus_DD48"	"Q"	20
+"P_sanguinis_10070"	"Q"	29
+"P_sanguinis_13983"	"Q"	31
+"P_sanguinis_1501"	"Q"	27
+"P_sanguinis_92"	"Q"	28
+"P_sp_1044"	"Q"	25
+"P_sp_2pS"	"Q"	48
+"P_sp_72-O-c"	"Q"	27
+"P_sp_CMS30"	"Q"	32
+"P_sp_DD43"	"Q"	32
+"P_sp_H7-1"	"Q"	39
+"P_sp_H8-1"	"Q"	51
+"P_sp_HII-4"	"Q"	23
+"P_sp_IAM12030_72-O-c"	"Q"	27
+"P_sp_JCM18900"	"Q"	46
+"P_sp_JCM18902"	"Q"	39
+"P_sp_JCM18903"	"Q"	24
+"P_sp_NC44"	"Q"	28
+"P_sp_Pi2-1"	"Q"	29
+"P_sp_Pi2-51"	"Q"	35
+"P_sp_Pi2-52"	"Q"	39
+"P_submarinus_KMM225"	"Q"	26
+"P_urativorans_ACAM311"	"Q"	22
+"P_urativorans_ACAM534"	"Q"	25
+"P_vallis_CMS39"	"Q"	31
+"P_adeliensis_SJ14"	"S"	510
+"P_aestuarii_SC35"	"S"	465
+"P_alimentarius_JG100"	"S"	588
+"P_alimentarius_JG102"	"S"	561
+"P_aquaticus_CMS56"	"S"	569
+"P_aquimaris_SW-210"	"S"	563
+"P_arcticus_273-4"	"S"	405
+"P_arenosus_R7"	"S"	600
+"P_celer_SW-238"	"S"	479
+"P_cibarius_JG-219"	"S"	511
+"P_cibarius_JG-220"	"S"	570
+"P_ciconiae_176-10"	"S"	412
+"P_cryohalolentis_K5"	"S"	491
+"P_faecalis_Iso-46"	"S"	508
+"P_faecalis_PBFP-1"	"S"	516
+"P_fjordensis_BSw21516B"	"S"	561
+"P_fozii_NF23"	"S"	564
+"P_frigidicola_ACAM304"	"S"	471
+"P_frigidicola_ACAM309"	"S"	459
+"P_fulvigenes_KC-40"	"S"	572
+"P_glaciei_Blc20019"	"S"	593
+"P_glacincola_1447"	"S"	545
+"P_glacincola_ACAM483"	"S"	511
+"P_immobilis_1159"	"S"	606
+"P_immobilis_1184"	"S"	556
+"P_immobilis_1347"	"S"	508
+"P_immobilis_1555"	"S"	589
+"P_immobilis_1617"	"S"	581
+"P_immobilis_1745"	"S"	498
+"P_immobilis_252"	"S"	556
+"P_immobilis_A-11"	"S"	518
+"P_immobilis_A-19"	"S"	546
+"P_immobilis_A1007"	"S"	609
+"P_immobilis_A1014"	"S"	611
+"P_immobilis_A351"	"S"	527
+"P_immobilis_A352"	"S"	570
+"P_immobilis_Liston1000"	"S"	514
+"P_immobilis_NC10"	"S"	605
+"P_immobilis_NCIMB357"	"S"	565
+"P_immobilis_NCIMB361"	"S"	572
+"P_immobilis_NCIMB362"	"S"	511
+"P_immobilis_S3"	"S"	553
+"P_jeotgali_YKJ-103"	"S"	523
+"P_luti_NF11"	"S"	493
+"P_lutiphocae_IMMIBL-1110"	"S"	474
+"P_marincola_KMM227"	"S"	500
+"P_maritimus_Pi2-20"	"S"	504
+"P_maritimus_Pi2-25"	"S"	535
+"P_namhaensis_SW-242"	"S"	468
+"P_nivimaris_88-2-7"	"S"	541
+"P_oceani_4k5"	"S"	479
+"P_okhotskensis_A1004"	"S"	593
+"P_okhotskensis_MD17"	"S"	597
+"P_pacificensis_NIBH-P2K6"	"S"	530
+"P_phenylpyruvicus_ACAM535"	"S"	498
+"P_piscatorii_T-3-2"	"S"	580
+"P_priscuii_LFX-15B1"	"S"	495
+"P_proteolyticus_116"	"S"	499
+"P_pulmonis_ES2-W5a2"	"S"	549
+"P_pulmonis_S-606"	"S"	488
+"P_salsus_DD48"	"S"	493
+"P_sanguinis_10070"	"S"	513
+"P_sanguinis_13983"	"S"	515
+"P_sanguinis_1501"	"S"	494
+"P_sanguinis_92"	"S"	520
+"P_sp_1044"	"S"	565
+"P_sp_2pS"	"S"	570
+"P_sp_72-O-c"	"S"	546
+"P_sp_CMS30"	"S"	511
+"P_sp_DD43"	"S"	478
+"P_sp_H7-1"	"S"	507
+"P_sp_H8-1"	"S"	542
+"P_sp_HII-4"	"S"	528
+"P_sp_IAM12030_72-O-c"	"S"	570
+"P_sp_JCM18900"	"S"	518
+"P_sp_JCM18902"	"S"	542
+"P_sp_JCM18903"	"S"	571
+"P_sp_NC44"	"S"	529
+"P_sp_Pi2-1"	"S"	489
+"P_sp_Pi2-51"	"S"	557
+"P_sp_Pi2-52"	"S"	515
+"P_submarinus_KMM225"	"S"	494
+"P_urativorans_ACAM311"	"S"	438
+"P_urativorans_ACAM534"	"S"	573
+"P_vallis_CMS39"	"S"	536
+"P_adeliensis_SJ14"	"T"	73
+"P_aestuarii_SC35"	"T"	66
+"P_alimentarius_JG100"	"T"	72
+"P_alimentarius_JG102"	"T"	71
+"P_aquaticus_CMS56"	"T"	69
+"P_aquimaris_SW-210"	"T"	77
+"P_arcticus_273-4"	"T"	54
+"P_arenosus_R7"	"T"	79
+"P_celer_SW-238"	"T"	68
+"P_cibarius_JG-219"	"T"	71
+"P_cibarius_JG-220"	"T"	74
+"P_ciconiae_176-10"	"T"	58
+"P_cryohalolentis_K5"	"T"	71
+"P_faecalis_Iso-46"	"T"	67
+"P_faecalis_PBFP-1"	"T"	66
+"P_fjordensis_BSw21516B"	"T"	69
+"P_fozii_NF23"	"T"	76
+"P_frigidicola_ACAM304"	"T"	65
+"P_frigidicola_ACAM309"	"T"	58
+"P_fulvigenes_KC-40"	"T"	71
+"P_glaciei_Blc20019"	"T"	76
+"P_glacincola_1447"	"T"	76
+"P_glacincola_ACAM483"	"T"	78
+"P_immobilis_1159"	"T"	79
+"P_immobilis_1184"	"T"	70
+"P_immobilis_1347"	"T"	63
+"P_immobilis_1555"	"T"	79
+"P_immobilis_1617"	"T"	77
+"P_immobilis_1745"	"T"	70
+"P_immobilis_252"	"T"	65
+"P_immobilis_A-11"	"T"	72
+"P_immobilis_A-19"	"T"	75
+"P_immobilis_A1007"	"T"	72
+"P_immobilis_A1014"	"T"	80
+"P_immobilis_A351"	"T"	78
+"P_immobilis_A352"	"T"	67
+"P_immobilis_Liston1000"	"T"	74
+"P_immobilis_NC10"	"T"	68
+"P_immobilis_NCIMB357"	"T"	73
+"P_immobilis_NCIMB361"	"T"	77
+"P_immobilis_NCIMB362"	"T"	70
+"P_immobilis_S3"	"T"	71
+"P_jeotgali_YKJ-103"	"T"	72
+"P_luti_NF11"	"T"	74
+"P_lutiphocae_IMMIBL-1110"	"T"	46
+"P_marincola_KMM227"	"T"	72
+"P_maritimus_Pi2-20"	"T"	73
+"P_maritimus_Pi2-25"	"T"	73
+"P_namhaensis_SW-242"	"T"	65
+"P_nivimaris_88-2-7"	"T"	70
+"P_oceani_4k5"	"T"	71
+"P_okhotskensis_A1004"	"T"	67
+"P_okhotskensis_MD17"	"T"	72
+"P_pacificensis_NIBH-P2K6"	"T"	76
+"P_phenylpyruvicus_ACAM535"	"T"	44
+"P_piscatorii_T-3-2"	"T"	72
+"P_priscuii_LFX-15B1"	"T"	74
+"P_proteolyticus_116"	"T"	72
+"P_pulmonis_ES2-W5a2"	"T"	77
+"P_pulmonis_S-606"	"T"	64
+"P_salsus_DD48"	"T"	71
+"P_sanguinis_10070"	"T"	54
+"P_sanguinis_13983"	"T"	60
+"P_sanguinis_1501"	"T"	54
+"P_sanguinis_92"	"T"	55
+"P_sp_1044"	"T"	76
+"P_sp_2pS"	"T"	73
+"P_sp_72-O-c"	"T"	72
+"P_sp_CMS30"	"T"	72
+"P_sp_DD43"	"T"	68
+"P_sp_H7-1"	"T"	53
+"P_sp_H8-1"	"T"	78
+"P_sp_HII-4"	"T"	63
+"P_sp_IAM12030_72-O-c"	"T"	72
+"P_sp_JCM18900"	"T"	68
+"P_sp_JCM18902"	"T"	75
+"P_sp_JCM18903"	"T"	74
+"P_sp_NC44"	"T"	75
+"P_sp_Pi2-1"	"T"	73
+"P_sp_Pi2-51"	"T"	87
+"P_sp_Pi2-52"	"T"	72
+"P_submarinus_KMM225"	"T"	68
+"P_urativorans_ACAM311"	"T"	58
+"P_urativorans_ACAM534"	"T"	77
+"P_vallis_CMS39"	"T"	71
+"P_adeliensis_SJ14"	"U"	49
+"P_aestuarii_SC35"	"U"	47
+"P_alimentarius_JG100"	"U"	54
+"P_alimentarius_JG102"	"U"	55
+"P_aquaticus_CMS56"	"U"	49
+"P_aquimaris_SW-210"	"U"	51
+"P_arcticus_273-4"	"U"	45
+"P_arenosus_R7"	"U"	51
+"P_celer_SW-238"	"U"	51
+"P_cibarius_JG-219"	"U"	46
+"P_cibarius_JG-220"	"U"	47
+"P_ciconiae_176-10"	"U"	48
+"P_cryohalolentis_K5"	"U"	50
+"P_faecalis_Iso-46"	"U"	47
+"P_faecalis_PBFP-1"	"U"	47
+"P_fjordensis_BSw21516B"	"U"	40
+"P_fozii_NF23"	"U"	43
+"P_frigidicola_ACAM304"	"U"	49
+"P_frigidicola_ACAM309"	"U"	45
+"P_fulvigenes_KC-40"	"U"	52
+"P_glaciei_Blc20019"	"U"	52
+"P_glacincola_1447"	"U"	50
+"P_glacincola_ACAM483"	"U"	50
+"P_immobilis_1159"	"U"	52
+"P_immobilis_1184"	"U"	49
+"P_immobilis_1347"	"U"	47
+"P_immobilis_1555"	"U"	52
+"P_immobilis_1617"	"U"	52
+"P_immobilis_1745"	"U"	52
+"P_immobilis_252"	"U"	48
+"P_immobilis_A-11"	"U"	51
+"P_immobilis_A-19"	"U"	50
+"P_immobilis_A1007"	"U"	48
+"P_immobilis_A1014"	"U"	50
+"P_immobilis_A351"	"U"	50
+"P_immobilis_A352"	"U"	45
+"P_immobilis_Liston1000"	"U"	51
+"P_immobilis_NC10"	"U"	49
+"P_immobilis_NCIMB357"	"U"	48
+"P_immobilis_NCIMB361"	"U"	48
+"P_immobilis_NCIMB362"	"U"	50
+"P_immobilis_S3"	"U"	47
+"P_jeotgali_YKJ-103"	"U"	56
+"P_luti_NF11"	"U"	50
+"P_lutiphocae_IMMIBL-1110"	"U"	51
+"P_marincola_KMM227"	"U"	48
+"P_maritimus_Pi2-20"	"U"	50
+"P_maritimus_Pi2-25"	"U"	49
+"P_namhaensis_SW-242"	"U"	50
+"P_nivimaris_88-2-7"	"U"	51
+"P_oceani_4k5"	"U"	50
+"P_okhotskensis_A1004"	"U"	48
+"P_okhotskensis_MD17"	"U"	47
+"P_pacificensis_NIBH-P2K6"	"U"	48
+"P_phenylpyruvicus_ACAM535"	"U"	57
+"P_piscatorii_T-3-2"	"U"	55
+"P_priscuii_LFX-15B1"	"U"	53
+"P_proteolyticus_116"	"U"	48
+"P_pulmonis_ES2-W5a2"	"U"	55
+"P_pulmonis_S-606"	"U"	47
+"P_salsus_DD48"	"U"	54
+"P_sanguinis_10070"	"U"	37
+"P_sanguinis_13983"	"U"	38
+"P_sanguinis_1501"	"U"	38
+"P_sanguinis_92"	"U"	38
+"P_sp_1044"	"U"	47
+"P_sp_2pS"	"U"	49
+"P_sp_72-O-c"	"U"	53
+"P_sp_CMS30"	"U"	51
+"P_sp_DD43"	"U"	52
+"P_sp_H7-1"	"U"	39
+"P_sp_H8-1"	"U"	50
+"P_sp_HII-4"	"U"	49
+"P_sp_IAM12030_72-O-c"	"U"	53
+"P_sp_JCM18900"	"U"	51
+"P_sp_JCM18902"	"U"	52
+"P_sp_JCM18903"	"U"	49
+"P_sp_NC44"	"U"	50
+"P_sp_Pi2-1"	"U"	47
+"P_sp_Pi2-51"	"U"	53
+"P_sp_Pi2-52"	"U"	50
+"P_submarinus_KMM225"	"U"	54
+"P_urativorans_ACAM311"	"U"	45
+"P_urativorans_ACAM534"	"U"	52
+"P_vallis_CMS39"	"U"	55
+"P_adeliensis_SJ14"	"U, W"	3
+"P_aestuarii_SC35"	"U, W"	1
+"P_alimentarius_JG100"	"U, W"	4
+"P_alimentarius_JG102"	"U, W"	5
+"P_aquaticus_CMS56"	"U, W"	4
+"P_aquimaris_SW-210"	"U, W"	4
+"P_arcticus_273-4"	"U, W"	0
+"P_arenosus_R7"	"U, W"	2
+"P_celer_SW-238"	"U, W"	1
+"P_cibarius_JG-219"	"U, W"	3
+"P_cibarius_JG-220"	"U, W"	3
+"P_ciconiae_176-10"	"U, W"	0
+"P_cryohalolentis_K5"	"U, W"	3
+"P_faecalis_Iso-46"	"U, W"	0
+"P_faecalis_PBFP-1"	"U, W"	0
+"P_fjordensis_BSw21516B"	"U, W"	2
+"P_fozii_NF23"	"U, W"	3
+"P_frigidicola_ACAM304"	"U, W"	1
+"P_frigidicola_ACAM309"	"U, W"	3
+"P_fulvigenes_KC-40"	"U, W"	1
+"P_glaciei_Blc20019"	"U, W"	5
+"P_glacincola_1447"	"U, W"	3
+"P_glacincola_ACAM483"	"U, W"	1
+"P_immobilis_1159"	"U, W"	3
+"P_immobilis_1184"	"U, W"	6
+"P_immobilis_1347"	"U, W"	0
+"P_immobilis_1555"	"U, W"	3
+"P_immobilis_1617"	"U, W"	4
+"P_immobilis_1745"	"U, W"	2
+"P_immobilis_252"	"U, W"	1
+"P_immobilis_A-11"	"U, W"	2
+"P_immobilis_A-19"	"U, W"	3
+"P_immobilis_A1007"	"U, W"	1
+"P_immobilis_A1014"	"U, W"	1
+"P_immobilis_A351"	"U, W"	3
+"P_immobilis_A352"	"U, W"	3
+"P_immobilis_Liston1000"	"U, W"	3
+"P_immobilis_NC10"	"U, W"	2
+"P_immobilis_NCIMB357"	"U, W"	3
+"P_immobilis_NCIMB361"	"U, W"	3
+"P_immobilis_NCIMB362"	"U, W"	2
+"P_immobilis_S3"	"U, W"	2
+"P_jeotgali_YKJ-103"	"U, W"	0
+"P_luti_NF11"	"U, W"	2
+"P_lutiphocae_IMMIBL-1110"	"U, W"	2
+"P_marincola_KMM227"	"U, W"	3
+"P_maritimus_Pi2-20"	"U, W"	2
+"P_maritimus_Pi2-25"	"U, W"	1
+"P_namhaensis_SW-242"	"U, W"	1
+"P_nivimaris_88-2-7"	"U, W"	3
+"P_oceani_4k5"	"U, W"	1
+"P_okhotskensis_A1004"	"U, W"	2
+"P_okhotskensis_MD17"	"U, W"	2
+"P_pacificensis_NIBH-P2K6"	"U, W"	0
+"P_phenylpyruvicus_ACAM535"	"U, W"	0
+"P_piscatorii_T-3-2"	"U, W"	5
+"P_priscuii_LFX-15B1"	"U, W"	2
+"P_proteolyticus_116"	"U, W"	3
+"P_pulmonis_ES2-W5a2"	"U, W"	0
+"P_pulmonis_S-606"	"U, W"	1
+"P_salsus_DD48"	"U, W"	1
+"P_sanguinis_10070"	"U, W"	0
+"P_sanguinis_13983"	"U, W"	0
+"P_sanguinis_1501"	"U, W"	1
+"P_sanguinis_92"	"U, W"	0
+"P_sp_1044"	"U, W"	3
+"P_sp_2pS"	"U, W"	3
+"P_sp_72-O-c"	"U, W"	1
+"P_sp_CMS30"	"U, W"	1
+"P_sp_DD43"	"U, W"	1
+"P_sp_H7-1"	"U, W"	0
+"P_sp_H8-1"	"U, W"	1
+"P_sp_HII-4"	"U, W"	1
+"P_sp_IAM12030_72-O-c"	"U, W"	1
+"P_sp_JCM18900"	"U, W"	1
+"P_sp_JCM18902"	"U, W"	4
+"P_sp_JCM18903"	"U, W"	3
+"P_sp_NC44"	"U, W"	3
+"P_sp_Pi2-1"	"U, W"	5
+"P_sp_Pi2-51"	"U, W"	6
+"P_sp_Pi2-52"	"U, W"	2
+"P_submarinus_KMM225"	"U, W"	2
+"P_urativorans_ACAM311"	"U, W"	1
+"P_urativorans_ACAM534"	"U, W"	2
+"P_vallis_CMS39"	"U, W"	2
+"P_adeliensis_SJ14"	"V"	39
+"P_aestuarii_SC35"	"V"	26
+"P_alimentarius_JG100"	"V"	44
+"P_alimentarius_JG102"	"V"	40
+"P_aquaticus_CMS56"	"V"	38
+"P_aquimaris_SW-210"	"V"	38
+"P_arcticus_273-4"	"V"	31
+"P_arenosus_R7"	"V"	56
+"P_celer_SW-238"	"V"	38
+"P_cibarius_JG-219"	"V"	35
+"P_cibarius_JG-220"	"V"	45
+"P_ciconiae_176-10"	"V"	44
+"P_cryohalolentis_K5"	"V"	47
+"P_faecalis_Iso-46"	"V"	38
+"P_faecalis_PBFP-1"	"V"	39
+"P_fjordensis_BSw21516B"	"V"	35
+"P_fozii_NF23"	"V"	40
+"P_frigidicola_ACAM304"	"V"	44
+"P_frigidicola_ACAM309"	"V"	35
+"P_fulvigenes_KC-40"	"V"	57
+"P_glaciei_Blc20019"	"V"	37
+"P_glacincola_1447"	"V"	40
+"P_glacincola_ACAM483"	"V"	44
+"P_immobilis_1159"	"V"	50
+"P_immobilis_1184"	"V"	46
+"P_immobilis_1347"	"V"	44
+"P_immobilis_1555"	"V"	51
+"P_immobilis_1617"	"V"	52
+"P_immobilis_1745"	"V"	44
+"P_immobilis_252"	"V"	46
+"P_immobilis_A-11"	"V"	42
+"P_immobilis_A-19"	"V"	34
+"P_immobilis_A1007"	"V"	45
+"P_immobilis_A1014"	"V"	57
+"P_immobilis_A351"	"V"	42
+"P_immobilis_A352"	"V"	39
+"P_immobilis_Liston1000"	"V"	36
+"P_immobilis_NC10"	"V"	54
+"P_immobilis_NCIMB357"	"V"	51
+"P_immobilis_NCIMB361"	"V"	55
+"P_immobilis_NCIMB362"	"V"	39
+"P_immobilis_S3"	"V"	43
+"P_jeotgali_YKJ-103"	"V"	46
+"P_luti_NF11"	"V"	33
+"P_lutiphocae_IMMIBL-1110"	"V"	47
+"P_marincola_KMM227"	"V"	35
+"P_maritimus_Pi2-20"	"V"	30
+"P_maritimus_Pi2-25"	"V"	36
+"P_namhaensis_SW-242"	"V"	30
+"P_nivimaris_88-2-7"	"V"	46
+"P_oceani_4k5"	"V"	32
+"P_okhotskensis_A1004"	"V"	43
+"P_okhotskensis_MD17"	"V"	44
+"P_pacificensis_NIBH-P2K6"	"V"	34
+"P_phenylpyruvicus_ACAM535"	"V"	43
+"P_piscatorii_T-3-2"	"V"	58
+"P_priscuii_LFX-15B1"	"V"	33
+"P_proteolyticus_116"	"V"	35
+"P_pulmonis_ES2-W5a2"	"V"	39
+"P_pulmonis_S-606"	"V"	28
+"P_salsus_DD48"	"V"	33
+"P_sanguinis_10070"	"V"	42
+"P_sanguinis_13983"	"V"	48
+"P_sanguinis_1501"	"V"	44
+"P_sanguinis_92"	"V"	43
+"P_sp_1044"	"V"	40
+"P_sp_2pS"	"V"	36
+"P_sp_72-O-c"	"V"	39
+"P_sp_CMS30"	"V"	32
+"P_sp_DD43"	"V"	42
+"P_sp_H7-1"	"V"	43
+"P_sp_H8-1"	"V"	48
+"P_sp_HII-4"	"V"	44
+"P_sp_IAM12030_72-O-c"	"V"	39
+"P_sp_JCM18900"	"V"	45
+"P_sp_JCM18902"	"V"	41
+"P_sp_JCM18903"	"V"	48
+"P_sp_NC44"	"V"	39
+"P_sp_Pi2-1"	"V"	40
+"P_sp_Pi2-51"	"V"	47
+"P_sp_Pi2-52"	"V"	48
+"P_submarinus_KMM225"	"V"	42
+"P_urativorans_ACAM311"	"V"	36
+"P_urativorans_ACAM534"	"V"	49
+"P_vallis_CMS39"	"V"	39
+"P_adeliensis_SJ14"	"V, W"	0
+"P_aestuarii_SC35"	"V, W"	0
+"P_alimentarius_JG100"	"V, W"	0
+"P_alimentarius_JG102"	"V, W"	0
+"P_aquaticus_CMS56"	"V, W"	0
+"P_aquimaris_SW-210"	"V, W"	0
+"P_arcticus_273-4"	"V, W"	0
+"P_arenosus_R7"	"V, W"	0
+"P_celer_SW-238"	"V, W"	0
+"P_cibarius_JG-219"	"V, W"	0
+"P_cibarius_JG-220"	"V, W"	0
+"P_ciconiae_176-10"	"V, W"	1
+"P_cryohalolentis_K5"	"V, W"	0
+"P_faecalis_Iso-46"	"V, W"	0
+"P_faecalis_PBFP-1"	"V, W"	0
+"P_fjordensis_BSw21516B"	"V, W"	0
+"P_fozii_NF23"	"V, W"	0
+"P_frigidicola_ACAM304"	"V, W"	0
+"P_frigidicola_ACAM309"	"V, W"	0
+"P_fulvigenes_KC-40"	"V, W"	0
+"P_glaciei_Blc20019"	"V, W"	0
+"P_glacincola_1447"	"V, W"	0
+"P_glacincola_ACAM483"	"V, W"	0
+"P_immobilis_1159"	"V, W"	0
+"P_immobilis_1184"	"V, W"	0
+"P_immobilis_1347"	"V, W"	0
+"P_immobilis_1555"	"V, W"	0
+"P_immobilis_1617"	"V, W"	0
+"P_immobilis_1745"	"V, W"	0
+"P_immobilis_252"	"V, W"	0
+"P_immobilis_A-11"	"V, W"	0
+"P_immobilis_A-19"	"V, W"	0
+"P_immobilis_A1007"	"V, W"	0
+"P_immobilis_A1014"	"V, W"	0
+"P_immobilis_A351"	"V, W"	0
+"P_immobilis_A352"	"V, W"	0
+"P_immobilis_Liston1000"	"V, W"	0
+"P_immobilis_NC10"	"V, W"	0
+"P_immobilis_NCIMB357"	"V, W"	0
+"P_immobilis_NCIMB361"	"V, W"	0
+"P_immobilis_NCIMB362"	"V, W"	0
+"P_immobilis_S3"	"V, W"	0
+"P_jeotgali_YKJ-103"	"V, W"	0
+"P_luti_NF11"	"V, W"	0
+"P_lutiphocae_IMMIBL-1110"	"V, W"	0
+"P_marincola_KMM227"	"V, W"	0
+"P_maritimus_Pi2-20"	"V, W"	0
+"P_maritimus_Pi2-25"	"V, W"	0
+"P_namhaensis_SW-242"	"V, W"	0
+"P_nivimaris_88-2-7"	"V, W"	0
+"P_oceani_4k5"	"V, W"	0
+"P_okhotskensis_A1004"	"V, W"	0
+"P_okhotskensis_MD17"	"V, W"	0
+"P_pacificensis_NIBH-P2K6"	"V, W"	0
+"P_phenylpyruvicus_ACAM535"	"V, W"	0
+"P_piscatorii_T-3-2"	"V, W"	0
+"P_priscuii_LFX-15B1"	"V, W"	0
+"P_proteolyticus_116"	"V, W"	0
+"P_pulmonis_ES2-W5a2"	"V, W"	0
+"P_pulmonis_S-606"	"V, W"	0
+"P_salsus_DD48"	"V, W"	0
+"P_sanguinis_10070"	"V, W"	0
+"P_sanguinis_13983"	"V, W"	0
+"P_sanguinis_1501"	"V, W"	0
+"P_sanguinis_92"	"V, W"	0
+"P_sp_1044"	"V, W"	0
+"P_sp_2pS"	"V, W"	0
+"P_sp_72-O-c"	"V, W"	0
+"P_sp_CMS30"	"V, W"	0
+"P_sp_DD43"	"V, W"	0
+"P_sp_H7-1"	"V, W"	0
+"P_sp_H8-1"	"V, W"	0
+"P_sp_HII-4"	"V, W"	0
+"P_sp_IAM12030_72-O-c"	"V, W"	0
+"P_sp_JCM18900"	"V, W"	0
+"P_sp_JCM18902"	"V, W"	0
+"P_sp_JCM18903"	"V, W"	0
+"P_sp_NC44"	"V, W"	0
+"P_sp_Pi2-1"	"V, W"	0
+"P_sp_Pi2-51"	"V, W"	0
+"P_sp_Pi2-52"	"V, W"	0
+"P_submarinus_KMM225"	"V, W"	0
+"P_urativorans_ACAM311"	"V, W"	0
+"P_urativorans_ACAM534"	"V, W"	0
+"P_vallis_CMS39"	"V, W"	0
+"P_adeliensis_SJ14"	"W"	0
+"P_aestuarii_SC35"	"W"	0
+"P_alimentarius_JG100"	"W"	0
+"P_alimentarius_JG102"	"W"	0
+"P_aquaticus_CMS56"	"W"	0
+"P_aquimaris_SW-210"	"W"	0
+"P_arcticus_273-4"	"W"	0
+"P_arenosus_R7"	"W"	0
+"P_celer_SW-238"	"W"	0
+"P_cibarius_JG-219"	"W"	0
+"P_cibarius_JG-220"	"W"	0
+"P_ciconiae_176-10"	"W"	0
+"P_cryohalolentis_K5"	"W"	1
+"P_faecalis_Iso-46"	"W"	0
+"P_faecalis_PBFP-1"	"W"	1
+"P_fjordensis_BSw21516B"	"W"	0
+"P_fozii_NF23"	"W"	0
+"P_frigidicola_ACAM304"	"W"	2
+"P_frigidicola_ACAM309"	"W"	0
+"P_fulvigenes_KC-40"	"W"	0
+"P_glaciei_Blc20019"	"W"	0
+"P_glacincola_1447"	"W"	0
+"P_glacincola_ACAM483"	"W"	0
+"P_immobilis_1159"	"W"	0
+"P_immobilis_1184"	"W"	0
+"P_immobilis_1347"	"W"	0
+"P_immobilis_1555"	"W"	0
+"P_immobilis_1617"	"W"	0
+"P_immobilis_1745"	"W"	0
+"P_immobilis_252"	"W"	0
+"P_immobilis_A-11"	"W"	1
+"P_immobilis_A-19"	"W"	0
+"P_immobilis_A1007"	"W"	0
+"P_immobilis_A1014"	"W"	0
+"P_immobilis_A351"	"W"	0
+"P_immobilis_A352"	"W"	0
+"P_immobilis_Liston1000"	"W"	0
+"P_immobilis_NC10"	"W"	0
+"P_immobilis_NCIMB357"	"W"	1
+"P_immobilis_NCIMB361"	"W"	1
+"P_immobilis_NCIMB362"	"W"	0
+"P_immobilis_S3"	"W"	0
+"P_jeotgali_YKJ-103"	"W"	0
+"P_luti_NF11"	"W"	0
+"P_lutiphocae_IMMIBL-1110"	"W"	0
+"P_marincola_KMM227"	"W"	0
+"P_maritimus_Pi2-20"	"W"	0
+"P_maritimus_Pi2-25"	"W"	0
+"P_namhaensis_SW-242"	"W"	0
+"P_nivimaris_88-2-7"	"W"	0
+"P_oceani_4k5"	"W"	0
+"P_okhotskensis_A1004"	"W"	0
+"P_okhotskensis_MD17"	"W"	0
+"P_pacificensis_NIBH-P2K6"	"W"	0
+"P_phenylpyruvicus_ACAM535"	"W"	0
+"P_piscatorii_T-3-2"	"W"	1
+"P_priscuii_LFX-15B1"	"W"	1
+"P_proteolyticus_116"	"W"	0
+"P_pulmonis_ES2-W5a2"	"W"	0
+"P_pulmonis_S-606"	"W"	1
+"P_salsus_DD48"	"W"	0
+"P_sanguinis_10070"	"W"	0
+"P_sanguinis_13983"	"W"	1
+"P_sanguinis_1501"	"W"	0
+"P_sanguinis_92"	"W"	0
+"P_sp_1044"	"W"	0
+"P_sp_2pS"	"W"	0
+"P_sp_72-O-c"	"W"	0
+"P_sp_CMS30"	"W"	0
+"P_sp_DD43"	"W"	1
+"P_sp_H7-1"	"W"	0
+"P_sp_H8-1"	"W"	0
+"P_sp_HII-4"	"W"	0
+"P_sp_IAM12030_72-O-c"	"W"	0
+"P_sp_JCM18900"	"W"	0
+"P_sp_JCM18902"	"W"	0
+"P_sp_JCM18903"	"W"	0
+"P_sp_NC44"	"W"	0
+"P_sp_Pi2-1"	"W"	0
+"P_sp_Pi2-51"	"W"	0
+"P_sp_Pi2-52"	"W"	0
+"P_submarinus_KMM225"	"W"	0
+"P_urativorans_ACAM311"	"W"	0
+"P_urativorans_ACAM534"	"W"	1
+"P_vallis_CMS39"	"W"	0
+"P_adeliensis_SJ14"	"X"	104
+"P_aestuarii_SC35"	"X"	117
+"P_alimentarius_JG100"	"X"	133
+"P_alimentarius_JG102"	"X"	142
+"P_aquaticus_CMS56"	"X"	137
+"P_aquimaris_SW-210"	"X"	178
+"P_arcticus_273-4"	"X"	105
+"P_arenosus_R7"	"X"	164
+"P_celer_SW-238"	"X"	118
+"P_cibarius_JG-219"	"X"	142
+"P_cibarius_JG-220"	"X"	176
+"P_ciconiae_176-10"	"X"	91
+"P_cryohalolentis_K5"	"X"	103
+"P_faecalis_Iso-46"	"X"	126
+"P_faecalis_PBFP-1"	"X"	127
+"P_fjordensis_BSw21516B"	"X"	138
+"P_fozii_NF23"	"X"	152
+"P_frigidicola_ACAM304"	"X"	130
+"P_frigidicola_ACAM309"	"X"	115
+"P_fulvigenes_KC-40"	"X"	161
+"P_glaciei_Blc20019"	"X"	139
+"P_glacincola_1447"	"X"	146
+"P_glacincola_ACAM483"	"X"	132
+"P_immobilis_1159"	"X"	164
+"P_immobilis_1184"	"X"	168
+"P_immobilis_1347"	"X"	131
+"P_immobilis_1555"	"X"	167
+"P_immobilis_1617"	"X"	161
+"P_immobilis_1745"	"X"	113
+"P_immobilis_252"	"X"	146
+"P_immobilis_A-11"	"X"	122
+"P_immobilis_A-19"	"X"	147
+"P_immobilis_A1007"	"X"	179
+"P_immobilis_A1014"	"X"	171
+"P_immobilis_A351"	"X"	143
+"P_immobilis_A352"	"X"	149
+"P_immobilis_Liston1000"	"X"	127
+"P_immobilis_NC10"	"X"	160
+"P_immobilis_NCIMB357"	"X"	162
+"P_immobilis_NCIMB361"	"X"	169
+"P_immobilis_NCIMB362"	"X"	129
+"P_immobilis_S3"	"X"	135
+"P_jeotgali_YKJ-103"	"X"	126
+"P_luti_NF11"	"X"	101
+"P_lutiphocae_IMMIBL-1110"	"X"	110
+"P_marincola_KMM227"	"X"	102
+"P_maritimus_Pi2-20"	"X"	123
+"P_maritimus_Pi2-25"	"X"	122
+"P_namhaensis_SW-242"	"X"	105
+"P_nivimaris_88-2-7"	"X"	135
+"P_oceani_4k5"	"X"	129
+"P_okhotskensis_A1004"	"X"	151
+"P_okhotskensis_MD17"	"X"	150
+"P_pacificensis_NIBH-P2K6"	"X"	139
+"P_phenylpyruvicus_ACAM535"	"X"	140
+"P_piscatorii_T-3-2"	"X"	134
+"P_priscuii_LFX-15B1"	"X"	99
+"P_proteolyticus_116"	"X"	102
+"P_pulmonis_ES2-W5a2"	"X"	129
+"P_pulmonis_S-606"	"X"	110
+"P_salsus_DD48"	"X"	117
+"P_sanguinis_10070"	"X"	129
+"P_sanguinis_13983"	"X"	133
+"P_sanguinis_1501"	"X"	131
+"P_sanguinis_92"	"X"	141
+"P_sp_1044"	"X"	155
+"P_sp_2pS"	"X"	136
+"P_sp_72-O-c"	"X"	119
+"P_sp_CMS30"	"X"	107
+"P_sp_DD43"	"X"	102
+"P_sp_H7-1"	"X"	125
+"P_sp_H8-1"	"X"	142
+"P_sp_HII-4"	"X"	139
+"P_sp_IAM12030_72-O-c"	"X"	120
+"P_sp_JCM18900"	"X"	131
+"P_sp_JCM18902"	"X"	144
+"P_sp_JCM18903"	"X"	148
+"P_sp_NC44"	"X"	155
+"P_sp_Pi2-1"	"X"	131
+"P_sp_Pi2-51"	"X"	133
+"P_sp_Pi2-52"	"X"	127
+"P_submarinus_KMM225"	"X"	128
+"P_urativorans_ACAM311"	"X"	100
+"P_urativorans_ACAM534"	"X"	147
+"P_vallis_CMS39"	"X"	135
+"P_adeliensis_SJ14"	"Z"	0
+"P_aestuarii_SC35"	"Z"	0
+"P_alimentarius_JG100"	"Z"	0
+"P_alimentarius_JG102"	"Z"	0
+"P_aquaticus_CMS56"	"Z"	0
+"P_aquimaris_SW-210"	"Z"	0
+"P_arcticus_273-4"	"Z"	0
+"P_arenosus_R7"	"Z"	1
+"P_celer_SW-238"	"Z"	0
+"P_cibarius_JG-219"	"Z"	0
+"P_cibarius_JG-220"	"Z"	0
+"P_ciconiae_176-10"	"Z"	0
+"P_cryohalolentis_K5"	"Z"	0
+"P_faecalis_Iso-46"	"Z"	0
+"P_faecalis_PBFP-1"	"Z"	0
+"P_fjordensis_BSw21516B"	"Z"	0
+"P_fozii_NF23"	"Z"	0
+"P_frigidicola_ACAM304"	"Z"	0
+"P_frigidicola_ACAM309"	"Z"	0
+"P_fulvigenes_KC-40"	"Z"	0
+"P_glaciei_Blc20019"	"Z"	0
+"P_glacincola_1447"	"Z"	0
+"P_glacincola_ACAM483"	"Z"	0
+"P_immobilis_1159"	"Z"	0
+"P_immobilis_1184"	"Z"	0
+"P_immobilis_1347"	"Z"	1
+"P_immobilis_1555"	"Z"	0
+"P_immobilis_1617"	"Z"	0
+"P_immobilis_1745"	"Z"	0
+"P_immobilis_252"	"Z"	0
+"P_immobilis_A-11"	"Z"	0
+"P_immobilis_A-19"	"Z"	0
+"P_immobilis_A1007"	"Z"	0
+"P_immobilis_A1014"	"Z"	0
+"P_immobilis_A351"	"Z"	0
+"P_immobilis_A352"	"Z"	0
+"P_immobilis_Liston1000"	"Z"	0
+"P_immobilis_NC10"	"Z"	0
+"P_immobilis_NCIMB357"	"Z"	0
+"P_immobilis_NCIMB361"	"Z"	0
+"P_immobilis_NCIMB362"	"Z"	0
+"P_immobilis_S3"	"Z"	0
+"P_jeotgali_YKJ-103"	"Z"	1
+"P_luti_NF11"	"Z"	0
+"P_lutiphocae_IMMIBL-1110"	"Z"	0
+"P_marincola_KMM227"	"Z"	0
+"P_maritimus_Pi2-20"	"Z"	0
+"P_maritimus_Pi2-25"	"Z"	0
+"P_namhaensis_SW-242"	"Z"	0
+"P_nivimaris_88-2-7"	"Z"	0
+"P_oceani_4k5"	"Z"	0
+"P_okhotskensis_A1004"	"Z"	0
+"P_okhotskensis_MD17"	"Z"	0
+"P_pacificensis_NIBH-P2K6"	"Z"	0
+"P_phenylpyruvicus_ACAM535"	"Z"	1
+"P_piscatorii_T-3-2"	"Z"	0
+"P_priscuii_LFX-15B1"	"Z"	0
+"P_proteolyticus_116"	"Z"	0
+"P_pulmonis_ES2-W5a2"	"Z"	0
+"P_pulmonis_S-606"	"Z"	0
+"P_salsus_DD48"	"Z"	1
+"P_sanguinis_10070"	"Z"	1
+"P_sanguinis_13983"	"Z"	1
+"P_sanguinis_1501"	"Z"	1
+"P_sanguinis_92"	"Z"	1
+"P_sp_1044"	"Z"	0
+"P_sp_2pS"	"Z"	0
+"P_sp_72-O-c"	"Z"	0
+"P_sp_CMS30"	"Z"	0
+"P_sp_DD43"	"Z"	0
+"P_sp_H7-1"	"Z"	1
+"P_sp_H8-1"	"Z"	0
+"P_sp_HII-4"	"Z"	0
+"P_sp_IAM12030_72-O-c"	"Z"	0
+"P_sp_JCM18900"	"Z"	0
+"P_sp_JCM18902"	"Z"	0
+"P_sp_JCM18903"	"Z"	0
+"P_sp_NC44"	"Z"	0
+"P_sp_Pi2-1"	"Z"	0
+"P_sp_Pi2-51"	"Z"	0
+"P_sp_Pi2-52"	"Z"	0
+"P_submarinus_KMM225"	"Z"	1
+"P_urativorans_ACAM311"	"Z"	0
+"P_urativorans_ACAM534"	"Z"	0
+"P_vallis_CMS39"	"Z"	0
